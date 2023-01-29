@@ -1,0 +1,168 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import PostSection from "../components/PostSection.astro";
+import HeroPostPreview from '../components/HeroPostPreview.astro';
+import AboutSection from '../components/AboutSection.astro';
+import Hero from '../components/Hero.astro';
+
+let title = 'Dripping Coffee';
+let description = 'Sip Articles';
+
+// Use Astro.glob to fetch all post with associated frontmatter
+const unsortedPosts = await Astro.glob('./posts/*.mdx');
+
+
+const posts = unsortedPosts.sort(function (a, b) {
+	return (
+		new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf()
+	);
+});
+
+const popularPosts = posts.filter(post => post.frontmatter.tags && post.frontmatter.tags.includes('popular'));
+
+
+---
+
+<html lang="he-il">
+	<head>
+		<BaseHead title={title} description={description} />
+	</head>
+
+	<body>
+		<Header />
+		<Hero />
+		<div class="container">
+			<main class="content">
+				<!-- Hero -->
+				<section class="intro">
+					<!-- Insert Logo Here Centered  -->
+					<h1>{description}</h1>
+					<p>
+						
+					</p>
+				</section>
+				<section aria-label="Blog post list" class="hero-posts">
+
+					{
+						popularPosts.map(({ url, frontmatter }, i) => (
+							<HeroPostPreview
+								title={frontmatter.title}
+								description={frontmatter.description}
+								publishDate={frontmatter.publishDate}
+								url={url}
+								position={i === 2 && 'third' || i === 1 && 'second' || 'first'}
+								backgroundImage={frontmatter.heroImage.src}
+							/>
+						))
+					}
+
+				</section>
+
+				<PostSection posts={posts} sectionTitle='Coffee & More' />
+
+				<!-- <PostSection posts={posts} sectionTitle='Best Home Barista Gear' />
+
+				<PostSection posts={posts} sectionTitle='Coffee & Life' /> -->
+
+				<AboutSection />
+
+
+			</main>
+		</div>
+		<Footer />
+	</body>
+</html>
+
+<style lang="scss">
+
+	.section-title {
+		position: relative;
+		margin-bottom: 50px;
+		margin-inline: auto;
+
+		h2 {
+			font-size: 50px;
+			margin-bottom: 20px;
+			line-height: 1.5;
+			color: #000;
+			font-family: Sacramento, cursive;
+			text-align: center;
+		}
+
+		span {
+			padding: 20px 30px;
+			border: 1px solid #000;
+			position: relative;
+			z-index: 0;
+
+			&::after {
+				content: "";
+				position: absolute;
+				top: -10px;
+				bottom: 10px;
+				left: -10px;
+				right: 0px;
+				background: #fbf2eb;
+				z-index: -1;
+			}
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			top: 50%;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			width: 100%;
+			height: 1px;
+			background: #000;
+			z-index: -1;
+		}
+	}
+
+	.hero-main {
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		max-width: 1170px;
+	}
+
+	.content {
+		margin-top: 4rem;
+		margin-bottom: 8rem;
+	}
+
+	.intro {
+		padding-bottom: 4rem;
+		margin-bottom: 2rem;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 2.5rem;
+		font-weight: 700;
+	}
+
+	.hero-posts {
+		display: flex;
+		flex-direction: column;
+		@media screen and (min-width: 640px) {
+			display: grid;
+			grid-template-columns: 2fr 1fr;
+			grid-template-areas: "first second"
+								"first third";
+			gap: 20px;
+		}
+	}
+
+	.popular {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
+	}
+</style>

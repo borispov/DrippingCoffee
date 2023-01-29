@@ -1,0 +1,107 @@
+---
+export interface Props {
+	title: string;
+	description: string;
+	publishDate: string;
+	url: string;
+	position: string;
+	backgroundImage: string;
+}
+
+const { title, description, publishDate, url, backgroundImage, position } = Astro.props as Props;
+---
+
+    <article 
+	 	style={{
+			gridArea: position
+		}}
+		class="post-preview">
+		<div class="overlay"></div>
+		<img src={backgroundImage} alt={title}>
+
+		<a href={url} class="post-contents">
+			<header>
+				<h1 class="title">{title}</h1>
+				<time>{publishDate}</time>
+			</header>
+			<p>{description}</p>
+			<a data-id="more" href={url}>Learn More  &#8594;
+			</a>
+		</a>
+
+    </article>
+
+<style lang="scss">
+	a {
+		padding: 1em;
+		color: #fff;
+
+	}
+
+	.overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #191919;
+		opacity: 0.75;
+		z-index: -2;
+		transition: all 100ms ease-in-out;
+	}
+
+	article:hover {
+		.overlay {
+			background-color: #000;
+		}
+	}
+
+	img {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		mix-blend-mode: overlay;
+		object-fit: cover;
+		opacity: 0.8;
+	}
+
+	.post-preview {
+		position: relative;
+		margin-bottom: 2rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.title,
+	time {
+		margin: 0;
+	}
+
+	time {
+		font-size: 1rem;
+		color: var(--color-gray-200);
+		font-style: italic;
+	}
+
+	.title {
+		font-size: 2.25rem;
+		font-weight: 700;
+		color: #fff;
+	}
+	
+	p {
+		color: #f9f9f9;
+	}
+
+	a.post-contents {
+		text-decoration: none;
+	}
+
+	a[data-id="more"] {
+		text-decoration: underline;
+		text-decoration-color: var(--theme-bg-paper);
+	}
+
+</style>
