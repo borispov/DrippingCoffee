@@ -1,0 +1,11 @@
+{
+    "[mdx]": {
+        "editor.wordWrap": "on"
+    },
+    "grammarly.selectors": [
+        {
+            "language": "mdx",
+            "scheme": "file"
+        }
+    ]
+}

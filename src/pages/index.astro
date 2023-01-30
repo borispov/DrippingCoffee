@@ -13,7 +13,6 @@ let description = 'Sip Articles';
 // Use Astro.glob to fetch all post with associated frontmatter
 const unsortedPosts = await Astro.glob('./posts/*.mdx');
 
-
 const posts = unsortedPosts.sort(function (a, b) {
 	return (
 		new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf()

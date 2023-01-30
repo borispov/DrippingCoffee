@@ -13,10 +13,6 @@ heroImage:
 tags:
   - popular
 ---
-import LikeButton from "../../components/LikeButton"
-import FollowMe from "../../components/FollowMe.astro"
-
-<FollowMe username={frontmatter.followMe.username} href={frontmatter.followMe.href} />
 
 # Best Prosumer Espresso Machine
 
@@ -166,6 +162,3 @@ I am familiar with the great feeling that comes with the decision to purchase an
 Bear in mind, though, that no matter how good your machine is, it’ll be bottlenecked by a poor quality grinder. Many life-long espresso hobbyists recommend investing in a good grinder before getting an expensive espresso machine. So in case you intend to spend up to 1,200$ on your espresso equipment, you should probably get a[ budget espresso machine](https://docs.google.com/document/u/0/d/1zdY7G6x1T9fLNO72Hl2s19lZBjuCKAFkJiTD0krytU0/edit) and a quality grinder like the Eureka Mignon or the DF64 grinder. A poor grinder won’t be able to keep up with your espresso machines and various coffee beans you might want to try.
 
 Feel free to reach out and ask any questions, I’d be happy to answer with my limited knowledge or refer you to information and resources if needed.
-
-
-If this seems cool, consider giving my post a like with this Preact component: <LikeButton pageUrl={frontmatter.url} client:load />
