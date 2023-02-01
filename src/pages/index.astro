@@ -152,9 +152,9 @@ const popularPosts = posts.filter(post => post.frontmatter.tags && post.frontmat
 		flex-direction: column;
 		@media screen and (min-width: 640px) {
 			display: grid;
-			grid-template-columns: 2fr 1fr;
-			grid-template-areas: "first second"
-								"first third";
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-areas: "first second third";
+								// "first third";
 			gap: 20px;
 		}
 	}
