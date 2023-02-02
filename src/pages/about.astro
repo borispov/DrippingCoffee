@@ -8,16 +8,25 @@ import AboutSection from '../components/AboutSection.astro';
 <html>
     <BaseHead title="about dripping coffee" description="What is this all about"/>
     <Header />
-    <AboutSection />
-    <div>
-        <h3>Contact Us</h3>
-        <p>
-            If you'd like to contact us for collaboration, for sharing a story or anything at all, please, send us an email at boristofu@gmail.com
-        </p>
+    <div class="container">
+        <AboutSection />
+        <div>
+            <h3>Contact Us</h3>
+            <p>
+                If you'd like to contact us for collaboration, for sharing a story or anything at all, please, send us an email at boristofu@gmail.com
+            </p>
+        </div>
     </div>
+
     <Footer />
 </html>
 
 <style>
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
 </style>
