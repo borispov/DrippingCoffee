@@ -12,6 +12,7 @@ let description = 'Sip Articles';
 
 // Use Astro.glob to fetch all post with associated frontmatter
 const unsortedPosts = await Astro.glob('./posts/*.mdx');
+// const reviewPosts = await Astro.glob('./posts/reviews/*.mdx');
 
 const posts = unsortedPosts.sort(function (a, b) {
 	return (
@@ -20,6 +21,7 @@ const posts = unsortedPosts.sort(function (a, b) {
 });
 
 const popularPosts = posts.filter(post => post.frontmatter.tags && post.frontmatter.tags.includes('popular'));
+
 
 
 ---
