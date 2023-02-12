@@ -15,6 +15,9 @@ export interface Props {
 	};
 }
 
+const posts = await Astro.glob('../pages/posts/*.mdx');
+const latest = posts.filter(post => !post.frontmatter.tags?.includes('popular'))
+
 const {
 	content: { title, description, publishDate, heroImage },
 } = Astro.props as Props;
@@ -44,6 +47,21 @@ const {
 			<main>
 				<slot></slot>
 			</main>
+
+			<h2>Check out some interesting topics...</h2>
+
+			{
+				latest.map(post => (
+					<div>
+						<a href={post.url}>
+							<p>
+								<strong>{post.frontmatter.title}</strong> - {post.frontmatter.description} 
+							</p>
+						</a>
+					</div>
+				))
+			}
+
 		</article>
 		<Footer />
 	</body>
@@ -106,5 +124,10 @@ const {
 		max-width: 88%;
 		margin: 0 auto;
 		padding: 0 10rem;
+	}
+
+	strong {
+		color: var(--theme-text-lighter);
+		text-decoration: underline;
 	}
 </style>
