@@ -22,11 +22,18 @@
 		justify-content: center;
 	}
 
+	@media screen and (min-width: 40em) {
+		nav {
+			opacity: 1;
+		}
+	}
+
 	nav {
 		display: flex;
 		margin-left: 100px;
 		justify-content: space-between;
 		gap: 60px;
+		display: none;
 	}
 
 	a {

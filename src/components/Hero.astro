@@ -17,7 +17,7 @@ import { HERO_TITLE, HERO_SUBTITLE, HERO_BG_IMG } from '../config';
     </button> -->
 </section>
 
-<style>
+<style lang="scss">
     section {
         position: relative;
         transition: all 300ms;
@@ -25,7 +25,10 @@ import { HERO_TITLE, HERO_SUBTITLE, HERO_BG_IMG } from '../config';
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        height: 450px;
+        @media (min-width: 410px) {
+            height: 450px;
+        }
+
     }
 
     h1 {
@@ -35,6 +38,7 @@ import { HERO_TITLE, HERO_SUBTITLE, HERO_BG_IMG } from '../config';
     p {
         color: #f9f9f9;
     }
+
 
     button {
         padding: 10px 20px;

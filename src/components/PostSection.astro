@@ -56,6 +56,7 @@ const { sectionTitle, posts } = Astro.props;
       }
     }
 
+
     &::after {
       content: "";
       position: absolute;
@@ -68,11 +69,24 @@ const { sectionTitle, posts } = Astro.props;
       background: #000;
       z-index: -1;
     }
+    @media screen and (max-width: 568px) {
+      h2 {
+        font-size: 30px;
+      }
+    }
   }
 
   .post-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     gap: 20px;
+    
+    @media screen and (min-width: 768px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
   }
+
+
+
 </style>
