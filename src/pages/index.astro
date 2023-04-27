@@ -22,8 +22,6 @@ const posts = unsortedPosts.sort(function (a, b) {
 
 const popularPosts = posts.filter(post => post.frontmatter.tags && post.frontmatter.tags.includes('popular'));
 
-
-
 ---
 
 <html lang="he-il">
@@ -77,52 +75,6 @@ const popularPosts = posts.filter(post => post.frontmatter.tags && post.frontmat
 </html>
 
 <style lang="scss">
-
-	.section-title {
-		position: relative;
-		margin-bottom: 50px;
-		margin-inline: auto;
-
-		h2 {
-			font-size: 50px;
-			margin-bottom: 20px;
-			line-height: 1.5;
-			color: #000;
-			font-family: Sacramento, cursive;
-			text-align: center;
-		}
-
-		span {
-			padding: 20px 30px;
-			border: 1px solid #000;
-			position: relative;
-			z-index: 0;
-
-			&::after {
-				content: "";
-				position: absolute;
-				top: -10px;
-				bottom: 10px;
-				left: -10px;
-				right: 0px;
-				background: #fbf2eb;
-				z-index: -1;
-			}
-		}
-
-		&::after {
-			content: "";
-			position: absolute;
-			top: 50%;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			width: 100%;
-			height: 1px;
-			background: #000;
-			z-index: -1;
-		}
-	}
 
 	.hero-main {
 		margin-left: auto;

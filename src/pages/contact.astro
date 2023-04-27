@@ -1,17 +1,135 @@
 ---
-layout: "../layouts/BlogPost.astro"
-title: "About Me"
-description: "Lorem ipsum dolor sit amet"
-updatedDate: "August 08 2022"
-heroImage: "/placeholder-about.jpg"
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import HeroPostPreview from '../components/HeroPostPreview.astro';
+
+let description = 'Contact Us';
+// Use Astro.glob to fetch all post with associated frontmatter
+const unsortedPosts = await Astro.glob('./posts/*.mdx');
+// const reviewPosts = await Astro.glob('./posts/reviews/*.mdx');
+
+const posts = unsortedPosts.sort(function (a, b) {
+	return (
+		new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf()
+	);
+});
+const popularPosts = posts.filter(post => post.frontmatter.tags && post.frontmatter.tags.includes('popular'));
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+<html lang="he-il">
+	<head>
+		<BaseHead title="contact us" description={description} />
+	</head>
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+	<body>
+		<Header />
+		<div class="container">
+			<main class="content">
+				<!-- Hero -->
+				<section class="intro">
+					<!-- Insert Logo Here Centered  -->
+					<h1>{description}</h1>
+					<p>
+                    We are thrilled to have you visit our website and we would love to hear from you! 
+                    If you have any questions, comments, or suggestions, please feel free to drop us a message.
+                    Just send us an email at boristofu@gmail.com
+					</p>
+					<p>
+                    We are also open to collaborations and relevant business offers, 
+                    so if you have an idea in mind, don't hesitate to reach out to us. 
+                    We are always on the lookout for exciting partnerships that can 
+                    benefit our community and further our mission to spread the love of coffee around the globe.
+					</p>
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+					<p>
+                    We'd like to remind you, this site is run by us and only us, 
+                    a coffee-hobbyist couple who fell in love with brewing coffee at home. We're new in this!
+                    <br>
+                    So, we'd like to do the best we can and we'd like your ideas and comments on how to make it better, 
+                    as far as content ideas, as well as making the website more user-friendly, etc.
+                    Mind you, this website is coded from the ground up because, well, why not?
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+                    Thank you for your interest in our website, and we look forward to hearing from you soon!
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+					</p>
+					<p>
+                    Best regards,
+                    <br>
+                    Dripping Coffee.
+					</p>
+				</section>
+
+                <div class="flex">
+                    <button type="">back to site</button>
+                </div>
+
+                <br>
+                <h1>Recent Posts</h1>
+				<section aria-label="Blog post list" class="hero-posts">
+					{
+						popularPosts.map(({ url, frontmatter }, i) => (
+							<HeroPostPreview
+								title={frontmatter.title}
+								description={frontmatter.description}
+								publishDate={frontmatter.publishDate}
+								url={url}
+								position={i === 2 && 'third' || i === 1 && 'second' || 'first'}
+								backgroundImage={frontmatter.heroImage.src}
+							/>
+						))
+					}
+                </section>
+
+			</main>
+		</div>
+		<Footer />
+	</body>
+</html>
+
+<style lang="scss">
+
+    section h1 {
+        font-size: 100px;
+    }
+
+	h1 {
+		font-size: 2.5rem;
+		font-weight: 700;
+        text-align: center;
+	}
+
+	.hero-posts {
+		display: flex;
+		flex-direction: column;
+		@media screen and (min-width: 640px) {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-areas: "first second third";
+								// "first third";
+			gap: 20px;
+		}
+	}
+
+	.popular {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
+	}
+
+    button {
+        padding: 10px 20px;
+        border-radius: 8px;
+        width: 200px;
+        margin: 0 auto;
+        box-shadow: 4px 4px 0 rgba(210, 80, 80, 1);
+        transition: all 300ms;
+        cursor: pointer;
+        font-weight: 700;
+    }
+
+    button:hover {
+        box-shadow: 4px 4px 0 rgba(40, 40, 80, 1);
+    }
+
+</style>

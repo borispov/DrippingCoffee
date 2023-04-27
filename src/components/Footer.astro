@@ -1,33 +1,77 @@
 <footer>
-    <div class="">
-        
-    </div>
-    <p>© 2022 Baristas. All Rights Reserved.
-        We are a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for us to earn commissions by linking to Amazon.com and affiliated sites.
-    </p>
+  <div class="upper container">
+      <div class="sitemap col">
+        <h5>Sitemap</h5>
+        <a href="https://www.drippingcoffee.com">Home</a>
+        <a href="https://www.drippingcoffee.com/contact">Contact</a>
+        <a href="/blog">Blog</a>
+        <a href="https://www.drippingcoffee.com/about">About</a>
+      </div>
+      <div class="company-details col">
+        <h5>Company Details</h5>
+        <span>DrippginCoffee.com</span>
+        <br />
+        <span> Balfour 28, Ashkelon</span>
+        <br />
+        <span>boristofu@gmail.com</span>
+      </div>
+  </div>
+  <p>
+    © 2022 Baristas. All Rights Reserved. We are a participant in the Amazon
+    Services LLC Associates Program, an affiliate advertising program designed
+    to provide a means for us to earn commissions by linking to Amazon.com and
+    affiliated sites.
+  </p>
 </footer>
 
-<style>
-    footer {
-        text-align: center;
-        background: var(--theme-bg-paper);
-        color: var(--theme-text);
-        margin-top: auto;
+<style lang="scss">
+  footer {
+    text-align: center;
+    background: var(--theme-bg-paper);
+    color: var(--theme-text);
+    margin-top: auto;
+  }
+
+  .upper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1040px;
+    margin: 0 auto;
+
+    @media screen and (max-width: 568px) {
+      flex-direction: column;
+      padding: 10ch;
     }
+  }
 
-    p {
-        font-size: .925rem;
-        padding-inline: 20px;
-        padding-block: 1em;
-        @media screen and (min-width: 768px) {
-            padding-inline: 20ch;
-            padding-block: 20px;
-            margin: 0;
-            font-size: .825rem;
-        }
+  .col {
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 0.925rem;
+    text-align: left;
+  }
 
+  .sitemap a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .company-details {
+    font-weight: 400;
+    font-size: 0.925rem;
+    text-align: left;
+  }
+
+  p {
+    font-size: 0.925rem;
+    padding-inline: 20px;
+    padding-block: 1em;
+    @media screen and (min-width: 768px) {
+      padding-inline: 20ch;
+      padding-block: 20px;
+      margin: 0;
+      font-size: 0.825rem;
     }
-
-
-
+  }
 </style>

@@ -1,22 +1,22 @@
 {
-  "name": "@example/blog",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "devDependencies": {
-    "@astrojs/mdx": "^0.15.1",
-    "@astrojs/preact": "^2.0.0",
-    "@astrojs/sitemap": "^1.0.0",
-    "astro": "^2.0.2"
-  },
-  "dependencies": {
-    "preact": "^10.11.3",
-    "sass": "^1.57.1"
-  }
+    "name": "@example/blog",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "dev": "astro dev",
+        "start": "npx astro dev",
+        "build": "npx astro build",
+        "preview": "astro preview",
+        "astro": "npx astro"
+    },
+    "devDependencies": {
+        "@astrojs/mdx": "^0.19.0",
+        "@astrojs/preact": "^2.1.0",
+        "@astrojs/sitemap": "^1.2.2",
+        "astro": "^2.3.2"
+    },
+    "dependencies": {
+        "preact": "^10.11.3",
+        "sass": "^1.62.1"
+    }
 }
