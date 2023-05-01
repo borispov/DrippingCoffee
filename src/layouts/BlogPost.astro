@@ -1,157 +1,168 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
-import Footer from '../components/Footer.astro';
+import Footer from "../components/Footer.astro";
 
 export interface Props {
-	content: {
-		title: string;
-		description: string;
-		publishDate: string;
-		heroImage?: {
-			src: string;
-			alt: string;
-		};
-	};
+    content: {
+        title: string;
+        description: string;
+        publishDate: string;
+        heroImage?: {
+            src: string;
+            alt: string;
+        };
+    };
 }
 
-const posts = await Astro.glob('../pages/posts/*.mdx');
-const latest = posts.filter(post => !post.frontmatter.tags?.includes('popular'))
+const posts = await Astro.glob("../pages/posts/*.mdx");
+const latest = posts.filter(
+    (post) => !post.frontmatter.tags?.includes("popular")
+);
 
 const {
-	content: { title, description, publishDate, heroImage },
+    content: { title, description, publishDate, heroImage },
 } = Astro.props as Props;
 ---
 
 <html>
-	<head>
-		<BaseHead title={title} description={description} />
-	</head>
+    <head>
+        <BaseHead title={title} description={description} />
+    </head>
 
-	<body>
-		<Header />
-		<article class="container content">
-			<header>
-				<h1 class="title">{title}</h1>
+    <body>
+        <Header />
+        <article class="container content">
+            <header>
+                <h1 class="title">{title}</h1>
 
                 <div class="time-block">
-                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="mr-1 h-5 w-5 text-gray-600" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M19 4h-3V2h-2v2h-4V2H8v2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zM5 20V7h14V6l.002 14H5z"></path><path d="m15.628 12.183-1.8-1.799 1.37-1.371 1.8 1.799zm-7.623 4.018V18h1.799l4.976-4.97-1.799-1.799z"></path></svg>
+                    <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        class="mr-1 h-5 w-5 text-gray-600"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                        ><path
+                            d="M19 4h-3V2h-2v2h-4V2H8v2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zM5 20V7h14V6l.002 14H5z"
+                        ></path><path
+                            d="m15.628 12.183-1.8-1.799 1.37-1.371 1.8 1.799zm-7.623 4.018V18h1.799l4.976-4.97-1.799-1.799z"
+                        ></path></svg
+                    >
                     <time>{publishDate}</time>
                 </div>
-				{heroImage && (
-					<img
-						width="1000"
-						height="500"
-						loading="lazy"
-                        decoding="async"
-						src={heroImage.src}
-						alt={heroImage.alt}
-					/>
-				)}
-			</header>
-			<main>
-				<slot></slot>
-			</main>
+                {
+                    heroImage && (
+                        <img
+                            width="1000"
+                            height="500"
+                            loading="lazy"
+                            decoding="async"
+                            src={heroImage.src}
+                            alt={heroImage.alt}
+                        />
+                    )
+                }
+            </header>
+            <main>
+                <slot />
+            </main>
 
-			<h2>Check out some interesting topics...</h2>
+            <h2>Check out some interesting topics...</h2>
 
-			{
-				latest.map(post => (
-					<div>
-						<a href={post.url}>
-							<p>
-								<strong>{post.frontmatter.title}</strong> - {post.frontmatter.description} 
-							</p>
-						</a>
-					</div>
-				))
-			}
+            {
+                latest.map((post) => (
+                    <div>
+                        <a href={post.url}>
+                            <p>
+                                <strong>{post.frontmatter.title}</strong> -{" "}
+                                {post.frontmatter.description}
+                            </p>
+                        </a>
+                    </div>
+                ))
+            }
+        </article>
+        <Footer />
+    </body><style lang="scss">
+        .time-block {
+            align-items: center;
+            flex-wrap: wrap;
+            display: flex;
+            font-size: 16px;
 
-		</article>
-		<Footer />
-	</body>
-</html>
-
-<style lang="scss">
-    .time-block {
-        align-items: center;
-        flex-wrap: wrap;
-        display: flex;
-        font-size: 16px;
-
-        svg {
-            margin-right: 8px;
+            svg {
+                margin-right: 8px;
+            }
         }
-    }
-	img {
-		width: 100vw;
-		object-fit: cover;
-		object-position: center;
-		margin-top: 2rem;
-		margin-bottom: 4rem;
-		max-width: 1280px;
+        img {
+            width: 100vw;
+            object-fit: cover;
+            object-position: center;
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+            max-width: 1280px;
 
-        /* border ?? */
-        border-radius: 8px;
-        flex: 0 0 auto;
-        width: 100%;
-	}
+            /* border ?? */
+            border-radius: 8px;
+            flex: 0 0 auto;
+            width: 100%;
+        }
 
-	@media (max-width: 50em) {
-		img {
-			height: 260px;
-			margin-top: 0;
-			margin-bottom: 2rem;
-		}
-	}
+        @media (max-width: 50em) {
+            img {
+                height: 260px;
+                margin-top: 0;
+                margin-bottom: 2rem;
+            }
+        }
 
-    article {
-        padding-top: 5rem;
-    }
+        article {
+            padding-top: 5rem;
+        }
 
-	.content {
-		margin-bottom: 8rem;
-	}
+        .content {
+            margin-bottom: 8rem;
+        }
 
-	.content :global(h2) {
-		margin-top: 4rem;
-	}
+        .content :global(h2) {
+            margin-top: 4rem;
+        }
 
-	header {
-		display: flex;
-		flex-direction: column;
-		text-align: center;
-		align-items: center;
-		justify-content: center;
-		gap: 1rem;
+        header {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
 
-		padding-bottom: 2rem;
-		margin-bottom: 2rem;
-		border-bottom: 4px solid var(--theme-divider);
-	}
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+            border-bottom: 4px solid var(--theme-divider);
+        }
 
-	.title,
-	time {
-		margin: 0;
-	}
+        .title,
+        time {
+            margin: 0;
+        }
 
-	time {
-		color: var(--theme-text-lighter);
-	}
+        time {
+            color: var(--theme-text-lighter);
+        }
 
-	.title {
-		font-size: 2.25rem;
-		font-weight: 700;
-	}
+        .title {
+            font-size: 2.25rem;
+            font-weight: 700;
+        }
 
-	main img {
-		max-width: 88%;
-		margin: 0 auto;
-		padding: 0 10rem;
-	}
-
-	strong {
-		color: var(--theme-text-lighter);
-		text-decoration: underline;
-	}
-</style>
+        main img {
+            max-width: 88%;
+            margin: 0 auto;
+            padding: 0 10rem;
+        }
+    </style>
+</html>

@@ -1,9 +1,9 @@
 ---
-import '../styles/blog.css';
+import "../styles/blog.css";
 
 export interface Props {
-	title: string;
-	description: string;
+    title: string;
+    description: string;
 }
 
 const canonicalURL = new URL(Astro.url, Astro.site);
@@ -35,16 +35,22 @@ const { title, description } = Astro.props;
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content="https://astro.build/social.png" />
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+    href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
+    rel="stylesheet"
+/>
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YE4H80NL99"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YE4H80NL99"
+></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-  gtag('config', 'G-YE4H80NL99');
+    gtag("config", "G-YE4H80NL99");
 </script>
