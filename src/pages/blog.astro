@@ -1,57 +1,109 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import PostSection from "../components/PostSection.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 
 // Use Astro.glob() to fetch all posts, and then sort them by date.
-const posts = (await Astro.glob('./posts/*.mdx')).sort(
-	(a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
+const posts = (await Astro.glob("./posts/**/*.mdx")).sort(
+    (a, b) =>
+        new Date(b.frontmatter.pubDate).valueOf() -
+        new Date(a.frontmatter.pubDate).valueOf()
 );
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<style>
-			ul {
-				list-style-type: none;
-				padding: unset;
-			}
-			ul li {
-				display: flex;
-			}
-			ul li time {
-				flex: 0 0 130px;
-				font-style: italic;
-				color: #595959;
-			}
-			ul li a:visited {
-				color: #8e32dc;
-			}
-		</style>
-	</head>
-	<body>
-		<Header />
-		<main>
-			<section>
-				<ul>
-					{posts.map((post) => (
-						<li>
-							<time datetime={post.frontmatter.publishDate}>
-								{new Date(post.frontmatter.publishDate).toLocaleDateString('en-us', {
-									year: 'numeric',
-									month: 'short',
-									day: 'numeric',
-								})}
-							</time>
-							<a href={post.url}>{post.frontmatter.title}</a>
-						</li>
-					))}
-				</ul>
-			</section>
-		</main>
-		<Footer />
-	</body>
+    <head>
+        <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+        <style>
+            ul {
+                list-style-type: none;
+                padding: unset;
+            }
+            ul li {
+                display: flex;
+            }
+            ul li time {
+                flex: 0 0 130px;
+                font-style: italic;
+                color: #595959;
+            }
+            ul li a:visited {
+                color: #8e32dc;
+            }
+        </style>
+    </head>
+    <body>
+        <Header />
+        <main>
+            <PostSection posts={posts} sectionTitle="My Journey" />
+
+            <section>
+                <ul>
+                    {
+                        posts.map((post) => (
+                            <li>
+                                <time datetime={post.frontmatter.publishDate}>
+                                    {new Date(
+                                        post.frontmatter.publishDate
+                                    ).toLocaleDateString("en-us", {
+                                        year: "numeric",
+                                        month: "short",
+                                        day: "numeric",
+                                    })}
+                                </time>
+                                <a href={post.url}>{post.frontmatter.title}</a>
+                            </li>
+                        ))
+                    }
+                </ul>
+            </section>
+        </main>
+        <Footer />
+    </body><style lang="scss">
+        .hero-main {
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            max-width: 1170px;
+        }
+
+        .content {
+            margin-top: 4rem;
+            margin-bottom: 8rem;
+        }
+
+        .intro {
+            padding-bottom: 4rem;
+            margin-bottom: 2rem;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        .hero-posts {
+            display: flex;
+            flex-direction: column;
+            @media screen and (min-width: 640px) {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-areas: "first second third";
+                // "first third";
+                gap: 20px;
+            }
+        }
+
+        .popular {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+    </style>
 </html>

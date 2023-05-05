@@ -5,11 +5,19 @@
                 <img src="/Logo.png" alt="logo" />
             </a>
         </div>
+
         <nav class="nav">
-            <a class="active" href="/">Home</a>
-            <!-- <a href="/">Coffee & Health</a>
-			<a href="/">Tips</a> -->
-            <a href="/about">About</a>
+            <div class="burger-menu">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+
+            <div class="menu">
+                <a class="active" href="/">Home</a>
+                <a href="/blog">Coffee Base</a>
+                <a href="/personal">My Experience</a>
+            </div>
         </nav>
     </div>
 </header>
@@ -17,12 +25,13 @@
 <style lang="scss">
     header {
         background-color: rgb(var(--color-beige-rgb));
+        background-color: var(--theme-bg-paper);
         padding-block: 20px;
     }
 
     header div {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     @media screen and (min-width: 40em) {
@@ -35,8 +44,9 @@
         display: flex;
         margin-left: 100px;
         justify-content: space-between;
+        align-items: center;
         gap: 60px;
-        display: none;
+        /* display: none; */
     }
 
     a {
@@ -45,7 +55,11 @@
         color: var(--theme-text);
         font-size: 1rem;
         padding: 30px 15px;
-        transition: all 0.1s ease-in-out;
+        transition: all 0.3s ease-out;
+    }
+
+    .menu.open a {
+        color: white;
     }
 
     a:focus {
@@ -62,4 +76,78 @@
             object-fit: contain;
         }
     }
+
+    // NAVBAR specifically
+    .burger-menu {
+        display: flex;
+        flex-direction: column;
+        height: 20px;
+        cursor: pointer;
+
+        @media screen and (min-width: 40em) {
+            display: none;
+        }
+    }
+
+    .burger-menu.active .line:nth-child(2) {
+        opacity: 0;
+    }
+
+    .burger-menu.active .line:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .burger-menu.active .line:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .line {
+        width: 25px;
+        height: 3px;
+        background-color: black;
+        height: 3px;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+    }
+
+    .menu {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        top: 115px;
+        transform: scale(1, 1);
+        display: none;
+        align-items: center;
+        @media screen and (min-width: 40em) {
+            position: static;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            gap: 20px;
+            align-items: center;
+        }
+    }
+
+    .menu.open {
+        display: flex;
+        transform: scale(1, 1);
+        opacity: 1;
+        left: 0;
+        top: 120px;
+        gap: 0;
+        width: 100%;
+        background-color: #662929;
+        z-index: 1;
+        transition: all 0.3s;
+    }
 </style>
+
+<script>
+    const burgerMenu = document.querySelector(".burger-menu");
+    const menu = document.querySelector(".menu");
+
+    burgerMenu.addEventListener("click", () => {
+        menu.classList.toggle("open");
+        burgerMenu.classList.toggle("active");
+    });
+</script>

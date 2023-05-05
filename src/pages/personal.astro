@@ -3,15 +3,15 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import PostSection from "../components/PostSection.astro";
-import HeroPostPreview from "../components/HeroPostPreview.astro";
 import AboutSection from "../components/AboutSection.astro";
 import Hero from "../components/Hero.astro";
 
-let title = "Dripping Coffee";
-let description = "Sip Articles";
+let title = "The Subjective Side Of The Blog";
+let description =
+    "Documentation of my personal journey into the world of coffee and espresso";
 
 // Use Astro.glob to fetch all post with associated frontmatter
-const unsortedPosts = await Astro.glob("./posts/**/*.mdx");
+const unsortedPosts = await Astro.glob("./posts/personal/*.mdx");
 // const reviewPosts = await Astro.glob('./posts/reviews/*.mdx');
 
 const posts = unsortedPosts
@@ -22,10 +22,6 @@ const posts = unsortedPosts
         );
     })
     .filter((post) => !post.frontmatter.draft);
-
-const popularPosts = posts.filter(
-    (post) => post.frontmatter.tags && post.frontmatter.tags.includes("popular")
-);
 ---
 
 <html lang="he-il">
@@ -44,30 +40,8 @@ const popularPosts = posts.filter(
                     <h1>{description}</h1>
                     <p></p>
                 </section>
-                <section aria-label="Blog post list" class="hero-posts">
-                    {
-                        popularPosts.map(({ url, frontmatter }, i) => (
-                            <HeroPostPreview
-                                title={frontmatter.title}
-                                description={frontmatter.description}
-                                publishDate={frontmatter.publishDate}
-                                url={url}
-                                position={
-                                    (i === 2 && "third") ||
-                                    (i === 1 && "second") ||
-                                    "first"
-                                }
-                                backgroundImage={frontmatter.heroImage.src}
-                            />
-                        ))
-                    }
-                </section>
 
-                <PostSection posts={posts} sectionTitle="Coffee & More" />
-
-                <!-- <PostSection posts={posts} sectionTitle='Best Home Barista Gear' />
-
-				<PostSection posts={posts} sectionTitle='Coffee & Life' /> -->
+                <PostSection posts={posts} sectionTitle="My Journey" />
 
                 <AboutSection />
             </main>
