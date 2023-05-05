@@ -8,7 +8,7 @@ import AboutSection from "../components/AboutSection.astro";
 import Hero from "../components/Hero.astro";
 
 let title = "Dripping Coffee";
-let description = "Sip Articles";
+let description = "Trending Topics";
 
 // Use Astro.glob to fetch all post with associated frontmatter
 const unsortedPosts = await Astro.glob("./posts/**/*.mdx");
@@ -30,7 +30,10 @@ const popularPosts = posts.filter(
 
 <html lang="he-il">
     <head>
-        <BaseHead title={title} description={description} />
+        <BaseHead
+            title={title}
+            description="Everything About Brewing Espresso At Home | By Coffe Hobbyist"
+        />
     </head>
 
     <body>
@@ -105,8 +108,8 @@ const popularPosts = posts.filter(
                 @media screen and (min-width: 640px) {
                     display: grid;
                     grid-template-columns: 1fr 1fr 1fr;
-                    grid-template-areas: "first second third";
-                    // "first third";
+                    grid-template-rows: 1fr;
+                    /* grid-template-areas: "first second third"; */
                     gap: 20px;
                 }
             }

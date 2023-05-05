@@ -1,50 +1,53 @@
 ---
 export interface Props {
-	title: string;
-	description: string;
-	publishDate: string;
-	url: string;
+    title: string;
+    description: string;
+    publishDate: string;
+    url: string;
 }
 
 const { title, description, publishDate, url } = Astro.props as Props;
 ---
 
 <article class="post-preview">
-	<header>
-		<time>{publishDate}</time>
-		<a href={url}>
-			<h2 class="title">{title}</h2>
-		</a>
-	</header>
-	<p>{description}</p>
-	<a href={url}>Read More</a>
+    <div>
+        <time class="time">{publishDate}</time>
+        <a href={url}>
+            <h2 class="title">{title}</h2>
+        </a>
+    </div>
+    <p>{description}</p>
+    <a href={url}>Read More</a>
 </article>
 
 <style>
-	.post-preview {
-		padding-bottom: 2rem;
-		margin-bottom: 2rem;
-		border-bottom: 4px solid var(--theme-divider);
-	}
+    .post-preview {
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+        border-bottom: 4px solid var(--theme-divider);
+    }
 
-	.title,
-	time {
-		margin: 0;
-	}
+    .title,
+    time {
+        margin: 0;
+    }
 
-	time {
-		font-size: 0.85rem;
-		color: var(--theme-text-lighter);
-	}
+    time {
+        font-size: 0.85rem;
+        color: var(--theme-text-lighter);
+    }
 
-	.title {
-		font-size: 1.75rem;
-		font-weight: 700;
-		color: var(--theme-text);
-	}
+    a {
+        display: block;
+    }
 
-	p {
-		margin: 8px 0 5px;
-	}
+    .title {
+        font-size: 1.75rem;
+        font-weight: 700;
+        color: var(--theme-text);
+    }
 
+    p {
+        margin: 8px 0 5px;
+    }
 </style>

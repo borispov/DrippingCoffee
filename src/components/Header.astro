@@ -15,8 +15,9 @@
 
             <div class="menu">
                 <a class="active" href="/">Home</a>
-                <a href="/blog">Coffee Base</a>
-                <a href="/personal">My Experience</a>
+                <a href="/blog">Articles</a>
+                <a href="/about">About</a>
+                <a href="/contact">Contact</a>
             </div>
         </nav>
     </div>
@@ -26,7 +27,10 @@
     header {
         background-color: rgb(var(--color-beige-rgb));
         background-color: var(--theme-bg-paper);
-        padding-block: 20px;
+        /* padding: 10px 0; */
+        display: flex;
+        align-items: center;
+        height: 66px;
     }
 
     header div {
@@ -42,7 +46,7 @@
 
     nav {
         display: flex;
-        margin-left: 100px;
+        /* margin-left: 100px; */
         justify-content: space-between;
         align-items: center;
         gap: 60px;
@@ -54,7 +58,7 @@
         display: inline-flex;
         color: var(--theme-text);
         font-size: 1rem;
-        padding: 30px 15px;
+        padding: 0 15px;
         transition: all 0.3s ease-out;
     }
 
@@ -114,7 +118,7 @@
         position: fixed;
         display: flex;
         flex-direction: column;
-        top: 115px;
+        top: 60px;
         transform: scale(1, 1);
         display: none;
         align-items: center;
@@ -133,12 +137,16 @@
         transform: scale(1, 1);
         opacity: 1;
         left: 0;
-        top: 120px;
+        top: 66px;
         gap: 0;
         width: 100%;
         background-color: #662929;
         z-index: 1;
         transition: all 0.3s;
+
+        a {
+            padding: 10px 0;
+        }
     }
 </style>
 

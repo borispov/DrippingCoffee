@@ -1,135 +1,151 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import HeroPostPreview from '../components/HeroPostPreview.astro';
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import HeroPostPreview from "../components/HeroPostPreview.astro";
 
-let description = 'Contact Us';
+let description = "Contact Us";
 // Use Astro.glob to fetch all post with associated frontmatter
-const unsortedPosts = await Astro.glob('./posts/*.mdx');
+const unsortedPosts = await Astro.glob("./posts/*.mdx");
 // const reviewPosts = await Astro.glob('./posts/reviews/*.mdx');
 
 const posts = unsortedPosts.sort(function (a, b) {
-	return (
-		new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf()
-	);
+    return (
+        new Date(b.frontmatter.publishDate).valueOf() -
+        new Date(a.frontmatter.publishDate).valueOf()
+    );
 });
-const popularPosts = posts.filter(post => post.frontmatter.tags && post.frontmatter.tags.includes('popular'));
+const popularPosts = posts.filter(
+    (post) => post.frontmatter.tags && post.frontmatter.tags.includes("popular")
+);
 ---
 
 <html lang="he-il">
-	<head>
-		<BaseHead title="contact us" description={description} />
-	</head>
+    <head>
+        <BaseHead title="contact us" description={description} />
+    </head>
 
-	<body>
-		<Header />
-		<div class="container">
-			<main class="content">
-				<!-- Hero -->
-				<section class="intro">
-					<!-- Insert Logo Here Centered  -->
-					<h1>{description}</h1>
-					<p>
-                    We are thrilled to have you visit our website and we would love to hear from you! 
-                    If you have any questions, comments, or suggestions, please feel free to drop us a message.
-                    Just send us an email at boristofu@gmail.com
-					</p>
-					<p>
-                    We are also open to collaborations and relevant business offers, 
-                    so if you have an idea in mind, don't hesitate to reach out to us. 
-                    We are always on the lookout for exciting partnerships that can 
-                    benefit our community and further our mission to spread the love of coffee around the globe.
-					</p>
+    <body>
+        <Header />
+        <div class="container">
+            <main class="content">
+                <!-- Hero -->
+                <section class="intro">
+                    <!-- Insert Logo Here Centered  -->
+                    <h1>{description}</h1>
+                    <p>
+                        We are thrilled to have you visit our website and we
+                        would love to hear from you! If you have any questions,
+                        comments, or suggestions, please feel free to drop us a
+                        message. Just send us an email at <strong
+                            >boristofu@gmail.com</strong
+                        >
+                    </p>
+                    <p>
+                        We are also open to collaborations and relevant business
+                        offers, so if you have an idea in mind, don't hesitate
+                        to reach out to us. We are always on the lookout for
+                        exciting partnerships that can benefit our community and
+                        further our mission to spread the love of coffee around
+                        the globe.
+                    </p>
 
-					<p>
-                    We'd like to remind you, this site is run by us and only us, 
-                    a coffee-hobbyist couple who fell in love with brewing coffee at home. We're new in this!
-                    <br>
-                    So, we'd like to do the best we can and we'd like your ideas and comments on how to make it better, 
-                    as far as content ideas, as well as making the website more user-friendly, etc.
-                    Mind you, this website is coded from the ground up because, well, why not?
-
-                    Thank you for your interest in our website, and we look forward to hearing from you soon!
-
-					</p>
-					<p>
-                    Best regards,
-                    <br>
-                    Dripping Coffee.
-					</p>
-				</section>
-
-                <div class="flex">
-                    <button type="">back to site</button>
-                </div>
-
-                <br>
-                <h1>Recent Posts</h1>
-				<section aria-label="Blog post list" class="hero-posts">
-					{
-						popularPosts.map(({ url, frontmatter }, i) => (
-							<HeroPostPreview
-								title={frontmatter.title}
-								description={frontmatter.description}
-								publishDate={frontmatter.publishDate}
-								url={url}
-								position={i === 2 && 'third' || i === 1 && 'second' || 'first'}
-								backgroundImage={frontmatter.heroImage.src}
-							/>
-						))
-					}
+                    <p>
+                        We'd like to remind you, this site is run by us and only
+                        us, a coffee-hobbyist couple who fell in love with
+                        brewing coffee at home. We're new in this!
+                        <br />
+                        So, we'd like to do the best we can and we'd like your ideas
+                        and comments on how to make it better, as far as content
+                        ideas, as well as making the website more user-friendly,
+                        etc. Mind you, this website is coded from the ground up because,
+                        well, why not? Thank you for your interest in our website,
+                        and we look forward to hearing from you soon!
+                    </p>
+                    <p>
+                        We're also running an experimental Instagram channel, so
+                        show us some love <a
+                            href="https://instagram.com/dripping_coffee_"
+                            >there</a
+                        >.
+                    </p>
+                    <p>
+                        Best regards,
+                        <br />
+                        Dripping Coffee.
+                    </p>
                 </section>
 
-			</main>
-		</div>
-		<Footer />
-	</body>
+                <div class="flex">
+                    <button>back to site</button>
+                </div>
+
+                <br />
+                <h1>Recent Posts</h1>
+                <section aria-label="Blog post list" class="hero-posts">
+                    {
+                        popularPosts.map(({ url, frontmatter }, i) => (
+                            <HeroPostPreview
+                                title={frontmatter.title}
+                                description={frontmatter.description}
+                                publishDate={frontmatter.publishDate}
+                                url={url}
+                                position={
+                                    (i === 2 && "third") ||
+                                    (i === 1 && "second") ||
+                                    "first"
+                                }
+                                backgroundImage={frontmatter.heroImage.src}
+                            />
+                        ))
+                    }
+                </section>
+            </main>
+        </div>
+        <Footer />
+        <style lang="scss">
+            section h1 {
+                font-size: 100px;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+                font-weight: 700;
+                text-align: center;
+            }
+
+            .hero-posts {
+                display: flex;
+                flex-direction: column;
+                @media screen and (min-width: 640px) {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-areas: "first second third";
+                    // "first third";
+                    gap: 20px;
+                }
+            }
+
+            .popular {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+            }
+
+            button {
+                padding: 10px 20px;
+                border-radius: 8px;
+                width: 200px;
+                margin: 0 auto;
+                box-shadow: 4px 4px 0 rgba(210, 80, 80, 1);
+                transition: all 300ms;
+                cursor: pointer;
+                font-weight: 700;
+            }
+
+            button:hover {
+                box-shadow: 4px 4px 0 rgba(40, 40, 80, 1);
+            }
+        </style>
+    </body>
 </html>
-
-<style lang="scss">
-
-    section h1 {
-        font-size: 100px;
-    }
-
-	h1 {
-		font-size: 2.5rem;
-		font-weight: 700;
-        text-align: center;
-	}
-
-	.hero-posts {
-		display: flex;
-		flex-direction: column;
-		@media screen and (min-width: 640px) {
-			display: grid;
-			grid-template-columns: 1fr 1fr 1fr;
-			grid-template-areas: "first second third";
-								// "first third";
-			gap: 20px;
-		}
-	}
-
-	.popular {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		gap: 20px;
-	}
-
-    button {
-        padding: 10px 20px;
-        border-radius: 8px;
-        width: 200px;
-        margin: 0 auto;
-        box-shadow: 4px 4px 0 rgba(210, 80, 80, 1);
-        transition: all 300ms;
-        cursor: pointer;
-        font-weight: 700;
-    }
-
-    button:hover {
-        box-shadow: 4px 4px 0 rgba(40, 40, 80, 1);
-    }
-
-</style>

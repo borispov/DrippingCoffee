@@ -37,73 +37,53 @@ const posts = (await Astro.glob("./posts/**/*.mdx")).sort(
     </head>
     <body>
         <Header />
-        <main>
-            <PostSection posts={posts} sectionTitle="My Journey" />
-
-            <section>
-                <ul>
-                    {
-                        posts.map((post) => (
-                            <li>
-                                <time datetime={post.frontmatter.publishDate}>
-                                    {new Date(
-                                        post.frontmatter.publishDate
-                                    ).toLocaleDateString("en-us", {
-                                        year: "numeric",
-                                        month: "short",
-                                        day: "numeric",
-                                    })}
-                                </time>
-                                <a href={post.url}>{post.frontmatter.title}</a>
-                            </li>
-                        ))
-                    }
-                </ul>
-            </section>
+        <main class="container">
+            <PostSection posts={posts} sectionTitle="All Articles" />
         </main>
         <Footer />
-    </body><style lang="scss">
-        .hero-main {
-            margin-left: auto;
-            margin-right: auto;
-            padding-left: 2rem;
-            padding-right: 2rem;
-            max-width: 1170px;
-        }
+        <style lang="scss">
+            .hero-main {
+                margin-left: auto;
+                margin-right: auto;
+                padding-left: 2rem;
+                padding-right: 2rem;
+                max-width: 1170px;
+            }
 
-        .content {
-            margin-top: 4rem;
-            margin-bottom: 8rem;
-        }
+            .content {
+                margin-top: 4rem;
+                margin-bottom: 8rem;
+            }
 
-        .intro {
-            padding-bottom: 4rem;
-            margin-bottom: 2rem;
-            margin: 0 auto;
-            text-align: center;
-        }
+            .intro {
+                padding-bottom: 4rem;
+                margin-bottom: 2rem;
+                margin: 0 auto;
+                text-align: center;
+            }
 
-        h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
-        }
+            h1 {
+                font-size: 2.5rem;
+                font-weight: 700;
+            }
 
-        .hero-posts {
-            display: flex;
-            flex-direction: column;
-            @media screen and (min-width: 640px) {
+            .hero-posts {
+                display: flex;
+                flex-direction: column;
+                @media screen and (min-width: 640px) {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-areas: "first second third";
+                    // "first third";
+                    gap: 20px;
+                }
+            }
+
+            .popular {
                 display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                grid-template-areas: "first second third";
-                // "first third";
+                grid-template-columns: repeat(3, 1fr);
                 gap: 20px;
             }
-        }
-
-        .popular {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-        }
-    </style>
+        </style>
+    </body>
 </html>

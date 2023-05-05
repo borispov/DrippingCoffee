@@ -32,7 +32,8 @@
 	--color-red-rgb: 255, 22, 57;
 	--color-yellow: #ffbe2d;
 	--color-yellow-rgb: 255, 190, 45;
-	--color-brown: #b9956d;
+	/* --color-brown: #b9956d; */
+	--color-brown: #a9454a;
 
 	--color-beige-rgb: 255, 240, 232;
 
@@ -218,6 +219,7 @@ a {
 	text-decoration: none;
 	align-items: center;
 	gap: 0.5rem;
+	text-decoration: underline;
 }
 
 a > code {
