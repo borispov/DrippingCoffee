@@ -76,9 +76,9 @@ const popularPosts = posts.filter(
                     </p>
                 </section>
 
-                <div class="flex">
+                <a class="button-wrapper" href="/">
                     <button>back to site</button>
-                </div>
+                </a>
 
                 <br />
                 <h1>Recent Posts</h1>
@@ -145,6 +145,11 @@ const popularPosts = posts.filter(
 
             button:hover {
                 box-shadow: 4px 4px 0 rgba(40, 40, 80, 1);
+            }
+            .button-wrapper {
+                display: grid;
+                text-decoration: none;
+                justify-content: center;
             }
         </style>
     </body>
