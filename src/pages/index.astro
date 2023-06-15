@@ -10,6 +10,12 @@ import Hero from "../components/Hero.astro";
 let title = "Dripping Coffee";
 let description = "Trending Topics";
 
+const lever = [];
+const latest = [];
+const best = [];
+const info = [];
+const rest = [];
+
 // Use Astro.glob to fetch all post with associated frontmatter
 const unsortedPosts = await Astro.glob("./posts/**/*.mdx");
 // const reviewPosts = await Astro.glob('./posts/reviews/*.mdx');
@@ -22,6 +28,18 @@ const posts = unsortedPosts
         );
     })
     .filter((post) => !post.frontmatter.draft);
+
+
+// sort posts categorically. If post has no mentioned tags, push it into GENERAL/REST list
+posts.map(post => {
+    post.frontmatter.tags
+        ? post.frontmatter.tags.includes("lever")
+            ? lever.push(post)
+            : post.frontmatter.tags.includes("best")
+                ? best.push(post)
+                : post.frontmatter.tags.includes("rest")
+        : rest.push(post)
+})
 
 const popularPosts = posts.filter(
     (post) => post.frontmatter.tags && post.frontmatter.tags.includes("popular")
@@ -49,7 +67,7 @@ const popularPosts = posts.filter(
                 </section>
                 <section aria-label="Blog post list" class="hero-posts">
                     {
-                        popularPosts.map(({ url, frontmatter }, i) => (
+                        posts.map(({ url, frontmatter }, i) => (
                             <HeroPostPreview
                                 title={frontmatter.title}
                                 description={frontmatter.description}
@@ -65,13 +83,9 @@ const popularPosts = posts.filter(
                         ))
                     }
                 </section>
-
-                <PostSection posts={posts} sectionTitle="Coffee & More" />
-
-                <!-- <PostSection posts={posts} sectionTitle='Best Home Barista Gear' />
-
-				<PostSection posts={posts} sectionTitle='Coffee & Life' /> -->
-
+                <!-- <PostSection posts={lever} sectionTitle="Lever Experience" /> --> 
+                <!--  <PostSection posts={best} sectionTitle="Latest Articles" /> -->
+                <!-- <PostSection posts={info} sectionTitle="Latest Articles" /> -->
                 <AboutSection />
             </main>
         </div>
