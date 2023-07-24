@@ -1,0 +1,152 @@
+p {
+  max-width: 65ch;
+}
+
+blockquote {
+	font-size: 1.5rem;
+	--padding-block: 1rem;
+	--padding-inline: 1.25rem;
+	--color: var(--color-dark);
+
+	display: flex;
+	flex-direction: column;
+
+	padding: var(--padding-block) var(--padding-inline);
+	margin-left: calc(var(--padding-inline) * -1);
+	margin-right: calc(var(--padding-inline) * -1);
+
+	background: var(--color-secondary);
+	border-left: calc(var(--padding-inline) / 2) solid var(--color);
+	border-radius: 0;
+}
+
+blockquote .source {
+	font-weight: 500;
+	color: var(--color);
+	font-size: 1rem;
+}
+
+/* Typography */
+:is(h1, h2, h3, h4, h5, h6) {
+	margin-bottom: 1.38rem;
+	font-weight: 400;
+	line-height: 1.3;
+}
+
+:is(h2, h3):not(:first-child) {
+	margin-top: 3rem;
+}
+
+small,
+.text_small {
+	font-size: 0.833rem;
+}
+
+a > code {
+	position: relative;
+	color: var(--theme-accent);
+	background: transparent;
+	text-underline-offset: var(--padding-block);
+}
+
+a > code::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: block;
+	background: var(--theme-accent);
+	opacity: var(--theme-accent-opacity);
+	border-radius: var(--border-radius);
+}
+
+
+pre {
+	position: relative;
+	--padding-block: 1rem;
+	--padding-inline: 2rem;
+	padding: var(--padding-block) var(--padding-inline);
+	padding-right: calc(var(--padding-inline) * 2);
+
+	overflow-y: hidden;
+	overflow-x: auto;
+}
+
+
+
+@media (min-width: 37.75em) {
+	pre {
+		--padding-inline: 1.25rem;
+		border-radius: 8px;
+	}
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+p > img {
+  display: block;
+	max-width: 100%;
+}
+
+p img {
+  display: block;
+  max-width: 100%;
+}
+
+img.cover {
+	width: 100%;
+	max-height: 50vh;
+	object-fit: cover;
+}
+
+.post h2 {
+	color: var(--color-dark-glare);
+	position: relative;
+}
+
+.post h2, .post h3 {
+	--flow-space: 5rem;
+	font-family: var(--font-serif);
+}
+
+.post h2 a, .post h3 a {
+	text-decoration: none;
+}
+
+.post a {
+	text-underline-offset: 0.08em;
+	gap: 0.5rem;
+	text-decoration: underline;
+}
+
+.post {
+
+	h1 {
+		font-family: var(--font-serif);
+	}
+
+	& a:hover,
+	a:focus {
+		text-decoration: underline;
+	}
+
+	& a:focus {
+		outline: 2px solid currentColor;
+		outline-offset: 0.25em;
+	}
+}
+
+	.product-image {
+			width: 100%;
+			max-width: 89%;
+			max-width: fit-content;
+			max-height: 650px;
+			border-radius: 12px;
+			object-fit: contain;
+			box-shadow: 0px 0px 9px rgba(0,0,0,0.1);
+	}

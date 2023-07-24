@@ -1,72 +1,20 @@
-# Astro Starter Kit: Blog
+# Astroweb
 
-```
-npm init astro -- --template blog
-```
+This project is a pet/side-project. IT's a blog in the coffee niche, trying to compete with SEO.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/blog)
+Legitimately writing about coffee topics, I have an obsession with coffee. 
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+This file will serve as a template for future blogs in case of success.
 
-Features:
+## SUCCESS  - DEFINED
 
-- ✅ SEO-friendly setup with canonical URLs and OpenGraph data
-- ✅ Full Markdown support
+I currently have troubles with getting all my pages indexed properly. This could be due to redirection errors early on, making google reluctant to re-index pages that failed before.
 
-## 🚀 Project Structure
+I will let this site live for another 6 months and see how it goes.
 
-Inside of your Astro project, you'll see the following folders and files:
+## TODO
 
-```
-├── public
-│   ├── assets
-│   │   └── blog
-│   │       └── introducing-astro.jpg
-│   ├── favicon.ico
-│   ├── social.jpg
-│   └── social.png
-├── src
-│   ├── components
-│   │   ├── Author.astro
-│   │   ├── BaseHead.astro
-│   │   ├── BlogPostPreview.astro
-│   │   ├── FollowMe.astro
-│   │   ├── Header.astro
-│   │   └── LikeButton.tsx
-│   ├── layouts
-│   │   └── BlogPost.astro
-│   ├── pages
-│   │   ├── index.astro
-│   │   └── posts
-│   │       ├── interactive-content.md
-│   │       └── static-content.md
-│   └── styles
-│       └── blog.css
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
-```
+1. Write about Gaggia Classic Pro - Owning it, selling it, pros, cons, address updates
+2. second
+3. third
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:3000`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).

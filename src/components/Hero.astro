@@ -4,59 +4,36 @@ import { HERO_TITLE, HERO_SUBTITLE, HERO_BG_IMG } from "../config";
 const { title, subtitle } = Astro.props;
 ---
 
-<section>
+<section class="[ region ]">
     <picture>
         <img src={HERO_BG_IMG} alt="" />
     </picture>
-    <h1>
+    <h1 class="tac">
         {title || HERO_TITLE}
     </h1>
-    <p>
+    <p class="tac prose">
         {subtitle || HERO_SUBTITLE}
     </p>
-    <!-- <button>
-        Explore Reviews
-    </button> -->
 </section>
 
 <style lang="scss">
     section {
-        padding-top: 60px;
-        padding-bottom: 60px;
         position: relative;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        text-align: center;
+        align-items: center;
     }
 
     h1 {
-        color: #fff;
-        line-height: 110%;
-        font-size: 40px;
-        margin-bottom: 10px;
-        padding-bottom: 0;
+        color: var(--color-light);
+        line-height: var(--lh160);
+        font-size: var(--step-3);
     }
+
     p {
-        color: #fff;
-        max-width: 380px;
-        margin: 0 auto;
-        text-align: center;
-            z-index: 1;
-    }
-
-    button {
-        padding: 10px 20px;
-        border-radius: 8px;
-        width: 200px;
-        margin: 0 auto;
-        box-shadow: 4px 4px 0 rgba(210, 80, 80, 1);
-        transition: all 300ms;
-        cursor: pointer;
-    }
-
-    button:hover {
-        box-shadow: 4px 4px 0 rgba(40, 40, 80, 1);
+        color: var(--color-light) !important;
+        font-size: var(--step--1);
+        line-height: var(--lh140);
     }
 
     picture {
@@ -74,7 +51,6 @@ const { title, subtitle } = Astro.props;
         object-fit: cover;
         height: 100%;
         width: 100%;
-        // max-height: 450px;
     }
 </style>
 

@@ -1,0 +1,36 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import Hero from "../components/Hero.astro";
+
+import MachineWiz from "../components/Machine/MachineWiz.svelte";
+
+const title = `The Espresso Machine Wizard`;
+const description = `Go through a couple of questions and receive personalized espresso machine recommendations`;
+---
+
+<html lang="he-il">
+    <head>
+        <BaseHead title={title} description={description} />
+    </head>
+
+    <body>
+        <Header />
+        <Hero subtitle={description} title={title} />
+        <div class="container">
+            <main class="content">
+                <section class="intro">
+                    <p>{description}</p>
+                    <MachineWiz client:load />
+                </section>
+            </main>
+        </div>
+        <Footer />
+        <style>
+            p {
+                text-align: center;
+            }
+        </style>
+    </body>
+</html>

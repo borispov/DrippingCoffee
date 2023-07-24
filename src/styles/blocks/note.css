@@ -1,0 +1,6 @@
+.note {
+	background: var(--color-light-shade);
+	padding: var(--space-s-m);
+	border-radius: var(--border-radius);
+	box-shadow: var(--shadow-reg);
+}

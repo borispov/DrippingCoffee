@@ -12,23 +12,31 @@ const { title, description, publishDate, url, backgroundImage, position } =
     Astro.props as Props;
 ---
 
-<a href={url} class="article">
+<a href={url} class="[ card ]">
     <div class="image-wrapper">
         <img src={backgroundImage} alt={title} />
     </div>
 
-    <div class="contents">
-        <h1 class="title">{title}</h1>
-        <p>{description}</p>
+    <div class="contents flow">
+        <h3 class="title">{title}</h3>
+        <p class="text-400">{description}</p>
     </div>
 </a>
 
 <style lang="scss">
-    .article {
+    .card {
+        padding-bottom: var(--space-xs);
         margin-bottom: 2rem;
-        border: 1px solid var(--theme-text-light);
-        border-radius: 12px;
-        box-shadow: 4px 4px 0px var(--theme-bg-accent);
+        border-radius: var(--border-radius);
+        box-shadow: 0 0 1rem rgba(0,0,0,0.08);
+        line-height: var(--lh140);
+        transition: var(--t-fast);
+
+        &:hover {
+            transform: translateY(-.4rem);
+            box-shadow: 0 .5rem 1rem .5rem rgba(0,0,0,0.1);
+            transition: transform 350ms cubic-bezier(0,.26,.13,1.55),box-shadow .2s
+        }
     }
 
     .image-wrapper {
@@ -37,7 +45,7 @@ const { title, description, publishDate, url, backgroundImage, position } =
 
     img {
         width: 100%;
-        border-radius: 12px;
+        border-radius: var(--border-radius);
         height: 100%;
         z-index: -1;
         object-fit: cover;
@@ -47,6 +55,8 @@ const { title, description, publishDate, url, backgroundImage, position } =
     .contents {
         padding-top: 10px;
         padding-left: 10px;
+        --flow-space: .25em;
+        text-decoration: none;
     }
 
     .title,
@@ -56,32 +66,19 @@ const { title, description, publishDate, url, backgroundImage, position } =
 
     time {
         font-size: 1rem;
-        color: var(--color-gray-200);
-        color: var(--color-gray-500);
+        color: var(--color-mid);
         font-style: italic;
     }
 
     .title {
-        font-size: 1.75rem;
         font-weight: 700;
         max-width: 100%;
-        /* text-align: left; */
-        /* margin-left: auto; */
-        color: var(--theme-text);
+        color: var(--color-dark);
+        letter-spacing: -0.2px;
     }
 
     p {
         color: #010101;
     }
 
-    a,
-    a:hover {
-        text-decoration: none;
-    }
-
-    a.more {
-        display: inline;
-        text-decoration: underline;
-        text-decoration-color: var(--theme-bg-paper);
-    }
 </style>

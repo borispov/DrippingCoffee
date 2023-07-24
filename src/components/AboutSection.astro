@@ -1,90 +1,79 @@
-<section>
-    <h2>About The Borista Experience</h2>
-    <div class="wrap">
-        <div class="image-wrapper">
+<section class="wrapper region flow">
+    <h1 class="tac text-800">About The Dripping Coffee Experience</h1>
+    <div class="flow region">
+        <div class="[ about ] [ flow text-500 ]">
+
+            <h3 class="weigh-bold font-serif">A little backstory</h3>
+            <p>
+                My coffee affair started as a typical upgrade from instant coffee we were used to consume at home.
+                The upgrade was made possible thanks to my Mother, who gave us a Nespresso Latissima Touch. Had she known
+                it'd bring upon a severe case of upgraditis, she'd certainly choose another gift. Soon, we'd enjoy the 
+                experience of making beautiful and delicious (not so sure about that now) coffee as well as hosting family
+                and friends over.
+            </p>
+
+            <p>
+                After about a year of indulging in this hobby and buying all sorts of Nespresso pods, the Latissima had broken.
+                We were back our previous state: Instant Coffee. Obviously, it was merely a matter of time.
+            </p>
+            <p>
+
+                This time, I wanted to ugprade the experience even more. After what seemed to be thousands of hours spent online, lurking
+                forums, YouTube, and reviews, we invested ina Gaggia Classic Pro paired with a dedicated grinder.
+                This machine was a game-changer. This is where our true coffee journey really
+                began.
+            </p>
+
+            <h3 class="weigh-bold font-serif">Fast Forward Today</h3>
+            <p>
+                A year went by, upgraditis kicked in, and after another round of endless hours online and consulting friends, we purchased
+                our current machine: <a href="/posts/peronsal/lever-experience">Profitec 800</a>. Aside from astonishing looks, this machine provides
+                an amazing experience. Thanks to this machine I expanded the variety of different kinds of beans I drink and generally started to 
+                apprecaite espresso even more. 
+
+            </p>
+            <p>
+Meanwhile, I'm learning a bunch, and I hope I'll be able to transform
+                some of my passion and knowledge back to the community, to you.
+            </p>
+        </div>
+        <div class="image-wrapper region">
             <img
                 src="/assets/myself.jpg"
                 alt="Myself with my beloved Pro 800"
             />
         </div>
-        <div class="about-text">
-            <p>
-                My love affair with coffee began quite unexpectedly and has
-                since grown into a genuine appreciation of coffee as a beverage,
-                as culture, history, community and its impact on our health and
-                wellbeing. Like many, I used to settle for instant coffee at
-                home and cappuccinos occassionally at the coffee shop. However,
-                everything changed when my mother gifted me and my wife a
-                Nespresso Latissima Touch - it's been a bit of a splurge since,
-                but totally worth it!
-            </p>
-            <p>
-                While our Nespresso machine certainly improved our home coffee
-                game, it never quite lived up to our expectations. We craved
-                that same coffee shop quality that we just couldn't seem to
-                replicate. After a while, we had to replace our machine and
-                decided to take things to the next level by going fully
-                hands-on. We invested in a Gaggia Classic Pro machine along with
-                a dedicated grinder, and let me tell you, it's been a
-                game-changer. This is where our true coffee journey really
-                began.
-            </p>
-
-            <p>
-                As time went, I became more interested in coffee and its
-                origins, the different brewing methods, and the nuances of
-                roasting, although I haven't played with it just yet.
-                <br />
-                The most vital thing is I'm learning a bunch, there are tons of great
-                knowledgable people around the web to learn from.
-            </p>
-            <p>
-                I hope I'll be able to transform what I learn into valuable,
-                digestible pieces of information for you.
-            </p>
-        </div>
     </div>
 </section>
 
 <style lang="scss">
-    section {
+
+    .about {
+        max-width: 45rem;
+        margin-inline: auto;
     }
 
-    .wrap {
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        @media screen and (min-width: 560px) {
-            flex-direction: row;
-        }
-        gap: 20px;
+    .about > * {
+        --flow-space: 1em;
     }
 
-    .about-text {
-        p {
-            margin-top: 0;
-        }
-        width: 66%;
-        @media screen and (max-width: 560px) {
-            width: 100%;
-        }
+    h1 {
+        max-width: 45rem;
+        margin: 0 auto;
     }
 
     .image-wrapper {
-        width: 33%;
-        height: 40vh;
-        border-radius: 12px;
-        box-shadow: 8px 8px 0px var(--theme-bg-accent);
-        /* max-height: 420px; */
-        @media screen and (max-width: 560px) {
-            width: 100%;
-            max-height: 400px;
+        width: 100%;
+        height: 360px;
+        @media screen and (min-width: 768px) {
+            height: 660px;
         }
     }
 
     img {
-        object-fit: cover;
-        width: 100%;
+        object-fit: fit;
+        width: auto;
+        margin: 0 auto;
         height: 100%;
         border-radius: 12px;
     }

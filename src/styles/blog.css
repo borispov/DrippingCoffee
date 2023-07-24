@@ -255,11 +255,6 @@ a:focus {
 	outline-offset: 0.25em;
 }
 
-strong {
-	font-weight: 600;
-	color: inherit;
-}
-
 /* Supporting Content */
 
 code {

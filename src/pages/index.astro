@@ -57,15 +57,13 @@ const popularPosts = posts.filter(
     <body>
         <Header />
         <Hero />
-        <div class="container">
+        <div class="wrapper">
             <main class="content">
-                <!-- Hero -->
-                <section class="intro">
-                    <!-- Insert Logo Here Centered  -->
+                <section class="intro [ flow tac ]">
                     <h1>{description}</h1>
                     <p></p>
                 </section>
-                <section aria-label="Blog post list" class="hero-posts">
+                <section aria-label="Blog post list" class="hero-posts [ region ]">
                     {
                         posts.map(({ url, frontmatter }, i) => (
                             <HeroPostPreview
@@ -86,9 +84,20 @@ const popularPosts = posts.filter(
                 <!-- <PostSection posts={lever} sectionTitle="Lever Experience" /> --> 
                 <!--  <PostSection posts={best} sectionTitle="Latest Articles" /> -->
                 <!-- <PostSection posts={info} sectionTitle="Latest Articles" /> -->
-                <AboutSection />
+
+
             </main>
         </div>
+
+        <article class="[ region ] [ bg-primary ]">
+            <div class="[ headline ] [ wrapper flow ]">
+                <h2 class="font-serif">This Is The Dripping Coffee Experience, All About Making Great Coffee At Home
+                </h2>
+                <p>
+                    Everything we write about is either from personal experience or from great research online. Great coffee at home has never been easier, but with too much information out there, it might be difficult to understand where to start, and we hope to help you with that. Send us an <a href="mailto:boristofu@gmail.com">email</a>
+                </p>
+            </div>
+        </article>
         <Footer />
         <style lang="scss">
             .hero-main {
@@ -105,10 +114,7 @@ const popularPosts = posts.filter(
             }
 
             .intro {
-                padding-bottom: 4rem;
-                margin-bottom: 2rem;
                 margin: 0 auto;
-                text-align: center;
             }
 
             h1 {

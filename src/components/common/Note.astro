@@ -2,7 +2,7 @@
 const { content } = Astro.props;
 ---
 
-<p>
+<aside class="[ note ] ">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
         ><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
         <path
@@ -11,21 +11,9 @@ const { content } = Astro.props;
         </path></svg
     >
     {content}
-</p>
+</aside>
 
 <style>
-    p {
-        padding: 1em;
-        color: #285bb6;
-        background-color: #eff5ff;
-        display: inline-block;
-        font-weight: 600 !important;
-        width: 100%;
-        border-width: 0 0 0 8px;
-        border-left: 9px solid var(--theme-accent);
-        border-radius: 0;
-        color: var(--theme-accent);
-    }
 
     svg {
         margin-right: 9px;
@@ -33,7 +21,7 @@ const { content } = Astro.props;
         font-weight: 900;
         vertical-align: sub;
         fill: var(--theme-accent);
-        /* fill: rgb(40, 91, 184); */
+        fill: rgb(40, 91, 184);
         content: "";
         width: 22px;
         height: 22px;

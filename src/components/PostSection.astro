@@ -3,9 +3,9 @@ import BlogPostPreview from "./BlogPostPreview.astro";
 const { sectionTitle, posts } = Astro.props;
 ---
 
-<section class="post-section">
-    <div class="section-title">
-        <h2>
+<section class="post-section [ wrapper ] [ region ]">
+    <div class="section-title tac">
+        <h2 class="tac">
             <span>{sectionTitle}</span>
         </h2>
     </div>
@@ -35,6 +35,7 @@ const { sectionTitle, posts } = Astro.props;
             line-height: 1.5;
             color: #000;
             font-family: Sacramento, cursive;
+            margin-inline: auto;
             text-align: center;
         }
 

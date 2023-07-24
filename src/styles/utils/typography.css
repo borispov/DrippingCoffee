@@ -1,0 +1,9 @@
+.weight-bold { font-weight: 700; }
+.text-300 { font-size: var(--step--2); }
+.text-400 { font-size: var(--step--1); }
+.text-500 { font-size: var(--step-0); }
+.text-600 { font-size: var(--step-1); }
+.text-700 { font-size: var(--step-2); }
+.text-800 { font-size: var(--step-3); }
+.text-900 { font-size: var(--step-4); }
+.text-1000 { font-size: var(--step-5); }

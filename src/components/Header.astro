@@ -1,19 +1,19 @@
 <header>
-    <div class="container">
+    <div class="wrapper">
         <div class="logo">
-            <a href="/">
+            <a href="/" class="logo">
                 <img src="/Logo.png" alt="logo" />
             </a>
         </div>
 
-        <nav class="nav">
+        <nav class="nav [ weight-bold ]">
             <div class="burger-menu">
                 <span class="line"></span>
                 <span class="line"></span>
                 <span class="line"></span>
             </div>
 
-            <div class="menu">
+            <div class="menu text-400">
                 <a class="active" href="/">Home</a>
                 <a href="/blog">Articles</a>
                 <a href="/about">About</a>
@@ -25,9 +25,7 @@
 
 <style lang="scss">
     header {
-        background-color: rgb(var(--color-beige-rgb));
-        background-color: var(--theme-bg-paper);
-        /* padding: 10px 0; */
+        background-color: var(--color-light-shade);
         display: flex;
         align-items: center;
         height: 66px;
@@ -53,11 +51,10 @@
         /* display: none; */
     }
 
-    a {
+    a:not(.logo) {
         text-decoration: none;
         display: inline-flex;
-        color: var(--theme-text);
-        font-size: 1rem;
+        color: var(--color-dark);
         padding: 0 15px;
         transition: all 0.3s ease-out;
     }

@@ -1,0 +1,19 @@
+.nav {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0 var(--gutter,--space-s);
+	margin: 0;
+}
+
+.nav li {
+	margin: .15rem .5rem;
+}
+
+.nav a:not(:hover) {
+	text-decoration: none;
+}
+
+.nav[data-layout=center] {
+	justify-content: center
+}
