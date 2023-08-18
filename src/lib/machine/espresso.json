@@ -1383,7 +1383,7 @@
         {
             "priceUsd": "$2,499.00",
             "brand": "Decent",
-            "model": "DE1+",
+            "model": "DE1PRO",
             "boilerType": "SB",
             "pid": "YES",
             "pumpType": "Vibration",
@@ -1397,10 +1397,9 @@
             "groupType": "Ring",
             "portafilterSize": "58 mm",
             "wattage": "",
-            "reservoir": "",
-           "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": ""
+            "reservoir": "2 L",
+            "images": ["de1pro.jpeg"],
+            "weight": "29.1 lbs"
         },
         {
             "priceUsd": "$2,500.00",
@@ -1893,9 +1892,9 @@
             "reservoir": ""
         },
         {
-            "priceUsd": "$2,899.00",
+            "priceUsd": "$4,099.00",
             "brand": "Decent",
-            "model": "DE1+ PRO",
+            "model": "DE1XL",
             "boilerType": "SB",
             "pid": "YES",
             "pumpType": "Vibration",
@@ -1908,8 +1907,10 @@
             },
             "groupType": "Ring",
             "portafilterSize": "58 mm",
-            "wattage": "",
-            "reservoir": ""
+            "wattage": "1500",
+            "reservoir": "2 L",
+            "images": ["de1xl.jpeg"],
+            "weight": "29.5 lbs"
         },
         {
             "priceUsd": "$2,899.00",
@@ -1928,7 +1929,7 @@
             "groupType": "Spring Lever",
             "portafilterSize": "58 mm",
             "wattage": "1500",
-            "reservoir": "",
+            "reservoir": "3 L",
             "Bigger version of Export and has manometer": "",
             "images": [],
             "weight": "35 kg",
