@@ -1,0 +1,83 @@
+---
+// TODO: add lever machines when we got enough data
+import MachineInfoLayout from "@layouts/MachineInfoLayout.astro";
+import machines from "@lib/machine/espresso.json";
+
+import slugify from "@lib/slugify";
+
+let title = 'All Machines Index'
+let description = 'I aggregated a list of espresso machines with useful information on each machine to inform you, and help you make a wise decision and buy the machine that will serve you the best';
+
+let note = `Please, if you find that important information is missing regarding any of the machines listed below, let me know.`
+
+const allMachines = machines.machines;
+
+const heatExchangers = allMachines.filter(machine => machine.boilerType == 'HX' && machine.images);
+const dualBoilers = allMachines.filter(machine => machine.boilerType == 'DB' && machine.images);
+const singleBoilers = allMachines.filter(machine => machine.boilerType == 'SB' && machine.images);
+---
+
+<MachineInfoLayout content={{ title, description }}>
+
+  <div class="region" data-start>
+
+    { singleBoilers.length > 1 && (
+      <div>
+      <h2>Single Boilers</h2>
+      <ul>
+        {
+          singleBoilers.map(m => {
+            let s = slugify(m.brand + ' ' + m.model)
+            return (
+            <a href=`/machines/${s}/` class="machine-card stack">
+                <li class="text-400"> {m.brand + ' ' + m.model}</li>
+              </a>
+            )
+            }
+          )
+        }
+      </ul>
+      </div>
+    )}
+
+    <div>
+    <h2>Heat Exchangers</h2>
+    <ul>
+      {
+        heatExchangers.map(m => {
+          let s = slugify(m.brand + ' ' + m.model)
+          return (
+          <a href=`/machines/${s}/` class="machine-card stack">
+              <li class="text-400"> {m.brand + ' ' + m.model}</li>
+            </a>
+          )
+          }
+        )
+      }
+    </ul>
+    </div>
+
+    <div>
+    <h2>Dual Boilers</h2>
+    <ul>
+      {
+        dualBoilers.map(m => {
+          let s = slugify(m.brand + ' ' + m.model)
+          return (
+          <a href=`/machines/${s}/` class="machine-card stack">
+              <li class="text-400"> {m.brand + ' ' + m.model}</li>
+            </a>
+          )
+          }
+        )
+      }
+    </ul>
+    </div>
+  </div>
+</MachineInfoLayout>
+
+<style>
+  .machine-card {
+  }
+
+</style>

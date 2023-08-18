@@ -7,7 +7,7 @@ export interface Props {
     content: {
         title: string;
         description: string;
-        publishDate: string;
+        publishDate?: string;
         heroImage?: {
             src: string;
             alt: string;
@@ -35,6 +35,7 @@ const {
         <article class="[ wrapper ] content region">
             <header class="flow">
                 <h1 class="[ title ] [ text-900 weight-bold ]">{title}</h1>
+                { publishDate && (
                 <div data-name="time-block" class="time-block text-3 cluster">
                     <svg
                         stroke="currentColor"
@@ -51,14 +52,14 @@ const {
                             d="m15.628 12.183-1.8-1.799 1.37-1.371 1.8 1.799zm-7.623 4.018V18h1.799l4.976-4.97-1.799-1.799z"
                         ></path></svg
                     >
-                    <em><time>{publishDate}</time></em>
+                        <em><time>{publishDate}</time></em>
                 </div>
+                )}
                 <div class="sidebar">
                 {
                     heroImage && (
                         <img
-                            width="1000"
-                            height="500"
+                            height="475"
                             loading="lazy"
                             decoding="async"
                             src={heroImage.src}
@@ -68,12 +69,15 @@ const {
                 }
                 <div>
                     <div class="ad-blocks">
-                        <div class="flow"></div>
+                        <div class="flow">
+                        </div>
                     </div>
                 </div>
                 </div>
             </header>
-            <hr>
+            {
+                heroImage && <hr>
+            }
             <main class="sidebar">
                 <div class="[ post ] [ flow ]" >
                     <slot />
@@ -141,15 +145,14 @@ const {
     }
 
     img {
-        width: 100vw;
         object-fit: cover;
         object-position: center;
-        margin-bottom: 2rem;
-        max-width: 55rem;
+        margin-bottom: 1rem;
 
         border-radius: 8px;
         flex: 0 0 auto;
         width: 100%;
+        max-width: 55rem;
     }
 
     @media (max-width: 50em) {

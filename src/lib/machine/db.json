@@ -1,0 +1,652 @@
+{
+    "machines": [
+        {
+            "priceUsd": "$1,300.00",
+            "brand": "Breville",
+            "model": "BES920XL",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Vibration",
+            "pressureGauge": "Single",
+            "adjustablePressure": "",
+            "brewBoiler": ".30 L",
+            "steamBoiler": ".95 L",
+            "tank": {
+                "plumb": "tank"
+            },
+            "groupType": "Ring",
+            "portafilterSize": "58 mm",
+            "wattage": "1700",
+            "reservoir": "2.5 L"
+        },
+        {
+            "priceUsd": "$1,499.00",
+            "brand": "Lelit",
+            "model": "PL92T Elizabeth",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Vibration",
+            "pressureGauge": "Single",
+            "adjustablePressure": "",
+            "brewBoiler": ".30 L",
+            "steamBoiler": ".60 L",
+            "tank": {
+                "plumb": "tank"
+            },
+            "groupType": "Ring",
+            "portafilterSize": "58 mm",
+            "wattage": "1000",
+            "reservoir": ""
+        },
+        {
+            "priceUsd": "$1,650.00",
+            "brand": "Profitec",
+            "model": "Pro 300",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Vibration",
+            "pressureGauge": "Single",
+            "adjustablePressure": "YES",
+            "brewBoiler": ".40 L",
+            "steamBoiler": ".75 L",
+            "tank": {
+                "plumb": "tank"
+            },
+            "groupType": "Ring",
+            "portafilterSize": "58 mm",
+            "wattage": "800",
+            "reservoir": ""
+        },
+        {
+            "priceUsd": "$1,895.00",
+            "brand": "LA SPAZIALE",
+            "model": "Mini Vivaldi II",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Vibration",
+            "pressureGauge": "Digital",
+            "adjustablePressure": "YES",
+            "brewBoiler": ".45 L",
+            "steamBoiler": "1.20 L",
+            "tank": {
+                "plumb": "tank"
+            },
+            "groupType": "Ring",
+            "portafilterSize": "53 mm",
+            "wattage": "800",
+            "reservoir": "",
+            "twoGroupViable": "",
+            "Bigger version of Export and has manometer": "",
+            "dimensions": "415x415x385mm",
+            "images": ["mini-vivaldi.png"],
+            "additionalInfo": {
+                "notes": [
+                    "The Mini Vivaldi II is the little brother of the La Spaziale Vivaldi II which has an enormous positive reputation among home coffee enthusiasts. The main difference between them is the Mini is water tank only whereas the La Spaziale Vivaldi is plumb only. This may be enough to consider the Mini, however, there are some other differences such as Rotary vs Vibratory pump, boiler capacities, preinfusion capabilities and size."
+                ],
+                "links": {
+                    "official": "https://www.laspaziale.com/index.php/en/products/coffee-machines/s1/s1-mini-vivaldi-ii",
+                    "reviews": [
+                        {
+                            "name": "Whole Latte Love - Product Page",
+                            "link": "https://www.wholelattelove.com/products/la-spaziale-s1-mini-vivaldi-ii"
+                        },
+                        {
+                            "name": "Espresso Outlet - Info",
+                            "link": "https://www.espressooutlet.net/espresso-outlet-blog/what-is-the-difference-between-the-la-spaziale-dream-dream-t-vivaldi-ii-and-mini-vivaldi-ii/"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "priceUsd": "$1,895.00",
+            "brand": "LUCCA",
+            "model": "A53 Mini",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Vibration",
+            "pressureGauge": "Digital",
+            "adjustablePressure": "YES",
+            "brewBoiler": ".45 L",
+            "steamBoiler": "1.20 L",
+            "tank": {
+                "plumb": "tank"
+            },
+            "groupType": "Ring",
+            "portafilterSize": "53 mm",
+            "wattage": "",
+            "reservoir": "",
+            "twoGroupViable": "",
+            "Bigger version of Export and has manometer": "",
+            "dimensions": "16.5x16.5x15.25in",
+            "images": ["lucca-a53-mini.webp", "a53-mini.webp"],
+            "additionalInfo": {
+                "notes": [
+                    "It's essentially a La Spaziale, designed and marketed by Clivecoffee.com. It's close to perfect."
+                ],
+                "links": {
+                    "official": "https://clivecoffee.com/products/lucca-a53-mini-espresso-machine-by-la-spaziale",
+                    "reviews": [
+                        {
+                            "name": "Clive Coffee - Why We Love Lucca",
+                            "link": "https://clivecoffee.com/blogs/learn/why-we-love-the-lucca-a53-mini"
+                        },
+                        {
+                            "name": "Clive Coffee - Why We Love Lucca - Video",
+                            "link": "https://www.youtube.com/watch?v=s2c5Wr_kQNQ"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "priceUsd": "$2,095.00",
+            "brand": "LA SPAZIALE",
+            "model": "Dream T",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Vibration",
+            "pressureGauge": "Digital",
+            "adjustablePressure": "YES",
+            "brewBoiler": ".45 L",
+            "steamBoiler": "1.20 L",
+            "tank": {
+                "plumb": "tank"
+            },
+            "groupType": "Saturated",
+            "portafilterSize": "53 mm",
+            "wattage": "",
+            "reservoir": ""
+        },
+        {
+            "priceUsd": "$2,195.00",
+            "brand": "LA SPAZIALE",
+            "model": "Vivaldi II",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Vibration",
+            "pressureGauge": "Digital",
+            "adjustablePressure": "YES",
+            "brewBoiler": ".45 L",
+            "steamBoiler": "2.50 L",
+            "tank": {
+                "plumb": "Plumbed"
+            },
+            "groupType": "Ring",
+            "portafilterSize": "53 mm",
+            "wattage": "",
+            "reservoir": "",
+            "twoGroupViable": "",
+            "Bigger version of Export and has manometer": ""
+        },
+        {
+            "priceUsd": "$2,195.00",
+            "brand": "LUCCA",
+            "model": "Direct plumb A53",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Vibration",
+            "pressureGauge": "Digital",
+            "adjustablePressure": "YES",
+            "brewBoiler": ".45 L",
+            "steamBoiler": "1.20 L",
+            "tank": {
+                "plumb": "Plumbed"
+            },
+            "groupType": "Ring",
+            "portafilterSize": "53 mm",
+            "wattage": "",
+            "reservoir": ""
+        },
+        {
+            "priceUsd": "$2,300.00",
+            "brand": "Profitec",
+            "model": "Pro 600",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Vibration",
+            "pressureGauge": "Double",
+            "adjustablePressure": "YES",
+            "brewBoiler": ".45 L",
+            "steamBoiler": "1.20 L",
+            "tank": {
+                "plumb": "tank"
+            },
+            "groupType": "E61",
+            "portafilterSize": "58 mm",
+            "wattage": "1000",
+            "reservoir": ""
+        },
+        {
+            "priceUsd": "$2,395.00",
+            "brand": "LA SPAZIALE",
+            "model": "Dream",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Rotary",
+            "pressureGauge": "Digital",
+            "adjustablePressure": "YES",
+            "brewBoiler": ".45 L",
+            "steamBoiler": "2.50 L",
+            "tank": {
+                "plumb": "Plumbed"
+            },
+            "groupType": "Ring",
+            "portafilterSize": "53 mm",
+            "wattage": "",
+            "reservoir": ""
+        },
+        {
+            "priceUsd": "$2,626.00",
+            "brand": "Bezzera",
+            "model": "DUO MN - Wood Accents",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Rotary",
+            "pressureGauge": "Digital",
+            "adjustablePressure": "YES",
+            "brewBoiler": ".45 L",
+            "steamBoiler": "1.00 L",
+            "tank": {
+                "plumb": "Both"
+            },
+            "groupType": "E61",
+            "portafilterSize": "58 mm",
+            "wattage": "800",
+            "reservoir": "",
+            "twoGroupViable": "",
+            "Bigger version of Export and has manometer": ""
+        },
+        {
+            "priceUsd": "$2,695.00",
+            "brand": "LUCCA",
+            "model": "M58 V2",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Rotary",
+            "pressureGauge": "Double",
+            "adjustablePressure": "YES",
+            "brewBoiler": ".75 L",
+            "steamBoiler": "1.40 L",
+            "tank": {
+                "plumb": "Both"
+            },
+            "groupType": "E61",
+            "portafilterSize": "58 mm",
+            "wattage": "1400",
+            "reservoir": "",
+            "twoGroupViable": "",
+            "Bigger version of Export and has manometer": ""
+        },
+        {
+            "priceUsd": "$2,695.00",
+            "brand": "Quick Mill",
+            "model": "Vetrano 2B Evo",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Rotary",
+            "pressureGauge": "Double",
+            "adjustablePressure": "YES",
+            "brewBoiler": ".75 L",
+            "steamBoiler": "1.40 L",
+            "tank": {
+                "plumb": "Both"
+            },
+            "groupType": "E61",
+            "portafilterSize": "58 mm",
+            "wattage": "1400",
+            "reservoir": "",
+            "twoGroupViable": "",
+            "Bigger version of Export and has manometer": ""
+        },
+        {
+            "priceUsd": "$2,695.00",
+            "brand": "VBM",
+            "model": "Domobar Super",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Rotary",
+            "pressureGauge": "Double",
+            "adjustablePressure": "",
+            "brewBoiler": ".50 L",
+            "steamBoiler": "1.90 L",
+            "tank": {
+                "plumb": "Both"
+            },
+            "groupType": "E61",
+            "portafilterSize": "58 mm",
+            "wattage": "1600",
+            "reservoir": "",
+            "twoGroupViable": "",
+            "Bigger version of Export and has manometer": "",
+            "images": [],
+            "dimensions": "",
+            "additionalInfo": {
+                "notes": "It's an excellent choice even in 2023, although there are more alluring and modern design machines available. This is the only volumetric machine in this price point so it's worth considering.",
+                "links": {
+                    "official": "https://www.simonelliusa.com/Oscar-II",
+                    "reviews": [
+                        {
+                            "name": "Majesty Coffee",
+                            "link": "https://www.youtube.com/watch?v=yhcUB3HEgGs"
+                        },
+                        {
+                            "name": "Home Cafe By Charlie",
+                            "link": "https://www.youtube.com/watch?v=77mv0fEISf0"
+
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "priceUsd": "$2,700.00",
+            "brand": "Profitec",
+            "model": "Pro 700",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Rotary",
+            "pressureGauge": "Double",
+            "adjustablePressure": "YES",
+            "brewBoiler": ".73 L",
+            "steamBoiler": "2.00 L",
+            "tank": {
+                "plumb": "Both"
+            },
+            "groupType": "E61",
+            "portafilterSize": "58 mm",
+            "wattage": "1400",
+            "reservoir": ""
+        },
+        {
+            "priceUsd": "$2,729.00",
+            "brand": "Bezzera",
+            "model": "Matrix MN",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Rotary",
+            "pressureGauge": "Digital",
+            "adjustablePressure": "YES",
+            "brewBoiler": ".45 L",
+            "steamBoiler": "1.00 L",
+            "tank": {
+                "plumb": "Both"
+            },
+            "groupType": "E61",
+            "portafilterSize": "58 mm",
+            "wattage": "1200",
+            "reservoir": ""
+        },
+        {
+            "priceUsd": "$2,790.00",
+            "brand": "IZZO",
+            "model": "Alex Duetto IV Plus",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Rotary",
+            "pressureGauge": "Double",
+            "adjustablePressure": "YES",
+            "brewBoiler": ".80 L",
+            "steamBoiler": "1.80 L",
+            "tank": {
+                "plumb": "Both"
+            },
+            "groupType": "E61",
+            "portafilterSize": "58 mm",
+            "wattage": "1200",
+            "reservoir": ""
+        },
+        {
+            "priceUsd": "$2,795.00",
+            "brand": "Lelit",
+            "model": "Bianca - Flow control",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Rotary",
+            "pressureGauge": "TRIPLE",
+            "adjustablePressure": "",
+            "brewBoiler": ".80 L",
+            "steamBoiler": "1.50 L",
+            "tank": {
+                "plumb": "Both"
+            },
+            "groupType": "E61",
+            "portafilterSize": "58 mm",
+            "wattage": "1400",
+            "reservoir": "2.5 L",
+            "images": [
+                "https://news.bellabarista.co.uk/wp-content/uploads/2018/09/lelit-bianca-dual-boiler-espresso-machine-torquay.jpg"
+            ],
+            "dimensions": "15.75x11.4x19.1in",
+            "weight": "58.5 lbs",
+            "additionalInfo": {
+                "notes": [
+                    "The Lelit Bianca stands as a trailblazer in the prosumer espresso realm, pioneering flow control and profiling. Its distinctive wood accents and standard flow control setting set it apart. A remarkable touch is the modular reservoir, which can shrink the machine when plumbed or be positioned freely. This innovation has maintained its allure since our first encounter, a lasting testament to its design brilliance. Flow profiling, once confined to commercial machines, is now democratized by the Lelit Bianca, designed to empower home baristas with its potent and versatile features."
+                ],
+                "links": {
+                    "official": "https://lelit.com/product/bianca-pl162t/",
+                    "reviews": [
+                        {
+                            "name": "Clive Coffee",
+                            "link": "https://clivecoffee.com/products/lelit-bianca-dual-boiler-espresso-machine"
+                        },
+                        {
+                            "name": "The Real sprometheus",
+                            "link": "https://www.youtube.com/watch?v=pxDlF_N-_VM"
+                        }
+                    ]
+                }
+
+            }
+        },
+        {
+            "priceUsd": "$2,832.00",
+            "brand": "Bezzera",
+            "model": "Duo DE - Volumetric",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Rotary",
+            "pressureGauge": "Digital",
+            "adjustablePressure": "",
+            "brewBoiler": ".45 L",
+            "steamBoiler": "1.00 L",
+            "tank": {
+                "plumb": "Both"
+            },
+            "groupType": "BZ",
+            "portafilterSize": "58 mm",
+            "wattage": "1200",
+            "reservoir": ""
+        },
+        {
+            "priceUsd": "$2,899.00",
+            "brand": "IZZO",
+            "model": "Alex Duetto IV Pro",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Rotary",
+            "pressureGauge": "Double",
+            "adjustablePressure": "YES",
+            "brewBoiler": ".80 L",
+            "steamBoiler": "1.80 L",
+            "tank": {
+                "plumb": "Both"
+            },
+            "groupType": "E61",
+            "portafilterSize": "58 mm",
+            "wattage": "1200",
+            "reservoir": ""
+        },
+                {
+            "priceUsd": "$2,935.00",
+            "brand": "Bezzera",
+            "model": "Matrix MN",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Rotary",
+            "pressureGauge": "Digital",
+            "adjustablePressure": "YES",
+            "brewBoiler": ".45 L",
+            "steamBoiler": "1.00 L",
+            "tank": {
+                "plumb": "Both"
+            },
+            "groupType": "BZ",
+            "portafilterSize": "58 mm",
+            "wattage": "1200",
+            "reservoir": ""
+        },
+        {
+            "priceUsd": "$2,999.00",
+            "brand": "ECM",
+            "model": "Synchronika",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Rotary",
+            "pressureGauge": "Double",
+            "adjustablePressure": "YES",
+            "brewBoiler": ".75 L",
+            "steamBoiler": "2.00 L",
+            "tank": {
+                "plumb": "Both"
+            },
+            "groupType": "E61",
+            "portafilterSize": "58 mm",
+            "wattage": "1400",
+            "reservoir": ""
+        },
+        {
+            "priceUsd": "$3,000.00",
+            "brand": "Rocket",
+            "model": "R58 V2",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Rotary",
+            "pressureGauge": "Double",
+            "adjustablePressure": "YES",
+            "brewBoiler": ".56 L",
+            "steamBoiler": "1.70 L",
+            "tank": {
+                "plumb": "Both"
+            },
+            "groupType": "E61",
+            "portafilterSize": "58 mm",
+            "wattage": "1400",
+            "reservoir": ""
+        },
+        {
+            "priceUsd": "$3,199.00",
+            "brand": "ECM",
+            "model": "Synchronika Anthracite",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Rotary",
+            "pressureGauge": "Double",
+            "adjustablePressure": "YES",
+            "brewBoiler": ".75 L",
+            "steamBoiler": "2.00 L",
+            "tank": {
+                "plumb": "Both"
+            },
+            "groupType": "E61",
+            "portafilterSize": "58 mm",
+            "wattage": "1400",
+            "reservoir": ""
+        },
+        {
+            "priceUsd": "$3,199.00",
+            "brand": "ECM",
+            "model": "Synchronika Flow Ctrl",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Rotary",
+            "pressureGauge": "Double",
+            "adjustablePressure": "YES",
+            "brewBoiler": ".75 L",
+            "steamBoiler": "2.00 L",
+            "tank": {
+                "plumb": "Both"
+            },
+            "groupType": "E61",
+            "portafilterSize": "58 mm",
+            "wattage": "1400",
+            "reservoir": ""
+        },
+        {
+            "priceUsd": "$4,495.00",
+            "brand": "M&V Srl.",
+            "model": "Vesuvius",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Gear",
+            "pressureGauge": "Digital",
+            "adjustablePressure": "YES",
+            "brewBoiler": ".80 L",
+            "steamBoiler": "1.50 L",
+            "tank": {
+                "plumb": "Both"
+            },
+            "groupType": "E61",
+            "portafilterSize": "58 mm",
+            "wattage": "1400",
+            "reservoir": ""
+        },
+        {
+            "priceUsd": "$4,750.00",
+            "brand": "Rocket",
+            "model": "R60V",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Rotary",
+            "pressureGauge": "Double",
+            "adjustablePressure": "",
+            "brewBoiler": ".58 L",
+            "steamBoiler": "1.70 L",
+            "tank": {
+                "plumb": "Both"
+            },
+            "groupType": "E61",
+            "portafilterSize": "58 mm",
+            "wattage": "1400",
+            "reservoir": ""
+        },
+        {
+            "priceUsd": "$4,900.00",
+            "brand": "La Marzocco",
+            "model": "Linea Mini",
+            "boilerType": "DB",
+            "pid": "YES",
+            "pumpType": "Rotary",
+            "pressureGauge": "Double",
+            "adjustablePressure": "YES",
+            "brewBoiler": ".17 L",
+            "steamBoiler": "3.50 L",
+            "tank": {
+                "plumb": "Both"
+            },
+            "groupType": "Ring",
+            "portafilterSize": "58 mm",
+            "wattage": "1600",
+            "reservoir": ""
+        },
+        {
+            "priceUsd": "$8,500.00",
+            "brand": "Dalla Corte",
+            "model": "Mina",
+            "boilerType": "DB",
+            "pid": "NO",
+            "pumpType": "Rotary",
+            "pressureGauge": "Single",
+            "adjustablePressure": "",
+            "brewBoiler": ".50 L",
+            "steamBoiler": "3.00 L",
+            "tank": {
+                "plumb": "Plumbed"
+            },
+            "groupType": "Ring",
+            "portafilterSize": "54 mm",
+            "wattage": "1437",
+            "reservoir": ""
+        }
+    ]
+}

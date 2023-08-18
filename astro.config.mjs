@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config';
 import mdx from "@astrojs/mdx";
-import sitemap from "@astrojs/sitemap"; // https://astro.build/config
+import sitemap from "@astrojs/sitemap";
 
 import solidJs from "@astrojs/solid-js";
 
@@ -12,5 +12,5 @@ export default defineConfig({
     assets: true
   },
   integrations: [mdx(), sitemap(), solidJs(), svelte()],
-  site: 'https://www.drippingcoffee.com/'
+  site: 'https://www.drippingcoffee.com/',
 });

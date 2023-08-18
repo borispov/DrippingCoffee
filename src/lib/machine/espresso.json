@@ -18,9 +18,10 @@
             "portafilterSize": "54mm",
             "wattage": "600",
             "reservoir": "1.8L",
-            "INFO": {
-                "notes": "A Thermocoil design, a fast heat up time, great compromise",
+            "additionalInfo": {
+                "notes": "A Thermocoil design, a fast heat up time, great compromise.",
                 "links": {
+                    "official": "https://www.breville.com/us/en/products/espresso/bes500.html",
                     "internal": "https://drippingcoffee.com/posts/breville-bambino-plus"
                 }
             }
@@ -64,12 +65,7 @@
             "wattage": "",
             "reservoir": "0.06L",
             "FIELD16": "Portable",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "Bigger version of Export and has manometer": ""
         },
         {
             "priceUsd": "$640.00",
@@ -90,12 +86,7 @@
             "wattage": "",
             "reservoir": "0.06L",
             "FIELD16": "Portable",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "Bigger version of Export and has manometer": ""
         },
         {
             "priceUsd": "$640.00",
@@ -116,12 +107,7 @@
             "wattage": "1370",
             "reservoir": "0.09L",
             "FIELD16": "Portable",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "Bigger version of Export and has manometer": ""
         },
         {
             "priceUsd": "$449.00",
@@ -141,13 +127,8 @@
             "portafilterSize": "58 mm",
             "wattage": "1370",
             "reservoir": "2.0 L",
-            "FIELD16": "",
-            "FIELD17": "",
             "twoGroupViable": "Digital Flow Regulator",
-            "Bigger version of Export and has manometer": "Flow Control",
-            "FIELD20": "Smartphone App",
-            "FIELD21": "Pressure Profiling",
-            "FIELD22": ""
+            "Bigger version of Export and has manometer": "Flow Control"
         },
         {
             "priceUsd": "$629.00",
@@ -166,14 +147,7 @@
             "groupType": "Ring",
             "portafilterSize": "57 mm",
             "wattage": "1000",
-            "reservoir": "2.6 L",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": "2.6 L"
         },
         {
             "priceUsd": "$699.00",
@@ -193,13 +167,7 @@
             "portafilterSize": "58 mm",
             "wattage": "1150",
             "reservoir": "2.0 L",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "Notes1",
-            "Bigger version of Export and has manometer": "Notes2",
-            "FIELD20": "Notes3",
-            "FIELD21": "",
-            "FIELD22": ""
+            "Bigger version of Export and has manometer": "Notes2"
         },
         {
             "priceUsd": "$715.00",
@@ -219,13 +187,7 @@
             "portafilterSize": "58 mm",
             "wattage": "1100",
             "reservoir": "2.0 L",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "Final price can vary",
-            "Bigger version of Export and has manometer": "Very customizable machine for panels, size, groups, PID, drain valve, etc",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "Bigger version of Export and has manometer": "Very customizable machine for panels, size, groups, PID, drain valve, etc"
         },
         {
             "priceUsd": "$749.00",
@@ -244,46 +206,13 @@
             "groupType": "Ring",
             "portafilterSize": "58 mm",
             "wattage": "1200",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
-        },
-        {
-            "priceUsd": "$765.00",
-            "brand": "Bezzera",
-            "model": "Hobby 01",
-            "boilerType": "SB",
-            "pid": "NO",
-            "pumpType": "Vibration",
-            "pressureGauge": "NO",
-            "adjustablePressure": "NO",
-            "brewBoiler": ".25 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "58 mm",
-            "wattage": "1100",
-            "reservoir": "3.0 L",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$839.00",
             "brand": "La Pavoni",
             "model": "Europiccola 8",
-            "boilerType": "HX",
+            "boilerType": "Dipper",
             "pid": "NO",
             "pumpType": "None",
             "pressureGauge": "NO",
@@ -297,13 +226,32 @@
             "portafilterSize": "58 mm",
             "wattage": "1000",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
             "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "weight": "6.3 kg",
+            "dimensions": "302x447x393mm",
+            "images": [
+                "epc-8.jpeg"
+            ],
+            "additionalInfo": {
+                "notes": [
+                    "A classic manual lever espresso machine that embodies traditional classic craftsmanship. It's a great lever to try out since it's usually cheap to buy new and even cheaper used. Coffee enthusiasts love to customize and rebuild old models of this machine because there are plenty of available sources online for buying parts.",
+                    "Beware though, using such machine does not ensure great cup of coffee everytime. Quite the contrary, pain and suffering will certainly be around until you get enough experience and practice.",
+                    "Don't hesitate to join online forums wherever you are in the world, everybody loves a Europiccola and can share some useful advice."
+                ],
+                "links": {
+                    "official": "https://www.lapavoni.com/",
+                    "reviews": [
+                        {
+                            "name": "Whole Latte Love - Video 2012",
+                            "link": "https://www.youtube.com/watch?v=Y6bXjnUr4fE"
+                        },
+                        {
+                            "name": "James Hoffmann",
+                            "link": "https://www.youtube.com/watch?v=lKimj0vRM5A"
+                        }
+                    ]
+                }
+            }
         },
         {
             "priceUsd": "$899.00",
@@ -322,20 +270,13 @@
             "groupType": "Lever",
             "portafilterSize": "45 mm",
             "wattage": "800",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "Originally branded as SAMA or DAMPA",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$999.00",
             "brand": "Ascaso",
             "model": "Dream",
-            "boilerType": "HX",
+            "boilerType": "Thermoblock",
             "pid": "YES",
             "pumpType": "Vibration",
             "pressureGauge": "Single",
@@ -349,13 +290,16 @@
             "portafilterSize": "58 mm",
             "wattage": "1090",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "images": [
+                "dream.jpeg",
+                "dream-2.jpeg"
+            ],
+            "additionalInfo": {
+                "notes": "An elegant and beautiful masterpiece by Ascaso. Thermoblock group with good steam pressure and quick heating elements. Made in spain",
+                "links": {
+                    "official": "https://www.ascaso.com/div-espresso-coffee-machines-grinders/dream-1.html"
+                }
+            }
         },
         {
             "priceUsd": "$999.00",
@@ -374,14 +318,7 @@
             "groupType": "Lever",
             "portafilterSize": "45 mm",
             "wattage": "1000",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$999.00",
@@ -400,14 +337,7 @@
             "groupType": "Ring",
             "portafilterSize": "58 mm",
             "wattage": "1200",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$1,029.00",
@@ -427,18 +357,12 @@
             "portafilterSize": "58 mm",
             "wattage": "1000",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "Magnetic Drip Tray",
-            "Bigger version of Export and has manometer": "External Prew Pressure adjustment",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "Bigger version of Export and has manometer": "External Prew Pressure adjustment"
         },
         {
             "priceUsd": "$1,075.00",
             "brand": "Rancilio",
-            "model": "Silva Black w/PID",
+            "model": "Silva Black PID",
             "boilerType": "SB",
             "pid": "YES",
             "pumpType": "Vibration",
@@ -452,14 +376,7 @@
             "groupType": "Ring",
             "portafilterSize": "58 mm",
             "wattage": "1100",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$1,079.00",
@@ -478,14 +395,7 @@
             "groupType": "Ring",
             "portafilterSize": "58 mm",
             "wattage": "1200",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$1,099.00",
@@ -504,14 +414,7 @@
             "groupType": "Ring",
             "portafilterSize": "58 mm",
             "wattage": "900",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$1,099.00",
@@ -531,16 +434,11 @@
             "portafilterSize": "58 mm",
             "wattage": "1000",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "Lelit Control Center",
             "Bigger version of Export and has manometer": "Pre-infusion",
-            "FIELD20": "Shot Timer",
-            "FIELD21": "",
-            "FIELD22": ""
+            "FIELD20": "Shot Timer"
         },
         {
-            "priceUsd": "$1,295.00",
+            "priceUsd": "$1,495.00",
             "brand": "Nuova Simonelli",
             "model": "Oscar II - Volumetric",
             "boilerType": "HX",
@@ -557,13 +455,26 @@
             "portafilterSize": "58 mm",
             "wattage": "1300",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "images": [
+                "oscar-ii-volumetric.webp"
+            ],
+            "additionalInfo": {
+                "notes": "It's an excellent choice even in 2023, although there are more alluring and modern design machines available. This is the only volumetric machine in this price point so it's worth considering.",
+                "links": {
+                    "official": "https://www.simonelliusa.com/Oscar-II",
+                    "reviews": [
+                        {
+                            "name": "Majesty Coffee",
+                            "link": "https://www.youtube.com/watch?v=yhcUB3HEgGs"
+                        },
+                        {
+                            "name": "Home Cafe By Charlie",
+                            "link": "https://www.youtube.com/watch?v=77mv0fEISf0"
+
+                        }
+                    ]
+                }
+            }
         },
         {
             "priceUsd": "$1,299.00",
@@ -583,39 +494,27 @@
             "portafilterSize": "58 mm",
             "wattage": "",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
             "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
-        },
-        {
-            "priceUsd": "$1,299.00",
-            "brand": "Lelit",
-            "model": "PL92T Elizabeth",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Single",
-            "adjustablePressure": "",
-            "brewBoiler": ".30 L",
-            "steamBoiler": ".60 L",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "58 mm",
-            "wattage": "1000",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "images": [
+                "still-duo.jpeg"
+            ],
+            "additionalInfo": {
+                "notes": "A machine that has it all, PID, preinfusion, but all those features come with a compromise.",
+                "links": {
+                    "official": "https://ascaso-usa.com/products/steel-duo-pid-programmable-espresso-machine-w-volumetric-controls-dual-thermoblock-120v-white",
+                    "reviews": [
+                        {
+                            "name": "Lifestyle Lab",
+                            "link": "https://www.youtube.com/watch?v=L0rSVpwgPVo"
+                        },
+                        {
+                            "name": "Daddy Got Coffee",
+                            "link": "https://www.youtube.com/watch?v=LLGIbir7F3w"
+
+                        }
+                    ]
+                }
+            }
         },
         {
             "priceUsd": "$1,300.00",
@@ -634,14 +533,7 @@
             "groupType": "Ring",
             "portafilterSize": "58 mm",
             "wattage": "1700",
-            "reservoir": "2.5 L",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": "2.5 L"
         },
         {
             "priceUsd": "$1,317.00",
@@ -661,13 +553,7 @@
             "portafilterSize": "58 mm",
             "wattage": "1300",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "Magnetic Drip Tray",
-            "Bigger version of Export and has manometer": "Internal Prew Pressure adjustment",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "Bigger version of Export and has manometer": "Internal Prew Pressure adjustment"
         },
         {
             "priceUsd": "$1,379.00",
@@ -686,14 +572,7 @@
             "groupType": "Lever",
             "portafilterSize": "58 mm",
             "wattage": "1000",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$1,437.00",
@@ -712,14 +591,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1300",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$1,449.00",
@@ -738,14 +610,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1200",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "240 V UK only",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$1,449.00",
@@ -765,39 +630,38 @@
             "portafilterSize": "58mm",
             "wattage": "1400",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
             "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
-        },
-        {
-            "priceUsd": "$1,462.00",
-            "brand": "Astra",
-            "model": "PRO",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Vibration",
-            "pressureGauge": "Single",
-            "adjustablePressure": "",
-            "brewBoiler": "2.60 L",
-            "steamBoiler": ".00 L",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1300",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "images": ["mara-x-black.png", "mara-x.webp" ],
+            "additionalInfo": {
+                "notes": "Lelit Mara X is perhaps the best budget heat exchanger machine on the market. Not only is it affordable, the lelit mara X is considered a very capable machine and loved by many coffee enthusiasts and for a good reason.",
+                "links": {
+                    "official": "https://lelit.com/product/marax-pl62x/",
+                    "internal": "https://drippingcoffee.com/posts/best-prosumer-espresso-machine/#lelit-mara-x",
+                    "reviews": [
+                        {
+                            "name": "Home Barista - another_jim 2020",
+                            "link": "https://www.home-barista.com/blog/lelit-marax-review-t63863.html"
+                        },
+                        {
+                            "name": "Lance Hedrick - 2023",
+                            "link": "https://www.youtube.com/watch?v=X8QFNTOY7uU"
+                        },
+                        {
+                            "name": "Dave Corbey - 2020",
+                            "link": "https://www.youtube.com/watch?v=j2HHfqOjGN0&list=PLUPtpdtiNCukn7QfExc73cpERoH2Dm1EG"
+                        },
+                        {
+                            "name": "Stefanus Goana 2021",
+                            "link": "https://www.youtube.com/watch?v=XlvoE4Kd8xw&t=286s&pp=ygUNTWFyYSB4IHJldmlldw%3D%3D"
+                        },
+                        {
+                            "name": "ECS Coffee Espresso & Coffee Gear",
+                            "link": "https://www.youtube.com/watch?v=Hv0HOHF3BmE&pp=ygUNTWFyYSB4IHJldmlldw%3D%3D"
+                        }
+
+                    ]
+                }
+            }
         },
         {
             "priceUsd": "$1,499.00",
@@ -816,21 +680,14 @@
             "groupType": "Ring",
             "portafilterSize": "58 mm",
             "wattage": "1000",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$1,499.00",
             "brand": "Bezzera",
             "model": "BZ07 DE V2",
             "boilerType": "HX",
-            "pid": "NO",
+            "pid": "YES",
             "pumpType": "Vibration",
             "pressureGauge": "Double",
             "adjustablePressure": "",
@@ -842,14 +699,20 @@
             "groupType": "BZ",
             "portafilterSize": "58 mm",
             "wattage": "1400",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
+            "reservoir": "3L",
             "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "additionalInfo": {
+                "notes": "Not so popular espresso machine by Bezzera, A classic heat exchanger with a powerful steaming power thanks to its 1.5 L boiler with a PID.",
+                "links": {
+                    "official": "https://www.bezzera.it/en/home",
+                    "reviews": [
+                        {
+                            "name": "Whole Latte Love",
+                            "link": "https://www.youtube.com/watch?v=eSAacTxU6Lg"
+                        }
+                    ]
+                }
+            }
         },
         {
             "priceUsd": "$1,499.00",
@@ -869,13 +732,24 @@
             "portafilterSize": "58 mm",
             "wattage": "1600",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
             "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "images": ["domobar-junior.jpeg"],
+            "additionalInfo": {
+                "notes": "Another great product from Vibiemme, the Domobar Junior. It's a solid well-built, capable espresso machine that can produce high-quality coffee and will serve you for years. This machine has been out for years and today it comes with a digital or analog versions. It's a classic E61 Heat exchanger, but the digital version really feels like a premium, solid and durable machine. Personally, I think it looks cooler than other standard E61 groups like the Mara X and others.",
+                "links": {
+                    "official": "https://www.vbmespresso.com/en/home-barista/domobar-junior/",
+                    "reviews": [
+                        {
+                            "name": "Alternative Brewing",
+                            "link": "https://www.youtube.com/watch?v=xT0WGtK3Knw"
+                        },
+                        {
+                            "name": "Coffee Parts",
+                            "link": "https://www.youtube.com/watch?v=TKDrP5Yweqs"
+                        }
+                    ]
+                }
+            }
         },
         {
             "priceUsd": "$1,599.00",
@@ -894,14 +768,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1200",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$1,620.00",
@@ -921,13 +788,24 @@
             "portafilterSize": "58 mm",
             "wattage": "1200",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
             "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "images": ["bz10.jpeg"],
+            "additionalInfo": {
+                "notes": "Bezzera BZ10 is a great Heat Exchanger from a company you can't go wrong with. It features a house grouphead which can be a plus for its uniqueness but harder to service. You can easily brew your espresso and froth your milk simulatenously. The toughest thing is to decide whether or not you'd like a Lelit Mara X instead.",
+                "links": {
+                    "official": "https://www.bezzera.it/en/machines/bz10",
+                    "reviews": [
+                        {
+                            "name": "Coffeedino - 2023?",
+                            "link": "https://coffeedino.com/bezzera-bz10-review/"
+                        },
+                        {
+                            "name": "Coffeesnobs Discussion",
+                            "link": "https://www.youtube.com/watch?v=TKDrP5Yweqs"
+                        }
+                    ]
+                }
+            }
         },
         {
             "priceUsd": "$1,650.00",
@@ -946,14 +824,7 @@
             "groupType": "Ring",
             "portafilterSize": "58 mm",
             "wattage": "800",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$1,690.00",
@@ -966,20 +837,33 @@
             "adjustablePressure": "YES",
             "brewBoiler": "1.80 L",
             "steamBoiler": "",
+            "boilerMaterial": "copper",
             "tank": {
                 "plumb": "tank"
             },
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1200",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "weight": "44 lbs",
+            "dimensions": "10.8x14.2x16.75in",
+            "reservoir": "2.9 L",
+            "images": ["appartamento.jpeg"],
+            "additionalInfo": {
+                "notes": "Rocket Appartamento is one of the most popular HX machines in the world, it's quite compact but solid machine, produces great espresso and looks astonishing with iconic Rocket knobs. However, with the Lelit Mara X out there, it's hard to recommend any HX over that, and Rocket Appartamento doesn't provide a technical or aesthetic advantage over the Mara X. The Rocket, as most HX machines, require a backflush to get to the desired temperature, unlike the Mara X.",
+                "links": {
+                    "official": "https://rocket-espresso.com/appartamento.html",
+                    "reviews": [
+                        {
+                            "name": "Home Barista discussion 2020",
+                            "link": "https://www.home-barista.com/advice/rocket-appartamento-vs-ecm-mechanika-vs-lelit-marax-t69945.html"
+                        },
+                        {
+                            "name": "Xris",
+                            "link": "https://www.youtube.com/watch?v=q9kTAcC6V0A"
+                        }
+                    ]
+                }
+            }
         },
         {
             "priceUsd": "$1,695.00",
@@ -998,40 +882,7 @@
             "groupType": "Lever",
             "portafilterSize": "49 mm",
             "wattage": "800",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
-        },
-        {
-            "priceUsd": "$1,739.00",
-            "brand": "Bezzera",
-            "model": "BZ10 Wood Accents",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Vibration",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": "3.00 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "BZ",
-            "portafilterSize": "58 mm",
-            "wattage": "1200",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$1,795.00",
@@ -1049,15 +900,26 @@
             },
             "groupType": "E61",
             "portafilterSize": "58 mm",
-            "wattage": "1200",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
+            "wattage": "1400",
+            "reservoir": "3L",
             "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "images": ["andreja-evo.webp"],
+            "additionalInfo": {
+                "notes": "The Andreja Premium can be equipped with multi-directional joystick steam and hot water assemblies. Direct connect plumbing option available. Keep in mind, there is no PID.",
+                "links": {
+                    "official": "https://www.quickmill.it/en/products/lever-group/andreja-mod-0980/",
+                    "reviews": [
+                        {
+                            "name": "Majesty Coffee",
+                            "link": "https://majestycoffee.com/collections/best-espresso-machines-for-office-use/products/quick-mill-andreja-premium-evo-espresso-maker-0980p-a"
+                        },
+                        {
+                            "name": "HomeGrounds",
+                            "link": "https://www.homegrounds.co/quick-mill-andreja-premium-review/"
+                        }
+                    ]
+                }
+            }
         },
         {
             "priceUsd": "$1,799.00",
@@ -1076,40 +938,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1450",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
-        },
-        {
-            "priceUsd": "$1,799.00",
-            "brand": "VBM",
-            "model": "Domobar Super",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Vibration",
-            "pressureGauge": "Double",
-            "adjustablePressure": "",
-            "brewBoiler": "1.80 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1600",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$1,850.00",
@@ -1120,7 +949,7 @@
             "pumpType": "Vibration",
             "pressureGauge": "Double",
             "adjustablePressure": "YES",
-            "brewBoiler": "1.00 L",
+            "brewBoiler": "2.00 L",
             "steamBoiler": "",
             "tank": {
                 "plumb": "tank"
@@ -1128,14 +957,30 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1400",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
+            "reservoir": "2.8 l",
+            "ecoMode": "Programmable ECO-Mode",
             "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "images": [
+                "mechanika.jpeg"
+            ],
+            "dimensions": "302x447x393mm",
+            "additionalInfo": {
+                "notes": "The Profitec Pro 500 is a premium espresso machine renowned for its quality craftsmanship and advanced features. With a powerful boiler, PID temperature control, and E61 group head, it ensures precise brewing for exceptional espresso enthusiasts.",
+                "links": {
+                    "official": "https://www.profitec-espresso.com/en/products/pro500",
+                    "reviews": [
+                        {
+                            "name": "Home Barista - Forum User",
+                            "link": "https://www.home-barista.com/espresso-machines/profitec-pro-500-pid-experience-so-far-t64622.html"
+                        },
+                        {
+                            "name": "Whole Latte Love",
+                            "link": "https://www.youtube.com/watch?v=vuci2UFdt4w"
+                        }
+                    ]
+                }
+            }
+
         },
         {
             "priceUsd": "$1,850.00",
@@ -1154,40 +999,24 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1400",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
+            "reservoir": "2.8 L",
             "twoGroupViable": "",
             "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
-        },
-        {
-            "priceUsd": "$1,879.00",
-            "brand": "Bezzera",
-            "model": "BZ16 PM",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Vibration",
-            "pressureGauge": "Double",
-            "adjustablePressure": "",
-            "brewBoiler": "1.50 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1400",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "dimensions": "250x450x395mm",
+            "images": ["mechanika.jpeg"],
+            "additionalInfo": {
+                "notes": "It's a slim ECM machine, with a top-notch build quality with no detail overlooked and great performance. Big boiler provides extremely good steam preasure for making milk-based drinks all day. Also warms up pretty fast. The only significant downside of this machine is the required flush which the Lelit Mara X doesn't have.",
+                "links": {
+                    "official": "https://www.profitec-espresso.com/en/products/pro500",
+                    "reviews": [
+                        {
+                            "name": "Home Barista - Forum User",
+                            "link": "https://www.home-barista.com/espresso-machines/ecm-mechanika-v-slim-review-t62794.html#p694273"
+                        }
+                    ]
+                }
+            }
+
         },
         {
             "priceUsd": "$1,895.00",
@@ -1207,13 +1036,28 @@
             "portafilterSize": "53 mm",
             "wattage": "800",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
             "twoGroupViable": "",
             "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "dimensions": "415x415x385mm",
+            "images": ["mini-vivaldi.png"],
+            "additionalInfo": {
+                "notes": [
+                    "The Mini Vivaldi II is the little brother of the La Spaziale Vivaldi II which has an enormous positive reputation among home coffee enthusiasts. The main difference between them is the Mini is water tank only whereas the La Spaziale Vivaldi is plumb only. This may be enough to consider the Mini, however, there are some other differences such as Rotary vs Vibratory pump, boiler capacities, preinfusion capabilities and size."
+                ],
+                "links": {
+                    "official": "https://www.laspaziale.com/index.php/en/products/coffee-machines/s1/s1-mini-vivaldi-ii",
+                    "reviews": [
+                        {
+                            "name": "Whole Latte Love - Product Page",
+                            "link": "https://www.wholelattelove.com/products/la-spaziale-s1-mini-vivaldi-ii"
+                        },
+                        {
+                            "name": "Espresso Outlet - Info",
+                            "link": "https://www.espressooutlet.net/espresso-outlet-blog/what-is-the-difference-between-the-la-spaziale-dream-dream-t-vivaldi-ii-and-mini-vivaldi-ii/"
+                        }
+                    ]
+                }
+            }
         },
         {
             "priceUsd": "$1,895.00",
@@ -1233,39 +1077,28 @@
             "portafilterSize": "53 mm",
             "wattage": "",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
             "twoGroupViable": "",
             "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
-        },
-        {
-            "priceUsd": "$1,899.00",
-            "brand": "ECM",
-            "model": "Barista",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "",
-            "brewBoiler": "2.10 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1200",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "dimensions": "16.5x16.5x15.25in",
+            "images": ["a53-mini.webp"],
+            "additionalInfo": {
+                "notes": [
+                    "It's essentially a La Spaziale, designed and marketed by Clivecoffee.com. It's close to perfect."
+                ],
+                "links": {
+                    "official": "https://clivecoffee.com/products/lucca-a53-mini-espresso-machine-by-la-spaziale",
+                    "reviews": [
+                        {
+                            "name": "Clive Coffee - Why We Love Lucca",
+                            "link": "https://clivecoffee.com/blogs/learn/why-we-love-the-lucca-a53-mini"
+                        },
+                        {
+                            "name": "Clive Coffee - Why We Love Lucca - Video",
+                            "link": "https://www.youtube.com/watch?v=s2c5Wr_kQNQ"
+                        }
+                    ]
+                }
+            }
         },
         {
             "priceUsd": "$1,999.00",
@@ -1284,14 +1117,29 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1450",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
+            "reservoir": "4 L",
             "twoGroupViable": "",
             "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "dimensions": "300x425x415mm",
+            "images": ["magica.jpeg"],
+            "additionalInfo": {
+                "notes": [
+                    "Another E61 box from a respectable brand Bezzera. This unit comes with a PID, there is a cheaper non pid version. Sturdy, stable, solid, but quite expensive given the options available for good HX machines."
+                ],
+                "links": {
+                    "official": "https://www.bezzera.it/en/machines/magica",
+                    "reviews": [
+                        {
+                            "name": "Anthony's Espresso Equipment",
+                            "link": "https://www.youtube.com/watch?v=-gBo4jHAkVk"
+                        },
+                        {
+                            "name": "Homegrounds Review",
+                            "link": "https://www.homegrounds.co/bezzera-magica-review/"
+                        }
+                    ]
+                }
+            }
         },
         {
             "priceUsd": "$1,999.00",
@@ -1311,13 +1159,8 @@
             "portafilterSize": "58 mm",
             "wattage": "1350",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
             "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "Bigger version of Export and has manometer": ""
         },
         {
             "priceUsd": "$1,999.00",
@@ -1337,39 +1180,30 @@
             "portafilterSize": "58 mm",
             "wattage": "1600",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
             "twoGroupViable": "",
             "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
-        },
-        {
-            "priceUsd": "$1,999.00",
-            "brand": "Bezzera",
-            "model": "BZ16 DE - Volumetric",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Vibration",
-            "pressureGauge": "Double",
-            "adjustablePressure": "",
-            "brewBoiler": "2.00 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "BZ",
-            "portafilterSize": "58 mm",
-            "wattage": "1350",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "images": ["super-digital.jpeg"],
+            "dimensions": "",
+            "additionalInfo": {
+                "notes": [
+                    "The Vibiemme Domobar Super is a rock-solid machine invented back in the 70s or 80s. It has known a lot of improvements since then and it's a beast by today standards.",
+                    "The latest model was released in 2019, a dual boiler electronic beast. However, it has a brother Heat Exchanger. Personally, I find the 2B more appealing, being a top-end home coffee espresso machine."
+                ],
+                "links": {
+                    "official": "https://www.simonelliusa.com/Oscar-II",
+                    "reviews": [
+                        {
+                            "name": "Majesty Coffee",
+                            "link": "https://www.youtube.com/watch?v=yhcUB3HEgGs"
+                        },
+                        {
+                            "name": "Home Cafe By Charlie",
+                            "link": "https://www.youtube.com/watch?v=77mv0fEISf0"
+
+                        }
+                    ]
+                }
+            }
         },
         {
             "priceUsd": "$2,095.00",
@@ -1385,17 +1219,10 @@
             "tank": {
                 "plumb": "tank"
             },
-            "groupType": "Ring",
+            "groupType": "Saturated",
             "portafilterSize": "53 mm",
             "wattage": "",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$2,100.00",
@@ -1414,14 +1241,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1200",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$2,150.00",
@@ -1441,13 +1261,8 @@
             "portafilterSize": "58 mm",
             "wattage": "1200",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
             "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "Bigger version of Export and has manometer": ""
         },
         {
             "priceUsd": "$2,195.00",
@@ -1467,13 +1282,8 @@
             "portafilterSize": "53 mm",
             "wattage": "",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
             "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "Bigger version of Export and has manometer": ""
         },
         {
             "priceUsd": "$2,195.00",
@@ -1492,14 +1302,7 @@
             "groupType": "Ring",
             "portafilterSize": "53 mm",
             "wattage": "",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$2,199.00",
@@ -1518,14 +1321,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1350",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "DISCONTINUED",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$2,259.00",
@@ -1544,14 +1340,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "800",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$2,300.00",
@@ -1570,14 +1359,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1000",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$2,395.00",
@@ -1596,14 +1378,7 @@
             "groupType": "Ring",
             "portafilterSize": "53 mm",
             "wattage": "",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$2,499.00",
@@ -1623,39 +1398,9 @@
             "portafilterSize": "58 mm",
             "wattage": "",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
+           "FIELD17": "",
             "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
-        },
-        {
-            "priceUsd": "$2,499.00",
-            "brand": "VBM",
-            "model": "Lollo",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "",
-            "brewBoiler": "3.50 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "Plumbed"
-            },
-            "groupType": "E64 Kometa",
-            "portafilterSize": "58 mm",
-            "wattage": "1600",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "Bigger version of Export and has manometer": ""
         },
         {
             "priceUsd": "$2,500.00",
@@ -1675,18 +1420,13 @@
             "portafilterSize": "58 mm",
             "wattage": "1400",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
             "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "Bigger version of Export and has manometer": ""
         },
         {
             "priceUsd": "$2,516.00",
             "brand": "Bezzera",
-            "model": "Strega Switchable",
+            "model": "Strega",
             "boilerType": "HX",
             "pid": "NO",
             "pumpType": "Vibration",
@@ -1700,14 +1440,30 @@
             "groupType": "Lever",
             "portafilterSize": "58 mm",
             "wattage": "1550",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
+            "reservoir": "4 L",
             "twoGroupViable": "",
             "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "weight": "32 kg",
+            "dimensions": "330x450x710mm",
+            "images": [
+                "strega.jpeg"
+            ],
+            "additionalInfo": {
+                "notes": [
+                    "Bezzera Strega is a phenomenal lever espresso machine, it's piston-loaded with a pump. This feature is what splits people in a sense, because the pump is quite noisy and will activate as long as you're preinfusing the shot and some people don't like that noise. However, it is also Strega's unique point because it allows for versatile usage. You can disengage the pump when you decide which ultimately gives you greater control.",
+                    "There are plenty of modifications you can preform on this machine that will improve your experience and make its usage significantly more pleasant and enjoyable.",
+                    "The most serious contenders of the Strega are Profitec 800 and Londinium."
+                ],
+                "links": {
+                    "official": "https://www.bezzera.it/en/machines/strega",
+                    "reviews": [
+                        {
+                            "name": "Jim Schulman - Home Barista Review",
+                            "link": "https://www.home-barista.com/blog/bezzera-strega-second-look-t18933.html"
+                        }
+                    ]
+                }
+            }
         },
         {
             "priceUsd": "$2,524.00",
@@ -1726,14 +1482,30 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1450",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
+            "reservoir": "4 L",
             "twoGroupViable": "",
             "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "dimensions": "320x450x375mm",
+            "weight": "28.2kg",
+            "images": ["mitica.jpeg"],
+            "additionalInfo": {
+                "notes": [
+                    "Bezzera Mitica is among the top of high-end Heat Exchanger machines. It features a rotary pump, a high quality build and durability, with an option to plumb-in"
+                ],
+                "links": {
+                    "official": "https://www.bezzera.it/en/machines/mitica",
+                    "reviews": [
+                        {
+                            "name": "Coffeesnobs Buyer Discussion and Impressions",
+                            "link": "https://coffeesnobs.com.au/forum/equipment/brewing-equipment-extreme-machines-3000/52950-finally-got-my-bezzera-mitica-top"
+                        },
+                        {
+                            "name": "AB review and product page",
+                            "link": "https://alternativebrewing.com.au/products/bezzera-mitica-top"
+                        }
+                    ]
+                }
+            }
         },
         {
             "priceUsd": "$2,549.00",
@@ -1753,13 +1525,9 @@
             "portafilterSize": "58 mm",
             "wattage": "1400",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
             "twoGroupViable": "Pressure Profiling",
             "Bigger version of Export and has manometer": "Pre-Infusion",
-            "FIELD20": "Controller & Smartphone Apps",
-            "FIELD21": "",
-            "FIELD22": ""
+            "FIELD20": "Controller & Smartphone Apps"
         },
         {
             "priceUsd": "$2,549.00",
@@ -1769,7 +1537,7 @@
             "pid": "NO",
             "pumpType": "Rotary",
             "pressureGauge": "Double",
-            "adjustablePressure": "YES",
+            "adjustablePressure": "NO",
             "brewBoiler": "2.00 L",
             "steamBoiler": "",
             "tank": {
@@ -1779,13 +1547,8 @@
             "portafilterSize": "58 mm",
             "wattage": "1400",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
             "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "Bigger version of Export and has manometer": ""
         },
         {
             "priceUsd": "$2,550.00",
@@ -1805,13 +1568,8 @@
             "portafilterSize": "58 mm",
             "wattage": "1200",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
             "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "Bigger version of Export and has manometer": ""
         },
         {
             "priceUsd": "$2,600.00",
@@ -1831,13 +1589,8 @@
             "portafilterSize": "58 mm",
             "wattage": "1200",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
             "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "Bigger version of Export and has manometer": ""
         },
         {
             "priceUsd": "$2,626.00",
@@ -1857,13 +1610,8 @@
             "portafilterSize": "58 mm",
             "wattage": "800",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
             "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "Bigger version of Export and has manometer": ""
         },
         {
             "priceUsd": "$2,695.00",
@@ -1883,13 +1631,8 @@
             "portafilterSize": "58 mm",
             "wattage": "1400",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
             "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "Bigger version of Export and has manometer": ""
         },
         {
             "priceUsd": "$2,695.00",
@@ -1909,13 +1652,8 @@
             "portafilterSize": "58 mm",
             "wattage": "1400",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
             "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "Bigger version of Export and has manometer": ""
         },
         {
             "priceUsd": "$2,695.00",
@@ -1925,23 +1663,39 @@
             "pid": "YES",
             "pumpType": "Rotary",
             "pressureGauge": "Double",
-            "adjustablePressure": "",
-            "brewBoiler": ".50 L",
-            "steamBoiler": "1.90 L",
+            "adjustablePressure": "Pressure Profiling",
+            "brewBoiler": ".5 L",
+            "steamBoiler": "2 L",
+            "boilerMaterial": "copper",
             "tank": {
                 "plumb": "Both"
             },
             "groupType": "E61",
             "portafilterSize": "58 mm",
-            "wattage": "1600",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "wattage": "1800 (600 brew + 1200 steam)",
+            "reservoir": "2 L (approx)",
+            "images": ["super-electronic.jpeg"],
+            "dimensions": "",
+            "additionalInfo": {
+                "notes": [
+                    "The Vibiemme Domobar Super is a rock-solid machine invented back in the 70s or 80s. It has known a lot of improvements since then and it's a beast by today standards.",
+                    "The latest model was released in 2019, a dual boiler electronic beast. However, it has a brother Heat Exchanger. Personally, I find the 2B more appealing, being a top-end home coffee espresso machine.",
+                    "The LED touch display is somethng to love or to hate, but I can't deny the appeal of it. It's convenient to use, to change profiles, to adjust steam pressure directly without having to fuss with temperature manually.", "Despite all the positives, this machine is more of a rarity (IMHO) in the US, it's sold more often in Australia and NZ. Community and parts availability is an important factor to consider when buying a machine." ],
+                "links": {
+                    "official": "https://www.vbmespresso.com/en/home-barista/domobar-super/",
+                    "reviews": [
+                        {
+                            "name": "Coffee Geek - 2005?",
+                            "link": "https://www.coffeegeek.com/reviews/vibiemmedomobarsuper/"
+                        },
+                        {
+                            "name": "Espresso Outlet - Info",
+                            "link": "https://www.espressooutlet.net/vbm-domobar-super-electronic-digital-dual-boiler-espresso-machine-with-flow-control/"
+
+                        }
+                    ]
+                }
+            }
         },
         {
             "priceUsd": "$2,700.00",
@@ -1960,14 +1714,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1400",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$2,729.00",
@@ -1986,14 +1733,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1200",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$2,790.00",
@@ -2012,14 +1752,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1200",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$2,795.00",
@@ -2038,14 +1771,31 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1400",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": "2.5 L",
+            "images": [
+                "bianca.jpeg"
+            ],
+            "dimensions": "15.75x11.4x19.1in",
+            "weight": "58.5 lbs",
+            "additionalInfo": {
+                "notes": [
+                    "The Lelit Bianca stands as a trailblazer in the prosumer espresso realm, pioneering flow control and profiling. Its distinctive wood accents and standard flow control setting set it apart. A remarkable touch is the modular reservoir, which can shrink the machine when plumbed or be positioned freely. This innovation has maintained its allure since our first encounter, a lasting testament to its design brilliance. Flow profiling, once confined to commercial machines, is now democratized by the Lelit Bianca, designed to empower home baristas with its potent and versatile features."
+                ],
+                "links": {
+                    "official": "https://lelit.com/product/bianca-pl162t/",
+                    "reviews": [
+                        {
+                            "name": "Clive Coffee",
+                            "link": "https://clivecoffee.com/products/lelit-bianca-dual-boiler-espresso-machine"
+                        },
+                        {
+                            "name": "The Real sprometheus",
+                            "link": "https://www.youtube.com/watch?v=pxDlF_N-_VM"
+                        }
+                    ]
+                }
+
+            }
         },
         {
             "priceUsd": "$2,832.00",
@@ -2064,14 +1814,7 @@
             "groupType": "BZ",
             "portafilterSize": "58 mm",
             "wattage": "1200",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$2,839.00",
@@ -2090,14 +1833,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "2000",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$2,839.00",
@@ -2116,14 +1852,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "2000",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$2,858.50",
@@ -2142,14 +1871,7 @@
             "groupType": "Lever",
             "portafilterSize": "58 mm",
             "wattage": "1400",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$2,899.00",
@@ -2168,14 +1890,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1200",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$2,899.00",
@@ -2194,40 +1909,30 @@
             "groupType": "Ring",
             "portafilterSize": "58 mm",
             "wattage": "",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$2,899.00",
             "brand": "Profitec",
             "model": "Pro 800",
-            "boilerType": "SB",
+            "boilerType": "Dipper",
             "pid": "YES",
             "pumpType": "Vibration",
             "pressureGauge": "Single",
-            "adjustablePressure": "LEVER",
+            "adjustablePressure": "Manual",
             "brewBoiler": "3.50 L",
             "steamBoiler": "",
             "tank": {
                 "plumb": "Both"
             },
-            "groupType": "Lever",
+            "groupType": "Spring Lever",
             "portafilterSize": "58 mm",
             "wattage": "1500",
             "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
             "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "images": [],
+            "weight": "35 kg",
+            "dimensions": "16.5x16.5x15.25in"
         },
         {
             "priceUsd": "$2,925.00",
@@ -2246,14 +1951,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1200",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$2,935.00",
@@ -2272,14 +1970,7 @@
             "groupType": "BZ",
             "portafilterSize": "58 mm",
             "wattage": "1200",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$2,977.00",
@@ -2298,14 +1989,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1000",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$2,999.00",
@@ -2324,14 +2008,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1400",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "Group is a derivative used on commercial Elektra machines",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$3,000.00",
@@ -2350,14 +2027,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1400",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$3,199.00",
@@ -2376,14 +2046,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1400",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$3,199.00",
@@ -2402,14 +2065,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1400",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$3,334.00",
@@ -2428,14 +2084,7 @@
             "groupType": "Lever",
             "portafilterSize": "58 mm",
             "wattage": "2700",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$3,599.00",
@@ -2454,14 +2103,7 @@
             "groupType": "Lever",
             "portafilterSize": "49 mm",
             "wattage": "1000",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$4,250.00",
@@ -2480,14 +2122,7 @@
             "groupType": "Lever",
             "portafilterSize": "58 mm",
             "wattage": "2000",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$4,495.00",
@@ -2506,14 +2141,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1400",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$4,750.00",
@@ -2532,14 +2160,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "1400",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$4,900.00",
@@ -2558,14 +2179,7 @@
             "groupType": "Ring",
             "portafilterSize": "58 mm",
             "wattage": "1600",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$6,850.00",
@@ -2596,7 +2210,7 @@
         {
             "priceUsd": "$8,055.00",
             "brand": "Faema ",
-            "model": "Legend S/1",
+            "model": "Legend S1",
             "boilerType": "HX",
             "pid": "NO",
             "pumpType": "Rotary",
@@ -2610,14 +2224,7 @@
             "groupType": "E61",
             "portafilterSize": "58 mm",
             "wattage": "3000",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         },
         {
             "priceUsd": "$8,500.00",
@@ -2636,14 +2243,7 @@
             "groupType": "Ring",
             "portafilterSize": "54 mm",
             "wattage": "1437",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "FIELD20": "",
-            "FIELD21": "",
-            "FIELD22": ""
+            "reservoir": ""
         }
     ]
 }
