@@ -16,7 +16,7 @@ const { sectionTitle, posts } = Astro.props;
                     title={frontmatter.title}
                     description={frontmatter.description}
                     publishDate={frontmatter.publishDate}
-                    url={url}
+                    url=`${url}/`
                 />
             ))
         }
