@@ -1,2250 +1,2670 @@
 {
-    "machines": [
-        {
-            "priceUsd": "$500.00",
-            "brand": "Breville",
-            "model": "Bambino Plus",
-            "boilerType": "SB & Thermocoil",
-            "pid": "NO",
-            "pumpType": "NO",
-            "pressureGauge": "Yes",
-            "adjustablePressure": "NO",
-            "brewBoiler": "NO",
-            "steamBoiler": "NO",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "54mm",
-            "wattage": "600",
-            "reservoir": "1.8L",
-            "additionalInfo": {
-                "notes": "A Thermocoil design, a fast heat up time, great compromise.",
-                "links": {
-                    "official": "https://www.breville.com/us/en/products/espresso/bes500.html",
-                    "internal": "https://drippingcoffee.com/posts/breville-bambino-plus"
-                }
-            }
-        },
-        {
-            "priceUsd": "$325.00",
-            "brand": "Flair 58",
-            "model": "PRO",
-            "boilerType": "No Boiler",
-            "pid": "NO",
-            "pumpType": "NO",
-            "pressureGauge": "Yes",
-            "adjustablePressure": "NO",
-            "brewBoiler": "0.07L",
-            "steamBoiler": "NO",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "46mm",
-            "wattage": "",
-            "reservoir": "0.06L",
-            "INFO": "Portable"
-        },
-        {
-            "priceUsd": "$220.00",
-            "brand": "Flair 58",
-            "model": "Classic",
-            "boilerType": "No Boiler",
-            "pid": "NO",
-            "pumpType": "NO",
-            "pressureGauge": "Yes",
-            "adjustablePressure": "NO",
-            "brewBoiler": "0.06L",
-            "steamBoiler": "NO",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "",
-            "wattage": "",
-            "reservoir": "0.06L",
-            "FIELD16": "Portable",
-            "Bigger version of Export and has manometer": ""
-        },
-        {
-            "priceUsd": "$640.00",
-            "brand": "Flair 58",
-            "model": "NEO",
-            "boilerType": "No Boiler",
-            "pid": "NO",
-            "pumpType": "NO",
-            "pressureGauge": "NO",
-            "adjustablePressure": "NO",
-            "brewBoiler": "0.06L",
-            "steamBoiler": "NO",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "",
-            "wattage": "",
-            "reservoir": "0.06L",
-            "FIELD16": "Portable",
-            "Bigger version of Export and has manometer": ""
-        },
-        {
-            "priceUsd": "$640.00",
-            "brand": "Flair 58",
-            "model": "Plus",
-            "boilerType": "No Boiler",
-            "pid": "NO",
-            "pumpType": "NO",
-            "pressureGauge": "NO",
-            "adjustablePressure": "NO",
-            "brewBoiler": "0.09L",
-            "steamBoiler": "NO",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "58 mm",
-            "wattage": "1370",
-            "reservoir": "0.09L",
-            "FIELD16": "Portable",
-            "Bigger version of Export and has manometer": ""
-        },
-        {
-            "priceUsd": "$449.00",
-            "brand": "Gaggia",
-            "model": "Classic Pro",
-            "boilerType": "SB",
-            "pid": "NO",
-            "pumpType": "Vibration",
-            "pressureGauge": "NO",
-            "adjustablePressure": "NO",
-            "brewBoiler": "0.1L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "58 mm",
-            "wattage": "1370",
-            "reservoir": "2.0 L",
-            "twoGroupViable": "Digital Flow Regulator",
-            "Bigger version of Export and has manometer": "Flow Control"
-        },
-        {
-            "priceUsd": "$629.00",
-            "brand": "Lelit",
-            "model": "PL41TEM Anna",
-            "boilerType": "SB",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Single",
-            "adjustablePressure": "",
-            "brewBoiler": ".25 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "57 mm",
-            "wattage": "1000",
-            "reservoir": "2.6 L"
-        },
-        {
-            "priceUsd": "$699.00",
-            "brand": "Crossland Coffee",
-            "model": "CC1 V 2.0",
-            "boilerType": "SB & Thermoblock",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "NO",
-            "adjustablePressure": "NO",
-            "brewBoiler": ".50 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "58 mm",
-            "wattage": "1150",
-            "reservoir": "2.0 L",
-            "Bigger version of Export and has manometer": "Notes2"
-        },
-        {
-            "priceUsd": "$715.00",
-            "brand": "Rancilio",
-            "model": "Silvia M",
-            "boilerType": "SB",
-            "pid": "NO",
-            "pumpType": "Vibration",
-            "pressureGauge": "NO",
-            "adjustablePressure": "NO",
-            "brewBoiler": ".35 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "58 mm",
-            "wattage": "1100",
-            "reservoir": "2.0 L",
-            "Bigger version of Export and has manometer": "Very customizable machine for panels, size, groups, PID, drain valve, etc"
-        },
-        {
-            "priceUsd": "$749.00",
-            "brand": "Lelit",
-            "model": "PL41PLUST Glenda PID",
-            "boilerType": "SB",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "NO",
-            "adjustablePressure": "",
-            "brewBoiler": ".30 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "58 mm",
-            "wattage": "1200",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$839.00",
-            "brand": "La Pavoni",
-            "model": "Europiccola 8",
-            "boilerType": "Dipper",
-            "pid": "NO",
-            "pumpType": "None",
-            "pressureGauge": "NO",
-            "adjustablePressure": "",
-            "brewBoiler": ".60 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Lever",
-            "portafilterSize": "58 mm",
-            "wattage": "1000",
-            "reservoir": "",
-            "Bigger version of Export and has manometer": "",
-            "weight": "6.3 kg",
-            "dimensions": "302x447x393mm",
-            "images": [
-                "epc-8.jpeg"
-            ],
-            "additionalInfo": {
-                "notes": [
-                    "A classic manual lever espresso machine that embodies traditional classic craftsmanship. It's a great lever to try out since it's usually cheap to buy new and even cheaper used. Coffee enthusiasts love to customize and rebuild old models of this machine because there are plenty of available sources online for buying parts.",
-                    "Beware though, using such machine does not ensure great cup of coffee everytime. Quite the contrary, pain and suffering will certainly be around until you get enough experience and practice.",
-                    "Don't hesitate to join online forums wherever you are in the world, everybody loves a Europiccola and can share some useful advice."
-                ],
-                "links": {
-                    "official": "https://www.lapavoni.com/",
-                    "reviews": [
-                        {
-                            "name": "Whole Latte Love - Video 2012",
-                            "link": "https://www.youtube.com/watch?v=Y6bXjnUr4fE"
-                        },
-                        {
-                            "name": "James Hoffmann",
-                            "link": "https://www.youtube.com/watch?v=lKimj0vRM5A"
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "priceUsd": "$899.00",
-            "brand": "Ponte Vecchio",
-            "model": "Export",
-            "boilerType": "SB",
-            "pid": "NO",
-            "pumpType": "None",
-            "pressureGauge": "NO",
-            "adjustablePressure": "",
-            "brewBoiler": ".90 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Lever",
-            "portafilterSize": "45 mm",
-            "wattage": "800",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$999.00",
-            "brand": "Ascaso",
-            "model": "Dream",
-            "boilerType": "Thermoblock",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Single",
-            "adjustablePressure": "YES",
-            "brewBoiler": "",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "58 mm",
-            "wattage": "1090",
-            "reservoir": "",
-            "images": [
-                "dream.jpeg",
-                "dream-2.jpeg"
-            ],
-            "additionalInfo": {
-                "notes": "An elegant and beautiful masterpiece by Ascaso. Thermoblock group with good steam pressure and quick heating elements. Made in spain",
-                "links": {
-                    "official": "https://www.ascaso.com/div-espresso-coffee-machines-grinders/dream-1.html"
-                }
-            }
-        },
-        {
-            "priceUsd": "$999.00",
-            "brand": "Ponte Vecchio",
-            "model": "Lusso",
-            "boilerType": "SB",
-            "pid": "NO",
-            "pumpType": "None",
-            "pressureGauge": "Single",
-            "adjustablePressure": "",
-            "brewBoiler": "3.00 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Lever",
-            "portafilterSize": "45 mm",
-            "wattage": "1000",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$999.00",
-            "brand": "ECM",
-            "model": "Casa V",
-            "boilerType": "SB",
-            "pid": "NO",
-            "pumpType": "Vibration",
-            "pressureGauge": "Single",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".35 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "58 mm",
-            "wattage": "1200",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$1,029.00",
-            "brand": "La Pavoni",
-            "model": "Stradivari 8",
-            "boilerType": "SB",
-            "pid": "NO",
-            "pumpType": "None",
-            "pressureGauge": "NO",
-            "adjustablePressure": "",
-            "brewBoiler": ".60 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Lever",
-            "portafilterSize": "58 mm",
-            "wattage": "1000",
-            "reservoir": "",
-            "Bigger version of Export and has manometer": "External Prew Pressure adjustment"
-        },
-        {
-            "priceUsd": "$1,075.00",
-            "brand": "Rancilio",
-            "model": "Silva Black PID",
-            "boilerType": "SB",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "NO",
-            "adjustablePressure": "NO",
-            "brewBoiler": ".35 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "58 mm",
-            "wattage": "1100",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$1,079.00",
-            "brand": "Lelit",
-            "model": "PL91T Victoria",
-            "boilerType": "SB",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Single",
-            "adjustablePressure": "",
-            "brewBoiler": ".30 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "58 mm",
-            "wattage": "1200",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$1,099.00",
-            "brand": "Ascaso",
-            "model": "Steel Uno",
-            "boilerType": "HX",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Single",
-            "adjustablePressure": "",
-            "brewBoiler": "",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "58 mm",
-            "wattage": "900",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$1,099.00",
-            "brand": "La Pavoni",
-            "model": "Professional 16",
-            "boilerType": "SB",
-            "pid": "NO",
-            "pumpType": "None",
-            "pressureGauge": "Single",
-            "adjustablePressure": "",
-            "brewBoiler": "1.12 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Lever",
-            "portafilterSize": "58 mm",
-            "wattage": "1000",
-            "reservoir": "",
-            "Bigger version of Export and has manometer": "Pre-infusion",
-            "FIELD20": "Shot Timer"
-        },
-        {
-            "priceUsd": "$1,495.00",
-            "brand": "Nuova Simonelli",
-            "model": "Oscar II - Volumetric",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Vibration",
-            "pressureGauge": "NO",
-            "adjustablePressure": "",
-            "brewBoiler": "2.00 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "58 mm",
-            "wattage": "1300",
-            "reservoir": "",
-            "images": [
-                "oscar-ii-volumetric.webp"
-            ],
-            "additionalInfo": {
-                "notes": "It's an excellent choice even in 2023, although there are more alluring and modern design machines available. This is the only volumetric machine in this price point so it's worth considering.",
-                "links": {
-                    "official": "https://www.simonelliusa.com/Oscar-II",
-                    "reviews": [
-                        {
-                            "name": "Majesty Coffee",
-                            "link": "https://www.youtube.com/watch?v=yhcUB3HEgGs"
-                        },
-                        {
-                            "name": "Home Cafe By Charlie",
-                            "link": "https://www.youtube.com/watch?v=77mv0fEISf0"
-
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "priceUsd": "$1,299.00",
-            "brand": "Ascaso",
-            "model": "Steel Duo",
-            "boilerType": "HX",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Single",
-            "adjustablePressure": "",
-            "brewBoiler": "",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "58 mm",
-            "wattage": "",
-            "reservoir": "",
-            "Bigger version of Export and has manometer": "",
-            "images": [
-                "steel-duo.jpeg"
-            ],
-            "additionalInfo": {
-                "notes": "A machine that has it all, PID, preinfusion, but all those features come with a compromise.",
-                "links": {
-                    "official": "https://ascaso-usa.com/products/steel-duo-pid-programmable-espresso-machine-w-volumetric-controls-dual-thermoblock-120v-white",
-                    "reviews": [
-                        {
-                            "name": "Lifestyle Lab",
-                            "link": "https://www.youtube.com/watch?v=L0rSVpwgPVo"
-                        },
-                        {
-                            "name": "Daddy Got Coffee",
-                            "link": "https://www.youtube.com/watch?v=LLGIbir7F3w"
-
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "priceUsd": "$1,300.00",
-            "brand": "Breville",
-            "model": "BES920XL",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Single",
-            "adjustablePressure": "",
-            "brewBoiler": ".30 L",
-            "steamBoiler": ".95 L",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "58 mm",
-            "wattage": "1700",
-            "reservoir": "2.5 L"
-        },
-        {
-            "priceUsd": "$1,317.00",
-            "brand": "Bezzera",
-            "model": "Unica",
-            "boilerType": "SB",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Single",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".50 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1300",
-            "reservoir": "",
-            "Bigger version of Export and has manometer": "Internal Prew Pressure adjustment"
-        },
-        {
-            "priceUsd": "$1,379.00",
-            "brand": "La Pavoni",
-            "model": "Stradivari 16",
-            "boilerType": "SB",
-            "pid": "NO",
-            "pumpType": "None",
-            "pressureGauge": "Single",
-            "adjustablePressure": "",
-            "brewBoiler": "1.12 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Lever",
-            "portafilterSize": "58 mm",
-            "wattage": "1000",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$1,437.00",
-            "brand": "Bezzera",
-            "model": "Unica Wood Accents",
-            "boilerType": "SB",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Single",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".50 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1300",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$1,449.00",
-            "brand": "ECM",
-            "model": "Classika",
-            "boilerType": "SB",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Single",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".75 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1200",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$1,449.00",
-            "brand": "Lelit",
-            "model": "Mara X",
-            "boilerType": "HX",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Double",
-            "adjustablePressure": "",
-            "brewBoiler": "1.6L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58mm",
-            "wattage": "1400",
-            "reservoir": "",
-            "Bigger version of Export and has manometer": "",
-            "images": ["mara-x-black.png", "mara-x.webp" ],
-            "additionalInfo": {
-                "notes": "Lelit Mara X is perhaps the best budget heat exchanger machine on the market. Not only is it affordable, the lelit mara X is considered a very capable machine and loved by many coffee enthusiasts and for a good reason.",
-                "links": {
-                    "official": "https://lelit.com/product/marax-pl62x/",
-                    "internal": "https://drippingcoffee.com/posts/best-prosumer-espresso-machine/#lelit-mara-x",
-                    "reviews": [
-                        {
-                            "name": "Home Barista - another_jim 2020",
-                            "link": "https://www.home-barista.com/blog/lelit-marax-review-t63863.html"
-                        },
-                        {
-                            "name": "Lance Hedrick - 2023",
-                            "link": "https://www.youtube.com/watch?v=X8QFNTOY7uU"
-                        },
-                        {
-                            "name": "Dave Corbey - 2020",
-                            "link": "https://www.youtube.com/watch?v=j2HHfqOjGN0&list=PLUPtpdtiNCukn7QfExc73cpERoH2Dm1EG"
-                        },
-                        {
-                            "name": "Stefanus Goana 2021",
-                            "link": "https://www.youtube.com/watch?v=XlvoE4Kd8xw&t=286s&pp=ygUNTWFyYSB4IHJldmlldw%3D%3D"
-                        },
-                        {
-                            "name": "ECS Coffee Espresso & Coffee Gear",
-                            "link": "https://www.youtube.com/watch?v=Hv0HOHF3BmE&pp=ygUNTWFyYSB4IHJldmlldw%3D%3D"
-                        }
-
-                    ]
-                }
-            }
-        },
-        {
-            "priceUsd": "$1,499.00",
-            "brand": "Lelit",
-            "model": "PL92T Elizabeth",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Single",
-            "adjustablePressure": "",
-            "brewBoiler": ".30 L",
-            "steamBoiler": ".60 L",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "58 mm",
-            "wattage": "1000",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$1,499.00",
-            "brand": "Bezzera",
-            "model": "BZ07 DE V2",
-            "boilerType": "HX",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Double",
-            "adjustablePressure": "",
-            "brewBoiler": "1.50 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "BZ",
-            "portafilterSize": "58 mm",
-            "wattage": "1400",
-            "reservoir": "3L",
-            "Bigger version of Export and has manometer": "",
-            "additionalInfo": {
-                "notes": "Not so popular espresso machine by Bezzera, A classic heat exchanger with a powerful steaming power thanks to its 1.5 L boiler with a PID.",
-                "links": {
-                    "official": "https://www.bezzera.it/en/home",
-                    "reviews": [
-                        {
-                            "name": "Whole Latte Love",
-                            "link": "https://www.youtube.com/watch?v=eSAacTxU6Lg"
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "priceUsd": "$1,499.00",
-            "brand": "VBM",
-            "model": "Domobar Junior",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Vibration",
-            "pressureGauge": "Double",
-            "adjustablePressure": "",
-            "brewBoiler": "1.00 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1600",
-            "reservoir": "",
-            "Bigger version of Export and has manometer": "",
-            "images": ["domobar-junior.jpeg"],
-            "additionalInfo": {
-                "notes": "Another great product from Vibiemme, the Domobar Junior. It's a solid well-built, capable espresso machine that can produce high-quality coffee and will serve you for years. This machine has been out for years and today it comes with a digital or analog versions. It's a classic E61 Heat exchanger, but the digital version really feels like a premium, solid and durable machine. Personally, I think it looks cooler than other standard E61 groups like the Mara X and others.",
-                "links": {
-                    "official": "https://www.vbmespresso.com/en/home-barista/domobar-junior/",
-                    "reviews": [
-                        {
-                            "name": "Alternative Brewing",
-                            "link": "https://www.youtube.com/watch?v=xT0WGtK3Knw"
-                        },
-                        {
-                            "name": "Coffee Parts",
-                            "link": "https://www.youtube.com/watch?v=TKDrP5Yweqs"
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "priceUsd": "$1,599.00",
-            "brand": "ECM",
-            "model": "Special Edition Classika",
-            "boilerType": "SB",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Single",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".75 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1200",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$1,620.00",
-            "brand": "Bezzera",
-            "model": "BZ10",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Vibration",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": "3.00 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "BZ",
-            "portafilterSize": "58 mm",
-            "wattage": "1200",
-            "reservoir": "",
-            "Bigger version of Export and has manometer": "",
-            "images": ["bz10.jpeg"],
-            "additionalInfo": {
-                "notes": "Bezzera BZ10 is a great Heat Exchanger from a company you can't go wrong with. It features a house grouphead which can be a plus for its uniqueness but harder to service. You can easily brew your espresso and froth your milk simulatenously. The toughest thing is to decide whether or not you'd like a Lelit Mara X instead.",
-                "links": {
-                    "official": "https://www.bezzera.it/en/machines/bz10",
-                    "reviews": [
-                        {
-                            "name": "Coffeedino - 2023?",
-                            "link": "https://coffeedino.com/bezzera-bz10-review/"
-                        },
-                        {
-                            "name": "Coffeesnobs Discussion",
-                            "link": "https://www.youtube.com/watch?v=TKDrP5Yweqs"
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "priceUsd": "$1,650.00",
-            "brand": "Profitec",
-            "model": "Pro 300",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Single",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".40 L",
-            "steamBoiler": ".75 L",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "58 mm",
-            "wattage": "800",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$1,690.00",
-            "brand": "Rocket",
-            "model": "Espresso Appartamento",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Vibration",
-            "pressureGauge": "Single",
-            "adjustablePressure": "YES",
-            "brewBoiler": "1.80 L",
-            "steamBoiler": "",
-            "boilerMaterial": "copper",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1200",
-            "weight": "44 lbs",
-            "dimensions": "10.8x14.2x16.75in",
-            "reservoir": "2.9 L",
-            "images": ["appartamento.jpeg"],
-            "additionalInfo": {
-                "notes": "Rocket Appartamento is one of the most popular HX machines in the world, it's quite compact but solid machine, produces great espresso and looks astonishing with iconic Rocket knobs. However, with the Lelit Mara X out there, it's hard to recommend any HX over that, and Rocket Appartamento doesn't provide a technical or aesthetic advantage over the Mara X. The Rocket, as most HX machines, require a backflush to get to the desired temperature, unlike the Mara X.",
-                "links": {
-                    "official": "https://rocket-espresso.com/appartamento.html",
-                    "reviews": [
-                        {
-                            "name": "Home Barista discussion 2020",
-                            "link": "https://www.home-barista.com/advice/rocket-appartamento-vs-ecm-mechanika-vs-lelit-marax-t69945.html"
-                        },
-                        {
-                            "name": "Xris",
-                            "link": "https://www.youtube.com/watch?v=q9kTAcC6V0A"
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "priceUsd": "$1,695.00",
-            "brand": "Elektra",
-            "model": "Micro Casa a Leva",
-            "boilerType": "SB",
-            "pid": "NO",
-            "pumpType": "None",
-            "pressureGauge": "Single",
-            "adjustablePressure": "",
-            "brewBoiler": "1.80 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": ""
-            },
-            "groupType": "Lever",
-            "portafilterSize": "49 mm",
-            "wattage": "800",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$1,795.00",
-            "brand": "Quick Mill",
-            "model": "Andreja Premium Evo",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Vibration",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": "1.60 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1400",
-            "reservoir": "3L",
-            "Bigger version of Export and has manometer": "",
-            "images": ["andreja-evo.webp"],
-            "additionalInfo": {
-                "notes": "The Andreja Premium can be equipped with multi-directional joystick steam and hot water assemblies. Direct connect plumbing option available. Keep in mind, there is no PID.",
-                "links": {
-                    "official": "https://www.quickmill.it/en/products/lever-group/andreja-mod-0980/",
-                    "reviews": [
-                        {
-                            "name": "Majesty Coffee",
-                            "link": "https://majestycoffee.com/collections/best-espresso-machines-for-office-use/products/quick-mill-andreja-premium-evo-espresso-maker-0980p-a"
-                        },
-                        {
-                            "name": "HomeGrounds",
-                            "link": "https://www.homegrounds.co/quick-mill-andreja-premium-review/"
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "priceUsd": "$1,799.00",
-            "brand": "Bezzera",
-            "model": "Magica V2",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Vibration",
-            "pressureGauge": "Double",
-            "adjustablePressure": "",
-            "brewBoiler": "2.00 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1450",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$1,850.00",
-            "brand": "Profitec",
-            "model": "Pro 500",
-            "boilerType": "HX",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": "2.00 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1400",
-            "reservoir": "2.8 l",
-            "ecoMode": "Programmable ECO-Mode",
-            "Bigger version of Export and has manometer": "",
-            "images": [
-                "mechanika.jpeg"
-            ],
-            "dimensions": "302x447x393mm",
-            "additionalInfo": {
-                "notes": "The Profitec Pro 500 is a premium espresso machine renowned for its quality craftsmanship and advanced features. With a powerful boiler, PID temperature control, and E61 group head, it ensures precise brewing for exceptional espresso enthusiasts.",
-                "links": {
-                    "official": "https://www.profitec-espresso.com/en/products/pro500",
-                    "reviews": [
-                        {
-                            "name": "Home Barista - Forum User",
-                            "link": "https://www.home-barista.com/espresso-machines/profitec-pro-500-pid-experience-so-far-t64622.html"
-                        },
-                        {
-                            "name": "Whole Latte Love",
-                            "link": "https://www.youtube.com/watch?v=vuci2UFdt4w"
-                        }
-                    ]
-                }
-            }
-
-        },
-        {
-            "priceUsd": "$1,850.00",
-            "brand": "ECM",
-            "model": "Mechanika V Slim",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Vibration",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": "2.20 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1400",
-            "reservoir": "2.8 L",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "dimensions": "250x450x395mm",
-            "images": ["mechanika.jpeg"],
-            "additionalInfo": {
-                "notes": "It's a slim ECM machine, with a top-notch build quality with no detail overlooked and great performance. Big boiler provides extremely good steam preasure for making milk-based drinks all day. Also warms up pretty fast. The only significant downside of this machine is the required flush which the Lelit Mara X doesn't have.",
-                "links": {
-                    "official": "https://www.profitec-espresso.com/en/products/pro500",
-                    "reviews": [
-                        {
-                            "name": "Home Barista - Forum User",
-                            "link": "https://www.home-barista.com/espresso-machines/ecm-mechanika-v-slim-review-t62794.html#p694273"
-                        }
-                    ]
-                }
-            }
-
-        },
-        {
-            "priceUsd": "$1,895.00",
-            "brand": "LA SPAZIALE",
-            "model": "Mini Vivaldi II",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Digital",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".45 L",
-            "steamBoiler": "1.20 L",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "53 mm",
-            "wattage": "800",
-            "reservoir": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "dimensions": "415x415x385mm",
-            "images": ["mini-vivaldi.png"],
-            "additionalInfo": {
-                "notes": [
-                    "The Mini Vivaldi II is the little brother of the La Spaziale Vivaldi II which has an enormous positive reputation among home coffee enthusiasts. The main difference between them is the Mini is water tank only whereas the La Spaziale Vivaldi is plumb only. This may be enough to consider the Mini, however, there are some other differences such as Rotary vs Vibratory pump, boiler capacities, preinfusion capabilities and size."
-                ],
-                "links": {
-                    "official": "https://www.laspaziale.com/index.php/en/products/coffee-machines/s1/s1-mini-vivaldi-ii",
-                    "reviews": [
-                        {
-                            "name": "Whole Latte Love - Product Page",
-                            "link": "https://www.wholelattelove.com/products/la-spaziale-s1-mini-vivaldi-ii"
-                        },
-                        {
-                            "name": "Espresso Outlet - Info",
-                            "link": "https://www.espressooutlet.net/espresso-outlet-blog/what-is-the-difference-between-the-la-spaziale-dream-dream-t-vivaldi-ii-and-mini-vivaldi-ii/"
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "priceUsd": "$1,895.00",
-            "brand": "LUCCA",
-            "model": "A53 Mini",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Digital",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".45 L",
-            "steamBoiler": "1.20 L",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "53 mm",
-            "wattage": "",
-            "reservoir": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "dimensions": "16.5x16.5x15.25in",
-            "images": ["a53-mini.webp"],
-            "additionalInfo": {
-                "notes": [
-                    "It's essentially a La Spaziale, designed and marketed by Clivecoffee.com. It's close to perfect."
-                ],
-                "links": {
-                    "official": "https://clivecoffee.com/products/lucca-a53-mini-espresso-machine-by-la-spaziale",
-                    "reviews": [
-                        {
-                            "name": "Clive Coffee - Why We Love Lucca",
-                            "link": "https://clivecoffee.com/blogs/learn/why-we-love-the-lucca-a53-mini"
-                        },
-                        {
-                            "name": "Clive Coffee - Why We Love Lucca - Video",
-                            "link": "https://www.youtube.com/watch?v=s2c5Wr_kQNQ"
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "priceUsd": "$1,999.00",
-            "brand": "Bezzera",
-            "model": "Magica PID V2",
-            "boilerType": "HX",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Double",
-            "adjustablePressure": "",
-            "brewBoiler": "2.00 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1450",
-            "reservoir": "4 L",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "dimensions": "300x425x415mm",
-            "images": ["magica.jpeg"],
-            "additionalInfo": {
-                "notes": [
-                    "Another E61 box from a respectable brand Bezzera. This unit comes with a PID, there is a cheaper non pid version. Sturdy, stable, solid, but quite expensive given the options available for good HX machines."
-                ],
-                "links": {
-                    "official": "https://www.bezzera.it/en/machines/magica",
-                    "reviews": [
-                        {
-                            "name": "Anthony's Espresso Equipment",
-                            "link": "https://www.youtube.com/watch?v=-gBo4jHAkVk"
-                        },
-                        {
-                            "name": "Homegrounds Review",
-                            "link": "https://www.homegrounds.co/bezzera-magica-review/"
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "priceUsd": "$1,999.00",
-            "brand": "IZZO",
-            "model": "ViVi",
-            "boilerType": "HX",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Double",
-            "adjustablePressure": "",
-            "brewBoiler": "1.80 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1350",
-            "reservoir": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": ""
-        },
-        {
-            "priceUsd": "$1,999.00",
-            "brand": "VBM",
-            "model": "Domobar Super",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "",
-            "brewBoiler": "1.80 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1600",
-            "reservoir": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "images": ["super-digital.jpeg"],
-            "dimensions": "",
-            "additionalInfo": {
-                "notes": [
-                    "The Vibiemme Domobar Super is a rock-solid machine invented back in the 70s or 80s. It has known a lot of improvements since then and it's a beast by today standards.",
-                    "The latest model was released in 2019, a dual boiler electronic beast. However, it has a brother Heat Exchanger. Personally, I find the 2B more appealing, being a top-end home coffee espresso machine."
-                ],
-                "links": {
-                    "official": "https://www.simonelliusa.com/Oscar-II",
-                    "reviews": [
-                        {
-                            "name": "Majesty Coffee",
-                            "link": "https://www.youtube.com/watch?v=yhcUB3HEgGs"
-                        },
-                        {
-                            "name": "Home Cafe By Charlie",
-                            "link": "https://www.youtube.com/watch?v=77mv0fEISf0"
-
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "priceUsd": "$2,095.00",
-            "brand": "LA SPAZIALE",
-            "model": "Dream T",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Digital",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".45 L",
-            "steamBoiler": "1.20 L",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Saturated",
-            "portafilterSize": "53 mm",
-            "wattage": "",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$2,100.00",
-            "brand": "Rocket",
-            "model": "Giotto Timer Type V",
-            "boilerType": "HX",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": "1.80 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1200",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$2,150.00",
-            "brand": "Rocket",
-            "model": "Mozzafiato Timer Type V",
-            "boilerType": "HX",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": "1.80 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1200",
-            "reservoir": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": ""
-        },
-        {
-            "priceUsd": "$2,195.00",
-            "brand": "LA SPAZIALE",
-            "model": "Vivaldi II",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Digital",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".45 L",
-            "steamBoiler": "2.50 L",
-            "tank": {
-                "plumb": "Plumbed"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "53 mm",
-            "wattage": "",
-            "reservoir": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": ""
-        },
-        {
-            "priceUsd": "$2,195.00",
-            "brand": "LUCCA",
-            "model": "Direct plumb A53",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Digital",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".45 L",
-            "steamBoiler": "1.20 L",
-            "tank": {
-                "plumb": "Plumbed"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "53 mm",
-            "wattage": "",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$2,199.00",
-            "brand": "IZZO",
-            "model": "Alex PID Pro",
-            "boilerType": "HX",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": "2.30 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1350",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$2,259.00",
-            "brand": "Elektra",
-            "model": "Semiautomatica",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Vibration",
-            "pressureGauge": "Single",
-            "adjustablePressure": "",
-            "brewBoiler": "2.00 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "800",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$2,300.00",
-            "brand": "Profitec",
-            "model": "Pro 600",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".45 L",
-            "steamBoiler": "1.20 L",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1000",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$2,395.00",
-            "brand": "LA SPAZIALE",
-            "model": "Dream",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "Digital",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".45 L",
-            "steamBoiler": "2.50 L",
-            "tank": {
-                "plumb": "Plumbed"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "53 mm",
-            "wattage": "",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$2,499.00",
-            "brand": "Decent",
-            "model": "DE1PRO",
-            "boilerType": "SB",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Digital",
-            "adjustablePressure": "YES",
-            "brewBoiler": "",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "58 mm",
-            "wattage": "",
-            "reservoir": "2 L",
-            "images": ["de1pro.jpeg"],
-            "weight": "29.1 lbs"
-        },
-        {
-            "priceUsd": "$2,500.00",
-            "brand": "ECM",
-            "model": "Mechanika IV Profi Switchable",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": "2.00 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1400",
-            "reservoir": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": ""
-        },
-        {
-            "priceUsd": "$2,516.00",
-            "brand": "Bezzera",
-            "model": "Strega",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Vibration",
-            "pressureGauge": "Single",
-            "adjustablePressure": "",
-            "brewBoiler": "2.00 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "Lever",
-            "portafilterSize": "58 mm",
-            "wattage": "1550",
-            "reservoir": "4 L",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "weight": "32 kg",
-            "dimensions": "330x450x710mm",
-            "images": [
-                "strega.jpeg"
-            ],
-            "additionalInfo": {
-                "notes": [
-                    "Bezzera Strega is a phenomenal lever espresso machine, it's piston-loaded with a pump. This feature is what splits people in a sense, because the pump is quite noisy and will activate as long as you're preinfusing the shot and some people don't like that noise. However, it is also Strega's unique point because it allows for versatile usage. You can disengage the pump when you decide which ultimately gives you greater control.",
-                    "There are plenty of modifications you can preform on this machine that will improve your experience and make its usage significantly more pleasant and enjoyable.",
-                    "The most serious contenders of the Strega are Profitec 800 and Londinium."
-                ],
-                "links": {
-                    "official": "https://www.bezzera.it/en/machines/strega",
-                    "reviews": [
-                        {
-                            "name": "Jim Schulman - Home Barista Review",
-                            "link": "https://www.home-barista.com/blog/bezzera-strega-second-look-t18933.html"
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "priceUsd": "$2,524.00",
-            "brand": "Bezzera",
-            "model": "Mitica V2",
-            "boilerType": "HX",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "",
-            "brewBoiler": "2.00 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1450",
-            "reservoir": "4 L",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": "",
-            "dimensions": "320x450x375mm",
-            "weight": "28.2kg",
-            "images": ["mitica.jpeg"],
-            "additionalInfo": {
-                "notes": [
-                    "Bezzera Mitica is among the top of high-end Heat Exchanger machines. It features a rotary pump, a high quality build and durability, with an option to plumb-in"
-                ],
-                "links": {
-                    "official": "https://www.bezzera.it/en/machines/mitica",
-                    "reviews": [
-                        {
-                            "name": "Coffeesnobs Buyer Discussion and Impressions",
-                            "link": "https://coffeesnobs.com.au/forum/equipment/brewing-equipment-extreme-machines-3000/52950-finally-got-my-bezzera-mitica-top"
-                        },
-                        {
-                            "name": "AB review and product page",
-                            "link": "https://alternativebrewing.com.au/products/bezzera-mitica-top"
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "priceUsd": "$2,549.00",
-            "brand": "ECM",
-            "model": "Technika V Profi PID",
-            "boilerType": "HX",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": "2.10 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1400",
-            "reservoir": "",
-            "twoGroupViable": "Pressure Profiling",
-            "Bigger version of Export and has manometer": "Pre-Infusion",
-            "FIELD20": "Controller & Smartphone Apps"
-        },
-        {
-            "priceUsd": "$2,549.00",
-            "brand": "ECM",
-            "model": "Elektronika II Profi Switchable",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "NO",
-            "brewBoiler": "2.00 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1400",
-            "reservoir": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": ""
-        },
-        {
-            "priceUsd": "$2,550.00",
-            "brand": "Rocket",
-            "model": "Espresso Giotto Evoluzione R",
-            "boilerType": "HX",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": "1.80 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1200",
-            "reservoir": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": ""
-        },
-        {
-            "priceUsd": "$2,600.00",
-            "brand": "Rocket",
-            "model": "Espresso Mozzafiato Evoluzione R",
-            "boilerType": "HX",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": "1.80 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1200",
-            "reservoir": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": ""
-        },
-        {
-            "priceUsd": "$2,626.00",
-            "brand": "Bezzera",
-            "model": "DUO MN - Wood Accents",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "Digital",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".45 L",
-            "steamBoiler": "1.00 L",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "800",
-            "reservoir": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": ""
-        },
-        {
-            "priceUsd": "$2,695.00",
-            "brand": "LUCCA",
-            "model": "M58 V2",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".75 L",
-            "steamBoiler": "1.40 L",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1400",
-            "reservoir": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": ""
-        },
-        {
-            "priceUsd": "$2,695.00",
-            "brand": "Quick Mill",
-            "model": "Vetrano 2B Evo",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".75 L",
-            "steamBoiler": "1.40 L",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1400",
-            "reservoir": "",
-            "twoGroupViable": "",
-            "Bigger version of Export and has manometer": ""
-        },
-        {
-            "priceUsd": "$2,695.00",
-            "brand": "VBM",
-            "model": "Domobar Super",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "Pressure Profiling",
-            "brewBoiler": ".5 L",
-            "steamBoiler": "2 L",
-            "boilerMaterial": "copper",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1800 (600 brew + 1200 steam)",
-            "reservoir": "2 L (approx)",
-            "images": ["super-electronic.jpeg"],
-            "dimensions": "",
-            "additionalInfo": {
-                "notes": [
-                    "The Vibiemme Domobar Super is a rock-solid machine invented back in the 70s or 80s. It has known a lot of improvements since then and it's a beast by today standards.",
-                    "The latest model was released in 2019, a dual boiler electronic beast. However, it has a brother Heat Exchanger. Personally, I find the 2B more appealing, being a top-end home coffee espresso machine.",
-                    "The LED touch display is somethng to love or to hate, but I can't deny the appeal of it. It's convenient to use, to change profiles, to adjust steam pressure directly without having to fuss with temperature manually.", "Despite all the positives, this machine is more of a rarity (IMHO) in the US, it's sold more often in Australia and NZ. Community and parts availability is an important factor to consider when buying a machine." ],
-                "links": {
-                    "official": "https://www.vbmespresso.com/en/home-barista/domobar-super/",
-                    "reviews": [
-                        {
-                            "name": "Coffee Geek - 2005?",
-                            "link": "https://www.coffeegeek.com/reviews/vibiemmedomobarsuper/"
-                        },
-                        {
-                            "name": "Espresso Outlet - Info",
-                            "link": "https://www.espressooutlet.net/vbm-domobar-super-electronic-digital-dual-boiler-espresso-machine-with-flow-control/"
-
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "priceUsd": "$2,700.00",
-            "brand": "Profitec",
-            "model": "Pro 700",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".73 L",
-            "steamBoiler": "2.00 L",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1400",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$2,729.00",
-            "brand": "Bezzera",
-            "model": "Matrix MN",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "Digital",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".45 L",
-            "steamBoiler": "1.00 L",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1200",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$2,790.00",
-            "brand": "IZZO",
-            "model": "Alex Duetto IV Plus",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".80 L",
-            "steamBoiler": "1.80 L",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1200",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$2,795.00",
-            "brand": "Lelit",
-            "model": "Bianca - Flow control",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "TRIPLE",
-            "adjustablePressure": "",
-            "brewBoiler": ".80 L",
-            "steamBoiler": "1.50 L",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1400",
-            "reservoir": "2.5 L",
-            "images": [
-                "bianca.jpeg"
-            ],
-            "dimensions": "15.75x11.4x19.1in",
-            "weight": "58.5 lbs",
-            "additionalInfo": {
-                "notes": [
-                    "The Lelit Bianca stands as a trailblazer in the prosumer espresso realm, pioneering flow control and profiling. Its distinctive wood accents and standard flow control setting set it apart. A remarkable touch is the modular reservoir, which can shrink the machine when plumbed or be positioned freely. This innovation has maintained its allure since our first encounter, a lasting testament to its design brilliance. Flow profiling, once confined to commercial machines, is now democratized by the Lelit Bianca, designed to empower home baristas with its potent and versatile features."
-                ],
-                "links": {
-                    "official": "https://lelit.com/product/bianca-pl162t/",
-                    "reviews": [
-                        {
-                            "name": "Clive Coffee",
-                            "link": "https://clivecoffee.com/products/lelit-bianca-dual-boiler-espresso-machine"
-                        },
-                        {
-                            "name": "The Real sprometheus",
-                            "link": "https://www.youtube.com/watch?v=pxDlF_N-_VM"
-                        }
-                    ]
-                }
-
-            }
-        },
-        {
-            "priceUsd": "$2,832.00",
-            "brand": "Bezzera",
-            "model": "Duo DE - Volumetric",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "Digital",
-            "adjustablePressure": "",
-            "brewBoiler": ".45 L",
-            "steamBoiler": "1.00 L",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "BZ",
-            "portafilterSize": "58 mm",
-            "wattage": "1200",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$2,839.00",
-            "brand": "Astra",
-            "model": "GS022",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "",
-            "brewBoiler": "4.20 L",
-            "steamBoiler": ".00 L",
-            "tank": {
-                "plumb": "Plumbed"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "2000",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$2,839.00",
-            "brand": "Astra",
-            "model": "GS023",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Rotary",
-            "pressureGauge": "Single",
-            "adjustablePressure": "",
-            "brewBoiler": "4.20 L",
-            "steamBoiler": ".00 L",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "2000",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$2,858.50",
-            "brand": "Londinium",
-            "model": "R",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Rotary",
-            "pressureGauge": "Single",
-            "adjustablePressure": "",
-            "brewBoiler": "2.30 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Lever",
-            "portafilterSize": "58 mm",
-            "wattage": "1400",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$2,899.00",
-            "brand": "IZZO",
-            "model": "Alex Duetto IV Pro",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".80 L",
-            "steamBoiler": "1.80 L",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1200",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$4,099.00",
-            "brand": "Decent",
-            "model": "DE1XL",
-            "boilerType": "SB",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Digital",
-            "adjustablePressure": "YES",
-            "brewBoiler": "",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "58 mm",
-            "wattage": "1500",
-            "reservoir": "2 L",
-            "images": ["de1xl.jpeg"],
-            "weight": "29.5 lbs"
-        },
-        {
-            "priceUsd": "$2,899.00",
-            "brand": "Profitec",
-            "model": "Pro 800",
-            "boilerType": "Dipper",
-            "pid": "YES",
-            "pumpType": "Vibration",
-            "pressureGauge": "Single",
-            "adjustablePressure": "Manual",
-            "brewBoiler": "3.50 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "Spring Lever",
-            "portafilterSize": "58 mm",
-            "wattage": "1500",
-            "reservoir": "3 L",
-            "Bigger version of Export and has manometer": "",
-            "images": [],
-            "weight": "35 kg",
-            "dimensions": "16.5x16.5x15.25in"
-        },
-        {
-            "priceUsd": "$2,925.00",
-            "brand": "Nuova Simonelli",
-            "model": "Musica - Volumetric",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Vibration",
-            "pressureGauge": "Double",
-            "adjustablePressure": "",
-            "brewBoiler": "",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "Plumbed"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1200",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$2,935.00",
-            "brand": "Bezzera",
-            "model": "Matrix MN",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "Digital",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".45 L",
-            "steamBoiler": "1.00 L",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "BZ",
-            "portafilterSize": "58 mm",
-            "wattage": "1200",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$2,977.00",
-            "brand": "Elektra",
-            "model": "Mini Verticale",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Vibration",
-            "pressureGauge": "Single",
-            "adjustablePressure": "",
-            "brewBoiler": "2.00 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1000",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$2,999.00",
-            "brand": "ECM",
-            "model": "Synchronika",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".75 L",
-            "steamBoiler": "2.00 L",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1400",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$3,000.00",
-            "brand": "Rocket",
-            "model": "R58 V2",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".56 L",
-            "steamBoiler": "1.70 L",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1400",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$3,199.00",
-            "brand": "ECM",
-            "model": "Synchronika Anthracite",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".75 L",
-            "steamBoiler": "2.00 L",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1400",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$3,199.00",
-            "brand": "ECM",
-            "model": "Synchronika Flow Ctrl",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".75 L",
-            "steamBoiler": "2.00 L",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1400",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$3,334.00",
-            "brand": "Londinium",
-            "model": "I",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Rotary",
-            "pressureGauge": "Single",
-            "adjustablePressure": "",
-            "brewBoiler": "7.00 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "Plumbed"
-            },
-            "groupType": "Lever",
-            "portafilterSize": "58 mm",
-            "wattage": "2700",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$3,599.00",
-            "brand": "Olympia",
-            "model": "Cremina",
-            "boilerType": "SB",
-            "pid": "NO",
-            "pumpType": "None",
-            "pressureGauge": "Single",
-            "adjustablePressure": "",
-            "brewBoiler": "1.80 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "tank"
-            },
-            "groupType": "Lever",
-            "portafilterSize": "49 mm",
-            "wattage": "1000",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$4,250.00",
-            "brand": "Bosco",
-            "model": "Sorrento",
-            "boilerType": "SB",
-            "pid": "NO",
-            "pumpType": "None",
-            "pressureGauge": "Single",
-            "adjustablePressure": "",
-            "brewBoiler": "6.00 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "Plumbed"
-            },
-            "groupType": "Lever",
-            "portafilterSize": "58 mm",
-            "wattage": "2000",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$4,495.00",
-            "brand": "M&V Srl.",
-            "model": "Vesuvius",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Gear",
-            "pressureGauge": "Digital",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".80 L",
-            "steamBoiler": "1.50 L",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1400",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$4,750.00",
-            "brand": "Rocket",
-            "model": "R60V",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "",
-            "brewBoiler": ".58 L",
-            "steamBoiler": "1.70 L",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "1400",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$4,900.00",
-            "brand": "La Marzocco",
-            "model": "Linea Mini",
-            "boilerType": "DB",
-            "pid": "YES",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "YES",
-            "brewBoiler": ".17 L",
-            "steamBoiler": "3.50 L",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "58 mm",
-            "wattage": "1600",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$6,850.00",
-            "brand": "Rocket",
-            "model": "R Nine One",
-            "boilerType": "SB",
-            "pid": "YES",
-            "pumpType": "Magnetic",
-            "pressureGauge": "Digital",
-            "adjustablePressure": "YES",
-            "brewBoiler": "1.80 L",
-            "steamBoiler": "3.50 L",
-            "tank": {
-                "plumb": "Both"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "58 mm",
-            "wattage": "1600",
-            "reservoir": "",
-            "FIELD16": "",
-            "FIELD17": "",
-            "twoGroupViable": "SB for Brew",
-            "Bigger version of Export and has manometer": "Thermoblock for Steam",
-            "FIELD20": "3 programmable shot profiles",
-            "FIELD21": "programmable pre-infusion",
-            "FIELD22": "overpressure valve for backflushing"
-        },
-        {
-            "priceUsd": "$8,055.00",
-            "brand": "Faema ",
-            "model": "Legend S1",
-            "boilerType": "HX",
-            "pid": "NO",
-            "pumpType": "Rotary",
-            "pressureGauge": "Double",
-            "adjustablePressure": "",
-            "brewBoiler": "6.00 L",
-            "steamBoiler": "",
-            "tank": {
-                "plumb": "Plumbed"
-            },
-            "groupType": "E61",
-            "portafilterSize": "58 mm",
-            "wattage": "3000",
-            "reservoir": ""
-        },
-        {
-            "priceUsd": "$8,500.00",
-            "brand": "Dalla Corte",
-            "model": "Mina",
-            "boilerType": "DB",
-            "pid": "NO",
-            "pumpType": "Rotary",
-            "pressureGauge": "Single",
-            "adjustablePressure": "",
-            "brewBoiler": ".50 L",
-            "steamBoiler": "3.00 L",
-            "tank": {
-                "plumb": "Plumbed"
-            },
-            "groupType": "Ring",
-            "portafilterSize": "54 mm",
-            "wattage": "1437",
-            "reservoir": ""
+  "machines": [
+    {
+      "priceUsd": "$500.00",
+      "brand": "Breville",
+      "model": "Bambino Plus",
+      "boilerType": "SB & Thermocoil",
+      "pid": "NO",
+      "pumpType": "NO",
+      "pressureGauge": "Yes",
+      "adjustablePressure": "NO",
+      "brewBoiler": "NO",
+      "steamBoiler": "NO",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "54mm",
+      "wattage": "600",
+      "reservoir": "1.8L",
+      "additionalInfo": {
+        "notes": "A Thermocoil design, a fast heat up time, great compromise.",
+        "links": {
+          "official": "https://www.breville.com/us/en/products/espresso/bes500.html",
+          "internal": "https://drippingcoffee.com/posts/breville-bambino-plus"
         }
-    ]
+      }
+    },
+    {
+      "priceUsd": "$325.00",
+      "brand": "Flair 58",
+      "model": "PRO",
+      "boilerType": "No Boiler",
+      "pid": "NO",
+      "pumpType": "NO",
+      "pressureGauge": "Yes",
+      "adjustablePressure": "NO",
+      "brewBoiler": "0.07L",
+      "steamBoiler": "NO",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "46mm",
+      "wattage": "",
+      "reservoir": "0.06L",
+      "INFO": "Portable"
+    },
+    {
+      "priceUsd": "$220.00",
+      "brand": "Flair 58",
+      "model": "Classic",
+      "boilerType": "No Boiler",
+      "pid": "NO",
+      "pumpType": "NO",
+      "pressureGauge": "Yes",
+      "adjustablePressure": "NO",
+      "brewBoiler": "0.06L",
+      "steamBoiler": "NO",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "",
+      "wattage": "",
+      "reservoir": "0.06L",
+      "FIELD16": "Portable",
+      "Bigger version of Export and has manometer": ""
+    },
+    {
+      "priceUsd": "$640.00",
+      "brand": "Flair 58",
+      "model": "NEO",
+      "boilerType": "No Boiler",
+      "pid": "NO",
+      "pumpType": "NO",
+      "pressureGauge": "NO",
+      "adjustablePressure": "NO",
+      "brewBoiler": "0.06L",
+      "steamBoiler": "NO",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "",
+      "wattage": "",
+      "reservoir": "0.06L",
+      "FIELD16": "Portable",
+      "Bigger version of Export and has manometer": ""
+    },
+    {
+      "priceUsd": "$640.00",
+      "brand": "Flair 58",
+      "model": "Plus",
+      "boilerType": "No Boiler",
+      "pid": "NO",
+      "pumpType": "NO",
+      "pressureGauge": "NO",
+      "adjustablePressure": "NO",
+      "brewBoiler": "0.09L",
+      "steamBoiler": "NO",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "58 mm",
+      "wattage": "1370",
+      "reservoir": "0.09L",
+      "FIELD16": "Portable",
+      "Bigger version of Export and has manometer": ""
+    },
+    {
+      "priceUsd": "$449.00",
+      "brand": "Gaggia",
+      "model": "Classic Pro",
+      "boilerType": "SB",
+      "pid": "NO",
+      "pumpType": "Vibration",
+      "pressureGauge": "NO",
+      "adjustablePressure": "NO",
+      "brewBoiler": "0.1L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "58 mm",
+      "wattage": "1370",
+      "reservoir": "2.0 L",
+      "twoGroupViable": "Digital Flow Regulator",
+      "Bigger version of Export and has manometer": "Flow Control"
+    },
+    {
+      "priceUsd": "$629.00",
+      "brand": "Lelit",
+      "model": "PL41TEM Anna",
+      "boilerType": "SB",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Single",
+      "adjustablePressure": "",
+      "brewBoiler": ".25 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "57 mm",
+      "wattage": "1000",
+      "reservoir": "2.6 L"
+    },
+    {
+      "priceUsd": "$699.00",
+      "brand": "Crossland Coffee",
+      "model": "CC1 V 2.0",
+      "boilerType": "SB & Thermoblock",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "NO",
+      "adjustablePressure": "NO",
+      "brewBoiler": ".50 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "58 mm",
+      "wattage": "1150",
+      "reservoir": "2.0 L",
+      "Bigger version of Export and has manometer": "Notes2"
+    },
+    {
+      "priceUsd": "$715.00",
+      "brand": "Rancilio",
+      "model": "Silvia M",
+      "boilerType": "SB",
+      "pid": "NO",
+      "pumpType": "Vibration",
+      "pressureGauge": "NO",
+      "adjustablePressure": "NO",
+      "brewBoiler": ".35 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "58 mm",
+      "wattage": "1100",
+      "reservoir": "2.0 L",
+      "Bigger version of Export and has manometer": "Very customizable machine for panels, size, groups, PID, drain valve, etc"
+    },
+    {
+      "priceUsd": "$749.00",
+      "brand": "Lelit",
+      "model": "PL41PLUST Glenda PID",
+      "boilerType": "SB",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "NO",
+      "adjustablePressure": "",
+      "brewBoiler": ".30 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "58 mm",
+      "wattage": "1200",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$839.00",
+      "brand": "La Pavoni",
+      "model": "Europiccola 8",
+      "boilerType": "Dipper",
+      "pid": "NO",
+      "pumpType": "None",
+      "pressureGauge": "NO",
+      "adjustablePressure": "",
+      "brewBoiler": ".60 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Lever",
+      "portafilterSize": "58 mm",
+      "wattage": "1000",
+      "reservoir": "",
+      "Bigger version of Export and has manometer": "",
+      "weight": "6.3 kg",
+      "dimensions": "302x447x393mm",
+      "images": ["epc-8.jpeg"],
+      "additionalInfo": {
+        "notes": [
+          "A classic manual lever espresso machine that embodies traditional classic craftsmanship. It's a great lever to try out since it's usually cheap to buy new and even cheaper used. Coffee enthusiasts love to customize and rebuild old models of this machine because there are plenty of available sources online for buying parts.",
+          "Beware though, using such machine does not ensure great cup of coffee everytime. Quite the contrary, pain and suffering will certainly be around until you get enough experience and practice.",
+          "Don't hesitate to join online forums wherever you are in the world, everybody loves a Europiccola and can share some useful advice."
+        ],
+        "links": {
+          "official": "https://www.lapavoni.com/",
+          "reviews": [
+            {
+              "name": "Whole Latte Love - Video 2012",
+              "link": "https://www.youtube.com/watch?v=Y6bXjnUr4fE"
+            },
+            {
+              "name": "James Hoffmann",
+              "link": "https://www.youtube.com/watch?v=lKimj0vRM5A"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$899.00",
+      "brand": "Ponte Vecchio",
+      "model": "Export",
+      "boilerType": "SB",
+      "pid": "NO",
+      "pumpType": "None",
+      "pressureGauge": "NO",
+      "adjustablePressure": "",
+      "brewBoiler": ".90 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Lever",
+      "portafilterSize": "45 mm",
+      "wattage": "800",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$999.00",
+      "brand": "Ascaso",
+      "model": "Dream",
+      "boilerType": "Thermoblock",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Single",
+      "adjustablePressure": "YES",
+      "brewBoiler": "",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "58 mm",
+      "wattage": "1090",
+      "reservoir": "",
+      "images": ["dream.jpeg", "dream-2.jpeg"],
+      "additionalInfo": {
+        "notes": "An elegant and beautiful masterpiece by Ascaso. Thermoblock group with good steam pressure and quick heating elements. Made in spain",
+        "links": {
+          "official": "https://www.ascaso.com/div-espresso-coffee-machines-grinders/dream-1.html"
+        }
+      }
+    },
+    {
+      "priceUsd": "$999.00",
+      "brand": "Ponte Vecchio",
+      "model": "Lusso",
+      "boilerType": "SB",
+      "pid": "NO",
+      "pumpType": "None",
+      "pressureGauge": "Single",
+      "adjustablePressure": "",
+      "brewBoiler": "3.00 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Lever",
+      "portafilterSize": "45 mm",
+      "wattage": "1000",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$999.00",
+      "brand": "ECM",
+      "model": "Casa V",
+      "boilerType": "SB",
+      "pid": "NO",
+      "pumpType": "Vibration",
+      "pressureGauge": "Single",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".35 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "58 mm",
+      "wattage": "1200",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$1,029.00",
+      "brand": "La Pavoni",
+      "model": "Stradivari 8",
+      "boilerType": "SB",
+      "pid": "NO",
+      "pumpType": "None",
+      "pressureGauge": "NO",
+      "adjustablePressure": "",
+      "brewBoiler": ".60 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Lever",
+      "portafilterSize": "58 mm",
+      "wattage": "1000",
+      "reservoir": "",
+      "Bigger version of Export and has manometer": "External Prew Pressure adjustment"
+    },
+    {
+      "priceUsd": "$1,075.00",
+      "brand": "Rancilio",
+      "model": "Silva Black PID",
+      "boilerType": "SB",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "NO",
+      "adjustablePressure": "NO",
+      "brewBoiler": ".35 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "58 mm",
+      "wattage": "1100",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$1,079.00",
+      "brand": "Lelit",
+      "model": "PL91T Victoria",
+      "boilerType": "SB",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Single",
+      "adjustablePressure": "",
+      "brewBoiler": ".30 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "58 mm",
+      "wattage": "1200",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$1,099.00",
+      "brand": "Ascaso",
+      "model": "Steel Uno",
+      "boilerType": "HX",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Single",
+      "adjustablePressure": "",
+      "brewBoiler": "",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "58 mm",
+      "wattage": "900",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$1,099.00",
+      "brand": "La Pavoni",
+      "model": "Professional 16",
+      "boilerType": "SB",
+      "pid": "NO",
+      "pumpType": "None",
+      "pressureGauge": "Single",
+      "adjustablePressure": "",
+      "brewBoiler": "1.12 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Lever",
+      "portafilterSize": "58 mm",
+      "wattage": "1000",
+      "reservoir": "",
+      "Bigger version of Export and has manometer": "Pre-infusion",
+      "FIELD20": "Shot Timer"
+    },
+    {
+      "priceUsd": "$1,495.00",
+      "brand": "Nuova Simonelli",
+      "model": "Oscar II - Volumetric",
+      "boilerType": "HX",
+      "pid": "NO",
+      "pumpType": "Vibration",
+      "pressureGauge": "NO",
+      "adjustablePressure": "",
+      "brewBoiler": "2.00 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "58 mm",
+      "wattage": "1300",
+      "reservoir": "",
+      "images": ["oscar-ii-volumetric.webp"],
+      "additionalInfo": {
+        "notes": "It's an excellent choice even in 2023, although there are more alluring and modern design machines available. This is the only volumetric machine in this price point so it's worth considering.",
+        "links": {
+          "official": "https://www.simonelliusa.com/Oscar-II",
+          "reviews": [
+            {
+              "name": "Majesty Coffee",
+              "link": "https://www.youtube.com/watch?v=yhcUB3HEgGs"
+            },
+            {
+              "name": "Home Cafe By Charlie",
+              "link": "https://www.youtube.com/watch?v=77mv0fEISf0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$1,299.00",
+      "brand": "Ascaso",
+      "model": "Steel Duo",
+      "boilerType": "HX",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Single",
+      "adjustablePressure": "",
+      "brewBoiler": "",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "58 mm",
+      "wattage": "",
+      "reservoir": "",
+      "Bigger version of Export and has manometer": "",
+      "images": ["steel-duo.jpeg"],
+      "additionalInfo": {
+        "notes": "A machine that has it all, PID, preinfusion, but all those features come with a compromise.",
+        "links": {
+          "official": "https://ascaso-usa.com/products/steel-duo-pid-programmable-espresso-machine-w-volumetric-controls-dual-thermoblock-120v-white",
+          "reviews": [
+            {
+              "name": "Lifestyle Lab",
+              "link": "https://www.youtube.com/watch?v=L0rSVpwgPVo"
+            },
+            {
+              "name": "Daddy Got Coffee",
+              "link": "https://www.youtube.com/watch?v=LLGIbir7F3w"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$1,300.00",
+      "brand": "Breville",
+      "model": "BES920XL",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Single",
+      "adjustablePressure": "",
+      "brewBoiler": ".30 L",
+      "steamBoiler": ".95 L",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "58 mm",
+      "wattage": "1700",
+      "reservoir": "2.5 L",
+      "dimensions": "15.9x14.7x14.9mm",
+      "images": ["bdb.jpg"],
+      "additionalInfo": {
+        "notes": [
+          "The Breville BES920XL is a high-quality espresso machine renowned for its precision and versatility. With its dual stainless steel boilers, this machine offers simultaneous brewing and steaming, allowing users to craft the perfect espresso while frothing milk to perfection. Its PID temperature control ensures consistent water temperature, contributing to optimal extraction. The machine's pre-infusion function wets the coffee grounds evenly before brewing, resulting in a more flavorful extraction. The BES920XL's sleek design, user-friendly interface, and durable construction make it a top choice for espresso enthusiasts seeking professional-grade performance at home.",
+          "The BDB is considered the best machine for its price point despite the plastic looks and questionable reliability. Users do not report any serious problems over the years of using the BDB, not anymore than any other machine. The BDB is known for its flow control capabilities and pre-infusion tricks, great water tank accessability. "
+        ],
+        "links": {
+          "official": "https://www.breville.com/us/en/products/espresso/bes920.html",
+          "reviews": [
+            {
+              "name": "Home Coffee Solutions",
+              "link": "https://www.homecoffeesolutions.com/products/breville-the-dual-boiler-espresso-machine-bes920xl"
+            },
+            {
+              "name": "Home Barista Review",
+              "link": "https://www.home-barista.com/breville-dual-boiler-bes920xl-review.html"
+            },
+            {
+              "name": "Whole Latte Love",
+              "link": "https://www.wholelattelove.com/blogs/reviews/breville-bes920xl-review/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$1,317.00",
+      "brand": "Bezzera",
+      "model": "Unica",
+      "boilerType": "SB",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Single",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".50 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1300",
+      "reservoir": "",
+      "Bigger version of Export and has manometer": "Internal Prew Pressure adjustment"
+    },
+    {
+      "priceUsd": "$1,379.00",
+      "brand": "La Pavoni",
+      "model": "Stradivari 16",
+      "boilerType": "SB",
+      "pid": "NO",
+      "pumpType": "None",
+      "pressureGauge": "Single",
+      "adjustablePressure": "",
+      "brewBoiler": "1.12 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Lever",
+      "portafilterSize": "58 mm",
+      "wattage": "1000",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$1,437.00",
+      "brand": "Bezzera",
+      "model": "Unica Wood Accents",
+      "boilerType": "SB",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Single",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".50 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1300",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$1,449.00",
+      "brand": "ECM",
+      "model": "Classika",
+      "boilerType": "SB",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Single",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".75 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1200",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$1,449.00",
+      "brand": "Lelit",
+      "model": "Mara X",
+      "boilerType": "HX",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Double",
+      "adjustablePressure": "",
+      "brewBoiler": "1.6L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58mm",
+      "wattage": "1400",
+      "reservoir": "",
+      "Bigger version of Export and has manometer": "",
+      "images": ["mara-x-black.png", "mara-x.webp"],
+      "additionalInfo": {
+        "notes": "Lelit Mara X is perhaps the best budget heat exchanger machine on the market. Not only is it affordable, the lelit mara X is considered a very capable machine and loved by many coffee enthusiasts and for a good reason.",
+        "links": {
+          "official": "https://lelit.com/product/marax-pl62x/",
+          "internal": "https://drippingcoffee.com/posts/best-prosumer-espresso-machine/#lelit-mara-x",
+          "reviews": [
+            {
+              "name": "Home Barista - another_jim 2020",
+              "link": "https://www.home-barista.com/blog/lelit-marax-review-t63863.html"
+            },
+            {
+              "name": "Lance Hedrick - 2023",
+              "link": "https://www.youtube.com/watch?v=X8QFNTOY7uU"
+            },
+            {
+              "name": "Dave Corbey - 2020",
+              "link": "https://www.youtube.com/watch?v=j2HHfqOjGN0&list=PLUPtpdtiNCukn7QfExc73cpERoH2Dm1EG"
+            },
+            {
+              "name": "Stefanus Goana 2021",
+              "link": "https://www.youtube.com/watch?v=XlvoE4Kd8xw&t=286s&pp=ygUNTWFyYSB4IHJldmlldw%3D%3D"
+            },
+            {
+              "name": "ECS Coffee Espresso & Coffee Gear",
+              "link": "https://www.youtube.com/watch?v=Hv0HOHF3BmE&pp=ygUNTWFyYSB4IHJldmlldw%3D%3D"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$1,499.00",
+      "brand": "Lelit",
+      "model": "PL92T Elizabeth",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Single",
+      "adjustablePressure": "",
+      "brewBoiler": ".30 L",
+      "steamBoiler": ".60 L",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "58 mm",
+      "wattage": "1000",
+      "reservoir": "2.5 L",
+      "dimensions": "31.0 x 38.0 x 27.0",
+      "weight": "12Kg",
+      "images": ["elizabeth.jpg"],
+      "additionalInfo": {
+        "notes": [
+          "The most affordable Dual Boiler machine with great performance and programmable pre-infusion, with great steam pressure and PID control. Programmable shots allow for easy-peasy coffee making, you can even teach your spouse how to easily make a gret shot with it.",
+          "The Lelit PL92T Elizabeth is a compact and feature-rich espresso machine designed to deliver exceptional coffee experiences. Boasting a built-in PID temperature controller, it provides precise control over water temperature for consistent extractions. Its dual boilers enable simultaneous brewing and steaming, ensuring efficient workflow. The machine also includes a programmable timed pre-infusion, enhancing flavor extraction from the coffee grounds. The PL92T Elizabeth's user-friendly interface, stainless steel construction, and compact design make it an attractive option for home baristas aiming for professional-level espresso brewing."
+        ],
+        "links": {
+          "official": "https://lelit.com/product/elizabeth-pl92t/",
+          "reviews": [
+            {
+              "name": "Clive Coffee",
+              "link": "https://youtu.be/Od8GOq3Hgh0"
+            },
+            {
+              "name": "The Coffee Folk",
+              "link": "https://thecoffeefolk.com/lelit-elizabeth/#:~:text=In%20summary%20the%20Lelit%20Elizabeth,than%20say%20your%20typical%20E61."
+            },
+            {
+              "name": "Dave Corbey - Overview from 2020",
+              "link": "https://www.youtube.com/watch?v=nO7DA02J3eI"
+            },
+            {
+              "name": "Stefanus Goana (Great Lelit reviews)",
+              "link": "https://www.youtube.com/watch?v=w8vYhgoaIqk"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$1,499.00",
+      "brand": "Bezzera",
+      "model": "BZ07 DE V2",
+      "boilerType": "HX",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Double",
+      "adjustablePressure": "",
+      "brewBoiler": "1.50 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "BZ",
+      "portafilterSize": "58 mm",
+      "wattage": "1400",
+      "reservoir": "3L",
+      "Bigger version of Export and has manometer": "",
+      "additionalInfo": {
+        "notes": "Not so popular espresso machine by Bezzera, A classic heat exchanger with a powerful steaming power thanks to its 1.5 L boiler with a PID.",
+        "links": {
+          "official": "https://www.bezzera.it/en/home",
+          "reviews": [
+            {
+              "name": "Whole Latte Love",
+              "link": "https://www.youtube.com/watch?v=eSAacTxU6Lg"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$1,499.00",
+      "brand": "VBM",
+      "model": "Domobar Junior",
+      "boilerType": "HX",
+      "pid": "NO",
+      "pumpType": "Vibration",
+      "pressureGauge": "Double",
+      "adjustablePressure": "",
+      "brewBoiler": "1.00 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1600",
+      "reservoir": "",
+      "Bigger version of Export and has manometer": "",
+      "images": ["domobar-junior.jpeg"],
+      "additionalInfo": {
+        "notes": "Another great product from Vibiemme, the Domobar Junior. It's a solid well-built, capable espresso machine that can produce high-quality coffee and will serve you for years. This machine has been out for years and today it comes with a digital or analog versions. It's a classic E61 Heat exchanger, but the digital version really feels like a premium, solid and durable machine. Personally, I think it looks cooler than other standard E61 groups like the Mara X and others.",
+        "links": {
+          "official": "https://www.vbmespresso.com/en/home-barista/domobar-junior/",
+          "reviews": [
+            {
+              "name": "Alternative Brewing",
+              "link": "https://www.youtube.com/watch?v=xT0WGtK3Knw"
+            },
+            {
+              "name": "Coffee Parts",
+              "link": "https://www.youtube.com/watch?v=TKDrP5Yweqs"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$1,599.00",
+      "brand": "ECM",
+      "model": "Special Edition Classika",
+      "boilerType": "SB",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Single",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".75 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1200",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$1,620.00",
+      "brand": "Bezzera",
+      "model": "BZ10",
+      "boilerType": "HX",
+      "pid": "NO",
+      "pumpType": "Vibration",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": "3.00 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "BZ",
+      "portafilterSize": "58 mm",
+      "wattage": "1200",
+      "reservoir": "",
+      "Bigger version of Export and has manometer": "",
+      "images": ["bz10.jpeg"],
+      "additionalInfo": {
+        "notes": "Bezzera BZ10 is a great Heat Exchanger from a company you can't go wrong with. It features a house grouphead which can be a plus for its uniqueness but harder to service. You can easily brew your espresso and froth your milk simulatenously. The toughest thing is to decide whether or not you'd like a Lelit Mara X instead.",
+        "links": {
+          "official": "https://www.bezzera.it/en/machines/bz10",
+          "reviews": [
+            {
+              "name": "Coffeedino - 2023?",
+              "link": "https://coffeedino.com/bezzera-bz10-review/"
+            },
+            {
+              "name": "Coffeesnobs Discussion",
+              "link": "https://www.youtube.com/watch?v=TKDrP5Yweqs"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$1,650.00",
+      "brand": "Profitec",
+      "model": "Pro 300",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Single",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".40 L",
+      "steamBoiler": ".75 L",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "58 mm",
+      "wattage": "800",
+      "reservoir": "2.8L",
+      "dimensions": "15.5”x11.9”x17.6",
+      "weight": "39.7 lbs",
+      "images": ["pro300.png"],
+      "additionalInfo": {
+        "notes": [
+          "The Profitec Pro 300 is a high-quality dual boiler espresso machine that offers exceptional performance and versatility. With its dual stainless steel boilers, users can simultaneously brew espresso and steam milk, making it ideal for creating a variety of coffee beverages. The PID temperature control system ensures precise water temperature stability for consistent extractions. The machine's compact and sleek design, combined with its solid construction, reflects its professional-grade build. Its features, including a large water reservoir, E61 group head, and optional direct water line connection, cater to both home baristas and small commercial settings, making the Profitec Pro 300 a standout choice for those seeking advanced espresso capabilities.",
+          "It's probably worth looking for the differences between Lelit Elizabeth and Profitec 300 before making a decision to get any one of those. Pros and cons for both machines."
+        ],
+        "links": {
+          "official": "https://www.profitec-espresso.com/en/products/pro300",
+          "reviews": [
+            {
+              "name": "Clive Coffee",
+              "link": "https://youtu.be/b6CIz-e14Fw"
+            },
+            {
+              "name": "Clive Coffee",
+              "link": "https://clivecoffee.com/products/profitec-pro-300-dual-boiler-espresso-machine"
+            },
+            {
+              "name": "Homegrounds - Affordable Dual Boiler",
+              "link": "https://www.homegrounds.co/profitec-pro-300-review/"
+            },
+            {
+              "name": "Profitec 300 vs Lelit Elizabeth Discussion",
+              "link": "https://www.home-barista.com/advice/lelit-elizabeth-vs-profitec-pro-300-t68377.html"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$1,690.00",
+      "brand": "Rocket",
+      "model": "Espresso Appartamento",
+      "boilerType": "HX",
+      "pid": "NO",
+      "pumpType": "Vibration",
+      "pressureGauge": "Single",
+      "adjustablePressure": "YES",
+      "brewBoiler": "1.80 L",
+      "steamBoiler": "",
+      "boilerMaterial": "copper",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1200",
+      "weight": "44 lbs",
+      "dimensions": "10.8x14.2x16.75in",
+      "reservoir": "2.9 L",
+      "images": ["appartamento.jpeg"],
+      "additionalInfo": {
+        "notes": "Rocket Appartamento is one of the most popular HX machines in the world, it's quite compact but solid machine, produces great espresso and looks astonishing with iconic Rocket knobs. However, with the Lelit Mara X out there, it's hard to recommend any HX over that, and Rocket Appartamento doesn't provide a technical or aesthetic advantage over the Mara X. The Rocket, as most HX machines, require a backflush to get to the desired temperature, unlike the Mara X.",
+        "links": {
+          "official": "https://rocket-espresso.com/appartamento.html",
+          "reviews": [
+            {
+              "name": "Home Barista discussion 2020",
+              "link": "https://www.home-barista.com/advice/rocket-appartamento-vs-ecm-mechanika-vs-lelit-marax-t69945.html"
+            },
+            {
+              "name": "Xris",
+              "link": "https://www.youtube.com/watch?v=q9kTAcC6V0A"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$1,695.00",
+      "brand": "Elektra",
+      "model": "Micro Casa a Leva",
+      "boilerType": "SB",
+      "pid": "NO",
+      "pumpType": "None",
+      "pressureGauge": "Single",
+      "adjustablePressure": "",
+      "brewBoiler": "1.80 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": ""
+      },
+      "groupType": "Lever",
+      "portafilterSize": "49 mm",
+      "wattage": "800",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$1,795.00",
+      "brand": "Quick Mill",
+      "model": "Andreja Premium Evo",
+      "boilerType": "HX",
+      "pid": "NO",
+      "pumpType": "Vibration",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": "1.60 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1400",
+      "reservoir": "3L",
+      "Bigger version of Export and has manometer": "",
+      "images": ["andreja-evo.webp"],
+      "additionalInfo": {
+        "notes": "The Andreja Premium can be equipped with multi-directional joystick steam and hot water assemblies. Direct connect plumbing option available. Keep in mind, there is no PID.",
+        "links": {
+          "official": "https://www.quickmill.it/en/products/lever-group/andreja-mod-0980/",
+          "reviews": [
+            {
+              "name": "Majesty Coffee",
+              "link": "https://majestycoffee.com/collections/best-espresso-machines-for-office-use/products/quick-mill-andreja-premium-evo-espresso-maker-0980p-a"
+            },
+            {
+              "name": "HomeGrounds",
+              "link": "https://www.homegrounds.co/quick-mill-andreja-premium-review/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$1,799.00",
+      "brand": "Bezzera",
+      "model": "Magica V2",
+      "boilerType": "HX",
+      "pid": "NO",
+      "pumpType": "Vibration",
+      "pressureGauge": "Double",
+      "adjustablePressure": "",
+      "brewBoiler": "2.00 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1450",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$1,850.00",
+      "brand": "Profitec",
+      "model": "Pro 500",
+      "boilerType": "HX",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": "2.00 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1400",
+      "reservoir": "2.8 l",
+      "ecoMode": "Programmable ECO-Mode",
+      "Bigger version of Export and has manometer": "",
+      "images": ["mechanika.jpeg"],
+      "dimensions": "302x447x393mm",
+      "additionalInfo": {
+        "notes": "The Profitec Pro 500 is a premium espresso machine renowned for its quality craftsmanship and advanced features. With a powerful boiler, PID temperature control, and E61 group head, it ensures precise brewing for exceptional espresso enthusiasts.",
+        "links": {
+          "official": "https://www.profitec-espresso.com/en/products/pro500",
+          "reviews": [
+            {
+              "name": "Home Barista - Forum User",
+              "link": "https://www.home-barista.com/espresso-machines/profitec-pro-500-pid-experience-so-far-t64622.html"
+            },
+            {
+              "name": "Whole Latte Love",
+              "link": "https://www.youtube.com/watch?v=vuci2UFdt4w"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$1,850.00",
+      "brand": "ECM",
+      "model": "Mechanika V Slim",
+      "boilerType": "HX",
+      "pid": "NO",
+      "pumpType": "Vibration",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": "2.20 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1400",
+      "reservoir": "2.8 L",
+      "twoGroupViable": "",
+      "Bigger version of Export and has manometer": "",
+      "dimensions": "250x450x395mm",
+      "images": ["mechanika.jpeg"],
+      "additionalInfo": {
+        "notes": "It's a slim ECM machine, with a top-notch build quality with no detail overlooked and great performance. Big boiler provides extremely good steam preasure for making milk-based drinks all day. Also warms up pretty fast. The only significant downside of this machine is the required flush which the Lelit Mara X doesn't have.",
+        "links": {
+          "official": "https://www.profitec-espresso.com/en/products/pro500",
+          "reviews": [
+            {
+              "name": "Home Barista - Forum User",
+              "link": "https://www.home-barista.com/espresso-machines/ecm-mechanika-v-slim-review-t62794.html#p694273"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$1,895.00",
+      "brand": "LA SPAZIALE",
+      "model": "Mini Vivaldi II",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Digital",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".45 L",
+      "steamBoiler": "1.20 L",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "53 mm",
+      "wattage": "800",
+      "reservoir": "",
+      "twoGroupViable": "",
+      "Bigger version of Export and has manometer": "",
+      "dimensions": "415x415x385mm",
+      "images": ["mini-vivaldi.png"],
+      "additionalInfo": {
+        "notes": [
+          "The Mini Vivaldi II is the little brother of the La Spaziale Vivaldi II which has an enormous positive reputation among home coffee enthusiasts. The main difference between them is the Mini is water tank only whereas the La Spaziale Vivaldi is plumb only. This may be enough to consider the Mini, however, there are some other differences such as Rotary vs Vibratory pump, boiler capacities, preinfusion capabilities and size."
+        ],
+        "links": {
+          "official": "https://www.laspaziale.com/index.php/en/products/coffee-machines/s1/s1-mini-vivaldi-ii",
+          "reviews": [
+            {
+              "name": "Whole Latte Love - Product Page",
+              "link": "https://www.wholelattelove.com/products/la-spaziale-s1-mini-vivaldi-ii"
+            },
+            {
+              "name": "Espresso Outlet - Info",
+              "link": "https://www.espressooutlet.net/espresso-outlet-blog/what-is-the-difference-between-the-la-spaziale-dream-dream-t-vivaldi-ii-and-mini-vivaldi-ii/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$1,895.00",
+      "brand": "LUCCA",
+      "model": "A53 Mini",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Digital",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".45 L",
+      "steamBoiler": "1.20 L",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "53 mm",
+      "wattage": "",
+      "reservoir": "",
+      "twoGroupViable": "",
+      "Bigger version of Export and has manometer": "",
+      "dimensions": "16.5x16.5x15.25in",
+      "images": ["a53-mini.webp"],
+      "additionalInfo": {
+        "notes": [
+          "It's essentially a La Spaziale, designed and marketed by Clivecoffee.com. It's close to perfect."
+        ],
+        "links": {
+          "official": "https://clivecoffee.com/products/lucca-a53-mini-espresso-machine-by-la-spaziale",
+          "reviews": [
+            {
+              "name": "Clive Coffee - Why We Love Lucca",
+              "link": "https://clivecoffee.com/blogs/learn/why-we-love-the-lucca-a53-mini"
+            },
+            {
+              "name": "Clive Coffee - Why We Love Lucca - Video",
+              "link": "https://www.youtube.com/watch?v=s2c5Wr_kQNQ"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$1,999.00",
+      "brand": "Bezzera",
+      "model": "Magica PID V2",
+      "boilerType": "HX",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Double",
+      "adjustablePressure": "",
+      "brewBoiler": "2.00 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1450",
+      "reservoir": "4 L",
+      "twoGroupViable": "",
+      "Bigger version of Export and has manometer": "",
+      "dimensions": "300x425x415mm",
+      "images": ["magica.jpeg"],
+      "additionalInfo": {
+        "notes": [
+          "Another E61 box from a respectable brand Bezzera. This unit comes with a PID, there is a cheaper non pid version. Sturdy, stable, solid, but quite expensive given the options available for good HX machines."
+        ],
+        "links": {
+          "official": "https://www.bezzera.it/en/machines/magica",
+          "reviews": [
+            {
+              "name": "Anthony's Espresso Equipment",
+              "link": "https://www.youtube.com/watch?v=-gBo4jHAkVk"
+            },
+            {
+              "name": "Homegrounds Review",
+              "link": "https://www.homegrounds.co/bezzera-magica-review/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$1,999.00",
+      "brand": "IZZO",
+      "model": "ViVi",
+      "boilerType": "HX",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Double",
+      "adjustablePressure": "",
+      "brewBoiler": "1.80 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1350",
+      "reservoir": "",
+      "twoGroupViable": "",
+      "Bigger version of Export and has manometer": ""
+    },
+    {
+      "priceUsd": "$1,999.00",
+      "brand": "VBM",
+      "model": "Domobar Super",
+      "boilerType": "HX",
+      "pid": "NO",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "",
+      "brewBoiler": "1.80 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1600",
+      "reservoir": "",
+      "twoGroupViable": "",
+      "Bigger version of Export and has manometer": "",
+      "images": ["super-digital.jpeg"],
+      "dimensions": "",
+      "additionalInfo": {
+        "notes": [
+          "The Vibiemme Domobar Super is a rock-solid machine invented back in the 70s or 80s. It has known a lot of improvements since then and it's a beast by today standards.",
+          "The latest model was released in 2019, a dual boiler electronic beast. However, it has a brother Heat Exchanger. Personally, I find the 2B more appealing, being a top-end home coffee espresso machine."
+        ],
+        "links": {
+          "official": "https://www.simonelliusa.com/Oscar-II",
+          "reviews": [
+            {
+              "name": "Majesty Coffee",
+              "link": "https://www.youtube.com/watch?v=yhcUB3HEgGs"
+            },
+            {
+              "name": "Home Cafe By Charlie",
+              "link": "https://www.youtube.com/watch?v=77mv0fEISf0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$2,095.00",
+      "brand": "LA SPAZIALE",
+      "model": "Dream T",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Digital",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".45 L",
+      "steamBoiler": "1.20 L",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Saturated",
+      "portafilterSize": "53 mm",
+      "wattage": "",
+      "reservoir": "2.4L",
+      "dimensions": "415x415x385",
+      "weight": "28Kg",
+      "images": ["dream-t.png"],
+      "additionalInfo": {
+        "notes": [""],
+        "links": {
+          "official": "https://www.laspaziale.com/index.php/en/products/coffee-machines/s1/s1-dream-t",
+          "reviews": [
+            {
+              "name": "Chris Coffee Service - Dream and Dream T review",
+              "link": "https://youtu.be/DaRRvMoAoXk"
+            },
+            {
+              "name": "Espresso Outlet - In Depth Review",
+              "link": "https://www.espressooutlet.net/espresso-outlet-blog/la-spaziale-dream-t-in-depth-review/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$2,100.00",
+      "brand": "Rocket",
+      "model": "Giotto Timer Type V",
+      "boilerType": "HX",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": "1.80 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1200",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$2,150.00",
+      "brand": "Rocket",
+      "model": "Mozzafiato Timer Type V",
+      "boilerType": "HX",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": "1.80 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1200",
+      "reservoir": "",
+      "twoGroupViable": "",
+      "Bigger version of Export and has manometer": ""
+    },
+
+    {
+      "priceUsd": "$2,195.00",
+      "brand": "LA SPAZIALE",
+      "model": "Vivaldi II",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Digital",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".45 L",
+      "steamBoiler": "2.50 L",
+      "tank": {
+        "plumb": "Plumbed"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "53 mm",
+      "wattage": "800W",
+      "reservoir": "2.5 L",
+      "dimensions": "415x415x385mm",
+      "weight": "62 lbs",
+      "images": ["Vivaldi-Black-side.jpg"],
+      "additionalInfo": {
+        "notes": [
+          "The La Spaziale Vivaldi II is a top-tier espresso machine renowned for its advanced features and exceptional brewing capabilities. Equipped with dual boilers and a programmable PID temperature control system, it delivers precise and consistent water temperatures for optimal extraction. The volumetric dosing and shot timers enhance brewing accuracy and repeatability, while the machine's E61 group head ensures even saturation of coffee grounds. With its sleek stainless steel design and customizable settings, the Vivaldi II caters to both home baristas and small commercial setups. Its versatility, combined with its attention to temperature stability and ergonomic design, establishes the La Spaziale Vivaldi II as a standout choice for those seeking high-performance espresso craftsmanship.",
+          "One of the only downside of this machines is its being only direct water connection, no water tank. Another minor one I found is the clearance between your portafilter and drip tray is quite small limiting the sort of cups and mugs you can use."
+        ],
+        "links": {
+          "official": "https://www.laspaziale.com/index.php/en/products/coffee-machines/s1/s1-vivaldi-ii",
+          "reviews": [
+            {
+              "name": "Majesty Cooffee",
+              "link": "https://youtu.be/ciBVDFhlpTY"
+            },
+            {
+              "name": "Clive Coffee",
+              "link": "https://clivecoffee.com/products/la-spaziale-vivaldi-ii-espresso-machine#specs"
+            },
+            {
+              "name": "Home Barista La Spaz Vivaldi II Review",
+              "link": "https://www.home-barista.com/la-spaziale-vivaldi-ii-review.html"
+            }
+          ]
+        }
+      }
+    },
+
+    {
+      "priceUsd": "$2,195.00",
+      "brand": "LUCCA",
+      "model": "Direct plumb A53",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Digital",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".45 L",
+      "steamBoiler": "1.20 L",
+      "tank": {
+        "plumb": "Plumbed"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "53 mm",
+      "wattage": "800 W",
+      "reservoir": "2.5 L",
+      "dimensions": "15.25x16.50x16.50",
+      "weight": "62 lbs",
+      "images": ["Lucca-A53-Direct-Plumb-Front.webp"],
+      "additionalInfo": {
+        "notes": [
+          "The Lucca Direct Plumb A53 is a premium espresso machine that combines exquisite craftsmanship and innovative features to deliver exceptional coffee experiences. With its direct plumb functionality, this machine offers continuous water supply, eliminating the need to refill a water reservoir. It features a heat exchange system that allows simultaneous brewing and steaming, ensuring efficient workflow. The E61 group head and PID temperature control system contribute to precise temperature stability, enhancing flavor extraction. Its timeless design, stainless steel construction, and attention to detail make the Lucca Direct Plumb A53 a coveted choice for coffee enthusiasts who seek a seamless and high-performance espresso-making process at home or in a small commercial setting."
+        ],
+        "links": {
+          "official": "https://www.totalespresso.com/products/lucca-a53-double-boiler-direct-plumb-rotary-pump-espresso-machine#:~:text=Heating%20element%3A%20Brew%3A%20800%20watts,Portafilter%20size%3A%2053%20mm",
+          "reviews": [
+            {
+              "name": "Clive Coffee",
+              "link": "https://youtu.be/39pAat4-AGs"
+            },
+            {
+              "name": "Clive Coffee",
+              "link": "https://clivecoffee.com/products/direct-plumb-lucca-a53-espresso-machine-by-la-spaziale#specs"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$2,199.00",
+      "brand": "IZZO",
+      "model": "Alex PID Pro",
+      "boilerType": "HX",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": "2.30 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1350",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$2,259.00",
+      "brand": "Elektra",
+      "model": "Semiautomatica",
+      "boilerType": "HX",
+      "pid": "NO",
+      "pumpType": "Vibration",
+      "pressureGauge": "Single",
+      "adjustablePressure": "",
+      "brewBoiler": "2.00 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "800",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$2,300.00",
+      "brand": "Profitec",
+      "model": "Pro 600",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".45 L",
+      "steamBoiler": "1.20 L",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1000",
+      "reservoir": "2.8 L",
+      "dimensions": "305 x 555 x 395mm",
+      "weight": "24 Kg",
+      "images": ["profitec-600.png"],
+      "additionalInfo": {
+        "notes": [
+          "The Profitec Pro 600 is an exceptional espresso machine that blends professional-grade features with sleek design. With its dual stainless steel boilers, this machine allows for simultaneous brewing and steaming, ensuring efficient coffee preparation. The PID temperature control system guarantees precise water temperature stability, resulting in consistent extractions. The Pro 600's unique feature is its flow control mechanism, enabling baristas to manually adjust the flow rate during extraction for customized flavors. Its E61 group head ensures even saturation of coffee grounds, enhancing flavor extraction. With its combination of innovative technology, elegant aesthetics, and robust construction, the Profitec Pro 600 stands out as an excellent choice for those seeking a high-performance espresso machine that caters to both home enthusiasts and small commercial setups..",
+          "However, when you compare the Profitec 600 to either Profitec 600 or the Lelit Bianca, you may be wondering what is it about the Profitec 600 that stands out? Primarily its home, ECM/Profitec's German-Italian engineering, design, attention to details, and reliability. That being said, machines like the Lelit Bianca offer much more than that at just a little bit more price."
+        ],
+        "links": {
+          "official": "https://www.profitec-espresso.com/en/products/pro600",
+          "reviews": [
+            {
+              "name": "Coffeeblog.co.uk - Profitec 600 Review 2023",
+              "link": "https://coffeeblog.co.uk/profitec-pro-600-review-2/"
+            },
+            {
+              "name": "CoffeeForums - Profitec 600 vs Lelit Bianca - Discussion",
+              "link": "https://www.coffeeforums.co.uk/threads/bianca-or-prof-pro-600-or.57437"
+            },
+            {
+              "name": "Machine Coffee",
+              "link": "https://machina-coffee.com/products/profitec-600-dual-boiler-coffee-machine-2022"
+            },
+            {
+              "name": "Machine Coffee",
+              "link": "https://machina-coffee.com/products/profitec-600-dual-boiler-coffee-machine-2022"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$2,395.00",
+      "brand": "LA SPAZIALE",
+      "model": "Dream",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Digital",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".45 L",
+      "steamBoiler": "2.50 L",
+      "tank": {
+        "plumb": "Plumbed"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "53 mm",
+      "wattage": "",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$2,499.00",
+      "brand": "Decent",
+      "model": "DE1PRO",
+      "boilerType": "SB",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Digital",
+      "adjustablePressure": "YES",
+      "brewBoiler": "",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "58 mm",
+      "wattage": "",
+      "reservoir": "2 L",
+      "images": ["de1pro.jpeg"],
+      "weight": "29.1 lbs"
+    },
+    {
+      "priceUsd": "$2,500.00",
+      "brand": "ECM",
+      "model": "Mechanika IV Profi Switchable",
+      "boilerType": "HX",
+      "pid": "NO",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": "2.00 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1400",
+      "reservoir": "",
+      "twoGroupViable": "",
+      "Bigger version of Export and has manometer": ""
+    },
+    {
+      "priceUsd": "$2,516.00",
+      "brand": "Bezzera",
+      "model": "Strega",
+      "boilerType": "HX",
+      "pid": "NO",
+      "pumpType": "Vibration",
+      "pressureGauge": "Single",
+      "adjustablePressure": "",
+      "brewBoiler": "2.00 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "Lever",
+      "portafilterSize": "58 mm",
+      "wattage": "1550",
+      "reservoir": "4 L",
+      "twoGroupViable": "",
+      "Bigger version of Export and has manometer": "",
+      "weight": "32 kg",
+      "dimensions": "330x450x710mm",
+      "images": ["strega.jpeg"],
+      "additionalInfo": {
+        "notes": [
+          "Bezzera Strega is a phenomenal lever espresso machine, it's piston-loaded with a pump. This feature is what splits people in a sense, because the pump is quite noisy and will activate as long as you're preinfusing the shot and some people don't like that noise. However, it is also Strega's unique point because it allows for versatile usage. You can disengage the pump when you decide which ultimately gives you greater control.",
+          "There are plenty of modifications you can preform on this machine that will improve your experience and make its usage significantly more pleasant and enjoyable.",
+          "The most serious contenders of the Strega are Profitec 800 and Londinium."
+        ],
+        "links": {
+          "official": "https://www.bezzera.it/en/machines/strega",
+          "reviews": [
+            {
+              "name": "Jim Schulman - Home Barista Review",
+              "link": "https://www.home-barista.com/blog/bezzera-strega-second-look-t18933.html"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$2,524.00",
+      "brand": "Bezzera",
+      "model": "Mitica V2",
+      "boilerType": "HX",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "",
+      "brewBoiler": "2.00 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1450",
+      "reservoir": "4 L",
+      "twoGroupViable": "",
+      "Bigger version of Export and has manometer": "",
+      "dimensions": "320x450x375mm",
+      "weight": "28.2kg",
+      "images": ["mitica.jpeg"],
+      "additionalInfo": {
+        "notes": [
+          "Bezzera Mitica is among the top of high-end Heat Exchanger machines. It features a rotary pump, a high quality build and durability, with an option to plumb-in"
+        ],
+        "links": {
+          "official": "https://www.bezzera.it/en/machines/mitica",
+          "reviews": [
+            {
+              "name": "Coffeesnobs Buyer Discussion and Impressions",
+              "link": "https://coffeesnobs.com.au/forum/equipment/brewing-equipment-extreme-machines-3000/52950-finally-got-my-bezzera-mitica-top"
+            },
+            {
+              "name": "AB review and product page",
+              "link": "https://alternativebrewing.com.au/products/bezzera-mitica-top"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$2,549.00",
+      "brand": "ECM",
+      "model": "Technika V Profi PID",
+      "boilerType": "HX",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": "2.10 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1400",
+      "reservoir": "",
+      "twoGroupViable": "Pressure Profiling",
+      "Bigger version of Export and has manometer": "Pre-Infusion",
+      "FIELD20": "Controller & Smartphone Apps"
+    },
+    {
+      "priceUsd": "$2,549.00",
+      "brand": "ECM",
+      "model": "Elektronika II Profi Switchable",
+      "boilerType": "HX",
+      "pid": "NO",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "NO",
+      "brewBoiler": "2.00 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1400",
+      "reservoir": "",
+      "twoGroupViable": "",
+      "Bigger version of Export and has manometer": ""
+    },
+    {
+      "priceUsd": "$2,550.00",
+      "brand": "Rocket",
+      "model": "Espresso Giotto Evoluzione R",
+      "boilerType": "HX",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": "1.80 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1200",
+      "reservoir": "",
+      "twoGroupViable": "",
+      "Bigger version of Export and has manometer": ""
+    },
+    {
+      "priceUsd": "$2,600.00",
+      "brand": "Rocket",
+      "model": "Espresso Mozzafiato Evoluzione R",
+      "boilerType": "HX",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": "1.80 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1200",
+      "reservoir": "",
+      "twoGroupViable": "",
+      "Bigger version of Export and has manometer": ""
+    },
+    {
+      "priceUsd": "$2,626.00",
+      "brand": "Bezzera",
+      "model": "DUO MN - Wood Accents",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Digital",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".45 L",
+      "steamBoiler": "1.00 L",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "800",
+      "reservoir": "",
+      "twoGroupViable": "",
+      "Bigger version of Export and has manometer": ""
+    },
+    {
+      "priceUsd": "$2,695.00",
+      "brand": "LUCCA",
+      "model": "M58 V2",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".75 L",
+      "steamBoiler": "1.40 L",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1400",
+      "reservoir": "",
+      "twoGroupViable": "",
+      "Bigger version of Export and has manometer": ""
+    },
+    {
+      "priceUsd": "$2,695.00",
+      "brand": "Quick Mill",
+      "model": "Vetrano 2B Evo",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".75 L",
+      "steamBoiler": "1.40 L",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1400",
+      "reservoir": "1.4 L",
+      "twoGroupViable": "",
+      "Bigger version of Export and has manometer": "",
+      "dimensions": "16x13x18in",
+      "weight": "70 lbs",
+      "images": ["vetrano.webp"],
+      "additionalInfo": {
+        "notes": [
+          "The Quick Mill Vetrano 2B Evo is a superb espresso machine that seamlessly combines modern features with timeless design. With its dual boiler system, this machine enables simultaneous brewing and steaming, streamlining the coffee-making process. The PID temperature control system guarantees precise water temperature stability, ensuring consistent and flavorful extractions. The Vetrano 2B Evo's E61 group head offers uniform saturation of coffee grounds, enhancing the quality of the espresso. Its stainless steel construction and attention to detail reflect its commitment to both durability and aesthetics. The machine's blend of innovative technology and classic design makes it an excellent choice for espresso enthusiasts who value performance and elegance in equal measure."
+        ],
+        "links": {
+          "official": "https://www.wholelattelove.com/products/quick-mill-vetrano-2b-evo-dual-boiler-espresso-machine#product-specs",
+          "reviews": [
+            {
+              "name": "Clive Coffee",
+              "link": "https://youtu.be/jPpsZagP6gc"
+            },
+            {
+              "name": "Cliffandpebble",
+              "link": "https://cliffandpebble.com/products/quick-mill-vetrano-2b-evo-rotary-espresso-machine"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$2,695.00",
+      "brand": "VBM",
+      "model": "Domobar Super",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "Pressure Profiling",
+      "brewBoiler": ".5 L",
+      "steamBoiler": "2 L",
+      "boilerMaterial": "copper",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1800 (600 brew + 1200 steam)",
+      "reservoir": "2 L (approx)",
+      "images": ["super-electronic.jpeg"],
+      "dimensions": "",
+      "additionalInfo": {
+        "notes": [
+          "The Vibiemme Domobar Super is a rock-solid machine invented back in the 70s or 80s. It has known a lot of improvements since then and it's a beast by today standards.",
+          "The latest model was released in 2019, a dual boiler electronic beast. However, it has a brother Heat Exchanger. Personally, I find the 2B more appealing, being a top-end home coffee espresso machine.",
+          "The LED touch display is somethng to love or to hate, but I can't deny the appeal of it. It's convenient to use, to change profiles, to adjust steam pressure directly without having to fuss with temperature manually.",
+          "Despite all the positives, this machine is more of a rarity (IMHO) in the US, it's sold more often in Australia and NZ. Community and parts availability is an important factor to consider when buying a machine."
+        ],
+        "links": {
+          "official": "https://www.vbmespresso.com/en/home-barista/domobar-super/",
+          "reviews": [
+            {
+              "name": "Coffee Geek - 2005?",
+              "link": "https://www.coffeegeek.com/reviews/vibiemmedomobarsuper/"
+            },
+            {
+              "name": "Espresso Outlet - Info",
+              "link": "https://www.espressooutlet.net/vbm-domobar-super-electronic-digital-dual-boiler-espresso-machine-with-flow-control/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$2,700.00",
+      "brand": "Profitec",
+      "model": "Pro 700",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".73 L",
+      "steamBoiler": "2.00 L",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1400",
+      "reservoir": "",
+      "dimensions": "16x13x18in",
+      "weight": "70 lbs",
+      "images": ["profitec-700.png"],
+      "additionalInfo": {
+        "notes": [
+          "The Profitec 700 is your home barista passport. This is a machine of high quality, astonishing looks, and great performance. With its massive dual boilers, you can do anything. You can even add flow control if you like.",
+          "The main competitors to this machine are: Lelit Bianca and ECM Synchronika. The Lelit Bianca stands out thanks to its out-of-the-box flow control, whereas in the Profitec 700, it's a paid addon. Build quality and steam pressure is superior in the Profitec 700. But, overall, both are great machines and you can't wrong with either."
+        ],
+        "links": {
+          "official": "https://www.profitec-espresso.com/en/products/pro700",
+          "reviews": [
+            {
+              "name": "Profitec 700 - Full Review by Xris",
+              "link": "https://www.youtube.com/watch?v=xYkCawbwwxQ"
+            },
+            {
+              "name": "Profitec 700 vs Lelit Bianca by Xris",
+              "link": "https://www.youtube.com/watch?v=9m4JZvMnna0"
+            },
+            {
+              "name": "Profitec 700 vs Lelit Bianca - Reddit discussion",
+              "link": "https://www.reddit.com/r/espresso/comments/vbc3o5/lelit_bianca_vs_profitec_pro_700/"
+            },
+            {
+              "name": "Profitec 700 vs Lelit Bianca - Coffe Snobs Australia",
+              "link": "https://coffeesnobs.com.au/forum/equipment/brewing-equipment-extreme-machines-3000/53540-de1-vs-bianca-vs-pro-700"
+            },
+            {
+              "name": "Profitec 700 vs Lelit Bianca - Coffeetime Discussion",
+              "link": "https://coffeetime.freeflarum.com/d/1040-lelit-bianca-or-profitec-700/136"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$2,729.00",
+      "brand": "Bezzera",
+      "model": "Matrix MN",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Digital",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".45 L",
+      "steamBoiler": "1.00 L",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1200",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$2,790.00",
+      "brand": "IZZO",
+      "model": "Alex Duetto IV Plus",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".80 L",
+      "steamBoiler": "1.80 L",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1200",
+      "reservoir": "2.3 L",
+      "dimensions": "310x470x420mm",
+      "weight": "33 Kg",
+      "images": ["Izzo-DUETTO.jpg"],
+      "additionalInfo": {
+        "notes": [
+          "The Izzo Alex Duetto IV Plus represents a remarkable achievement in the realm of dual boiler espresso machines, showcasing Izzo's commitment to excellence. This espresso machine is a true workhorse, boasting rapid recovery times, sizable boilers, and robust heating elements that allow for uninterrupted back-to-back drink preparation. The standard inclusion of a dual PID, shot timer, and an elevated E61 group head simplifies the process, making it effortless to accommodate larger cups. The Duetto IV Plus is a standout performer, delivering an exceptional experience when crafting lattes and cappuccinos. Izzo's dedication to quality and innovation shines through, solidifying the Duetto IV Plus as a powerhouse choice for those seeking both efficiency and satisfaction in their espresso-making journey."
+        ],
+        "links": {
+          "official": "https://caffeizzo.it/family-espresso-machines/alex-duetto-iv-plus/?lang=en",
+          "reviews": [
+            {
+              "name": "Chris Coffee service",
+              "link": "https://youtu.be/Qzi5_SdUzPI"
+            },
+            {
+              "name": "1st in Coffee",
+              "link": "https://www.1stincoffee.com/izzo-alex-duetto.htm"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$2,795.00",
+      "brand": "Lelit",
+      "model": "Bianca - Flow control",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "TRIPLE",
+      "adjustablePressure": "",
+      "brewBoiler": ".80 L",
+      "steamBoiler": "1.50 L",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1400",
+      "reservoir": "2.5 L",
+      "images": ["bianca.jpeg"],
+      "dimensions": "15.75x11.4x19.1in",
+      "weight": "58.5 lbs",
+      "additionalInfo": {
+        "notes": [
+          "The Lelit Bianca stands as a trailblazer in the prosumer espresso realm, pioneering flow control and profiling. Its distinctive wood accents and standard flow control setting set it apart. A remarkable touch is the modular reservoir, which can shrink the machine when plumbed or be positioned freely. This innovation has maintained its allure since our first encounter, a lasting testament to its design brilliance. Flow profiling, once confined to commercial machines, is now democratized by the Lelit Bianca, designed to empower home baristas with its potent and versatile features."
+        ],
+        "links": {
+          "official": "https://lelit.com/product/bianca-pl162t/",
+          "reviews": [
+            {
+              "name": "Clive Coffee",
+              "link": "https://clivecoffee.com/products/lelit-bianca-dual-boiler-espresso-machine"
+            },
+            {
+              "name": "The Real sprometheus",
+              "link": "https://www.youtube.com/watch?v=pxDlF_N-_VM"
+            },
+            {
+              "name": "Kyle Roswell - Truth About Ownership",
+              "link": "https://www.youtube.com/watch?v=jVjXTi0X0uc"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$2,832.00",
+      "brand": "Bezzera",
+      "model": "Duo DE - Volumetric",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Digital",
+      "adjustablePressure": "",
+      "brewBoiler": ".45 L",
+      "steamBoiler": "1.00 L",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "Bezzera",
+      "portafilterSize": "58 mm",
+      "wattage": "1200",
+      "reservoir": "4 L",
+      "dimensions": "326x470x425mm",
+      "weight": "31 kg",
+      "images": ["bz-duo.jpg"],
+      "additionalInfo": {
+        "notes": [
+          "The Bezzera Duo DE Volumetric is a sophisticated espresso machine that harmonizes contemporary technology with traditional craftsmanship. Its volumetric capabilities offer precise control over shot extraction, ensuring consistency and repeatability in every cup. Equipped with a dual boiler system, this machine facilitates efficient brewing and steaming simultaneously. The PID temperature control system maintains accurate water temperature for optimal flavor extraction. The Duo DE's sleek design, stainless steel construction, and attention to detail reflect its commitment to both aesthetics and functionality. With its blend of advanced features and user-friendly design, the Bezzera Duo DE Volumetric caters to espresso enthusiasts seeking a seamless and high-performance experience, making it an excellent addition to both home and commercial setups."
+        ],
+        "links": {
+          "official": "https://www.bezzera.it/en/machines/duo",
+          "reviews": [
+            {
+              "name": "Whole Latte Love",
+              "link": "https://youtu.be/1vuvwNLgS9g"
+            },
+            {
+              "name": "iDrinkCoffeeCanada",
+              "link": "https://youtu.be/sNdcKXYy5LA"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$2,839.00",
+      "brand": "Astra",
+      "model": "GS022",
+      "boilerType": "HX",
+      "pid": "NO",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "",
+      "brewBoiler": "4.20 L",
+      "steamBoiler": ".00 L",
+      "tank": {
+        "plumb": "Plumbed"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "2000",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$2,839.00",
+      "brand": "Astra",
+      "model": "GS023",
+      "boilerType": "HX",
+      "pid": "NO",
+      "pumpType": "Rotary",
+      "pressureGauge": "Single",
+      "adjustablePressure": "",
+      "brewBoiler": "4.20 L",
+      "steamBoiler": ".00 L",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "2000",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$2,858.50",
+      "brand": "Londinium",
+      "model": "R",
+      "boilerType": "HX",
+      "pid": "NO",
+      "pumpType": "Rotary",
+      "pressureGauge": "Single",
+      "adjustablePressure": "",
+      "brewBoiler": "2.30 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Lever",
+      "portafilterSize": "58 mm",
+      "wattage": "1400",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$2,899.00",
+      "brand": "IZZO",
+      "model": "Alex Duetto IV Pro",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".80 L",
+      "steamBoiler": "1.80 L",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1200",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$4,099.00",
+      "brand": "Decent",
+      "model": "DE1XL",
+      "boilerType": "SB",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Digital",
+      "adjustablePressure": "YES",
+      "brewBoiler": "",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "58 mm",
+      "wattage": "1500",
+      "reservoir": "2 L",
+      "images": ["de1xl.jpeg"],
+      "weight": "29.5 lbs"
+    },
+    {
+      "priceUsd": "$2,899.00",
+      "brand": "Profitec",
+      "model": "Pro 800",
+      "boilerType": "Dipper",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Single",
+      "adjustablePressure": "Manual",
+      "brewBoiler": "3.50 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "Spring Lever",
+      "portafilterSize": "58 mm",
+      "wattage": "1500",
+      "reservoir": "3 L",
+      "Bigger version of Export and has manometer": "",
+      "images": [],
+      "weight": "35 kg",
+      "dimensions": "16.5x16.5x15.25in"
+    },
+    {
+      "priceUsd": "$2,925.00",
+      "brand": "Nuova Simonelli",
+      "model": "Musica - Volumetric",
+      "boilerType": "HX",
+      "pid": "NO",
+      "pumpType": "Vibration",
+      "pressureGauge": "Double",
+      "adjustablePressure": "",
+      "brewBoiler": "",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "Plumbed"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1200",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$2,935.00",
+      "brand": "Bezzera",
+      "model": "Matrix MN",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Digital",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".45 L",
+      "steamBoiler": "1.00 L",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "Bezzera",
+      "portafilterSize": "58 mm",
+      "wattage": "1200",
+      "reservoir": "4 L",
+      "dimensions": "310x470x420mm",
+      "weight": "33 kg | 72.75 lbs",
+      "images": ["matrix.jpg"],
+      "additionalInfo": {
+        "notes": [
+          "The Bezzera Matrix MN represents the fusion of modern innovation and traditional espresso craftsmanship. With its cutting-edge features, this espresso machine offers an elevated coffee-making experience. The intuitive touch screen interface simplifies control and customization, enhancing usability. Equipped with a dual boiler system, the Matrix MN enables simultaneous brewing and steaming, catering to efficient workflow. The PID temperature control system ensures consistent water temperature for optimal extraction. Its stainless steel construction, sleek design, and meticulous attention to detail reflect a commitment to both durability and aesthetics. The Bezzera Matrix MN is a testament to the brand's dedication to pushing boundaries, offering a blend of advanced technology and timeless espresso traditions that make it an excellent choice for those seeking innovation and excellence in their coffee journey.",
+          "Bezzera Matrix have two models: E61 and Bezzera in-house group. Other than that, as far as I'm aware of, they're identical."
+        ],
+        "links": {
+          "official": "https://www.bezzera.it/en/machines/matrix",
+          "reviews": [
+            {
+              "name": "iDrinkCoffeeCanada",
+              "link": "https://youtu.be/hZePU6nRCCs"
+            },
+            {
+              "name": "1st-line Equipment",
+              "link": "https://youtu.be/ZtU8pfwXUf0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$2,977.00",
+      "brand": "Elektra",
+      "model": "Mini Verticale",
+      "boilerType": "HX",
+      "pid": "NO",
+      "pumpType": "Vibration",
+      "pressureGauge": "Single",
+      "adjustablePressure": "",
+      "brewBoiler": "2.00 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1000",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$2,999.00",
+      "brand": "ECM",
+      "model": "Synchronika",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".75 L",
+      "steamBoiler": "2.00 L",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1400",
+      "reservoir": "2 L",
+      "dimensions": "335x490x410mm",
+      "weight": "30 kg | 66.14 lbs",
+      "images": ["synchronika.jpeg", "synchronika-2.jpeg"],
+      "additionalInfo": {
+        "notes": [
+          "The ECM Synchronika is an exquisite espresso machine that seamlessly marries form and function to deliver exceptional coffee craftsmanship. With its dual boiler system, this machine allows for simultaneous brewing and steaming, ensuring efficient coffee preparation. The PID temperature control system guarantees precise water temperature stability, resulting in consistent and flavorful extractions. The Synchronika's striking stainless steel design, combined with its attention to detail, reflects its commitment to both aesthetics and performance. Its iconic E61 group head ensures even saturation of coffee grounds, enhancing the quality of each shot. Representing the pinnacle of ECM's engineering prowess, the Synchronika caters to those who demand both exceptional design and outstanding espresso-making capabilities."
+        ],
+        "links": {
+          "official": "https://www.ecm.de/produkte/details/product/Product/Details/synchronika.html",
+          "reviews": [
+            {
+              "name": "Whole Latte Love",
+              "link": "https://youtu.be/NTRA3ZeTwnM"
+            },
+            {
+              "name": "Whole Latte Love",
+              "link": "https://youtu.be/hunFv7E51L8"
+            },
+            {
+              "name": "HomeGrounds - Review",
+              "link": "https://www.homegrounds.co/ecm-synchronika-review"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$3,000.00",
+      "brand": "Rocket",
+      "model": "R58 V2",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".56 L",
+      "steamBoiler": "1.70 L",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1400",
+      "reservoir": "2.5 L",
+      "dimensions": "310x410x440mm",
+      "weight": "29 kg | 63.93 lbs",
+      "images": [
+        "r58.webp"
+      ],
+      "additionalInfo": {
+        "notes": [
+          "The Rocket R58 V2 is a highly esteemed dual boiler espresso machine that seamlessly blends classic Italian design with cutting-edge technology. Renowned for its exceptional performance, this machine features dual stainless steel boilers, enabling simultaneous brewing and steaming for efficient coffee preparation. The PID temperature control system ensures precise water temperature stability, resulting in consistently excellent extractions. The R58 V2's refined stainless steel construction and meticulous craftsmanship reflect its commitment to both durability and aesthetics. Its E61 group head provides uniform saturation of coffee grounds, enhancing flavor extraction. As a flagship model from Rocket Espresso, the R58 V2 is a testament to their dedication to quality, making it an excellent choice for those who appreciate both form and function in their espresso machine."
+        ],
+        "links": {
+          "official": "https://majestycoffee.com/products/rocket-dual-boiler-r58",
+          "reviews": [
+            {
+              "name": "Seattle Coffee Gear - Review",
+              "link": "https://youtu.be/hyVVXq3cEXo"
+            },
+            {
+              "name": "Majesty Coffee - Review",
+              "link": "https://youtu.be/_Unf-uuLmy4"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$3,199.00",
+      "brand": "ECM",
+      "model": "Synchronika Anthracite",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".75 L",
+      "steamBoiler": "2.00 L",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1400",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$3,199.00",
+      "brand": "ECM",
+      "model": "Synchronika Flow Ctrl",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".75 L",
+      "steamBoiler": "2.00 L",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1400",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$3,334.00",
+      "brand": "Londinium",
+      "model": "I",
+      "boilerType": "HX",
+      "pid": "NO",
+      "pumpType": "Rotary",
+      "pressureGauge": "Single",
+      "adjustablePressure": "",
+      "brewBoiler": "7.00 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "Plumbed"
+      },
+      "groupType": "Lever",
+      "portafilterSize": "58 mm",
+      "wattage": "2700",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$3,599.00",
+      "brand": "Olympia",
+      "model": "Cremina",
+      "boilerType": "SB",
+      "pid": "NO",
+      "pumpType": "None",
+      "pressureGauge": "Single",
+      "adjustablePressure": "",
+      "brewBoiler": "1.80 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Lever",
+      "portafilterSize": "49 mm",
+      "wattage": "1000",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$4,250.00",
+      "brand": "Bosco",
+      "model": "Sorrento",
+      "boilerType": "SB",
+      "pid": "NO",
+      "pumpType": "None",
+      "pressureGauge": "Single",
+      "adjustablePressure": "",
+      "brewBoiler": "6.00 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "Plumbed"
+      },
+      "groupType": "Lever",
+      "portafilterSize": "58 mm",
+      "wattage": "2000",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$4,495.00",
+      "brand": "M&V Srl.",
+      "model": "Vesuvius",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Gear",
+      "pressureGauge": "Digital",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".80 L",
+      "steamBoiler": "1.50 L",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1400",
+      "reservoir": "101oz",
+      "dimensions": "14.5x20x16.33in",
+      "weight": "53 lbs",
+      "images": ["vesuvius.jpg"],
+      "additionalInfo": {
+        "notes": [
+          "Vesuvius is an advanced machine with computer controlled pressure profiling with the traditional E61 group. According to Dave Corbey, this is one of a kind piece of technology that features interesting set of functions.",
+          "The M&V Srl Vesuvius is a groundbreaking espresso machine that redefines the art of coffee brewing. Combining state-of-the-art technology with precise engineering, this machine offers unparalleled control and customization. Its pressure profiling system allows users to manipulate the extraction process, tailoring flavors to individual preferences. With dual stainless steel boilers, the Vesuvius ensures efficient brewing and steaming, maintaining temperature stability through its advanced PID control. The machine's sleek design, touchscreen interface, and high-quality materials reflect a dedication to both aesthetics and performance. Offering a level of control rarely seen in home espresso machines, the M&V Srl Vesuvius is an exceptional choice for coffee enthusiasts and professionals alike who demand the utmost in precision and craftsmanship."
+        ],
+        "links": {
+          "official": "https://www.elcor.it/en/vesuvius-en/",
+          "reviews": [
+            {
+              "name": "Dave Corbey - User Guide | Coffeetime",
+              "link": "https://coffeetime.freeflarum.com/blog/1469-vesuvius-pressure-profiling-machine"
+            },
+            {
+              "name": "Whole Latte Love",
+              "link": "https://youtu.be/S2aG_gVll5g"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$4,750.00",
+      "brand": "Rocket",
+      "model": "R60V",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "",
+      "brewBoiler": ".58 L",
+      "steamBoiler": "1.70 L",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1400",
+      "reservoir": "2.5 L",
+      "dimensions": "31x44x39cm",
+      "weight": "31 kg | 68.34 pounds",
+      "images": ["r60v.jpeg"],
+      "additionalInfo": {
+        "notes": [
+          "The Rocket R60V is an exceptional dual-boiler espresso machine that embodies the renowned craftsmanship of Rocket Espresso. With its dual-boiler system, this machine offers simultaneous brewing and steaming capabilities for efficient coffee preparation. The innovative Volumetric PID control system ensures precise water temperature stability and shot volume, resulting in consistent and flavorful extractions. The R60V's sleek stainless steel design, combined with its meticulous attention to detail, reflects Rocket's commitment to both aesthetics and performance. Its E61 group head guarantees even saturation of coffee grounds, enhancing the quality of each shot. As a premium offering from Rocket Espresso, the R60V stands as a testament to their dedication to producing espresso machines that excel in both form and function."
+        ],
+        "links": {
+          "official": "https://rocket-espresso.com/r-60v.html",
+          "reviews": [
+            {
+              "name": "Seattle Coffee Gear",
+              "link": "https://youtu.be/0ROY3DBHIR8"
+            },
+            {
+              "name": "Lamarsa Coffee Machine Company",
+              "link": "https://www.lamarsacoffee.com/product-page/rocket-r60v"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$4,900.00",
+      "brand": "La Marzocco",
+      "model": "Linea Mini",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".17 L",
+      "steamBoiler": "3.50 L",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "58 mm",
+      "wattage": "1600",
+      "reservoir": "2.5 L",
+      "dimensions": "15x14x18in",
+      "weight": "30 kg | 66.14 lbs",
+      "images": ["linea-mini.png"],
+      "additionalInfo": {
+        "notes": [
+          "The La Marzocco Linea Mini is a compact yet powerful espresso machine that distills the renowned commercial-grade performance of La Marzocco into a home-friendly form. With its dual boiler system, this machine enables simultaneous brewing and steaming, ensuring efficient coffee preparation. The integrated PID temperature control system ensures precise water temperature stability for consistent and exceptional extractions. The Linea Mini's iconic stainless steel design pays homage to its commercial counterpart, reflecting both durability and style. Its large, saturated group head guarantees even coffee puck saturation, contributing to optimal flavor extraction. Representing La Marzocco's commitment to delivering professional-level espresso experiences at home, the Linea Mini is an excellent choice for coffee enthusiasts who seek uncompromising quality in a compact package."
+        ],
+        "links": {
+          "official": "https://lamarzocco.com/uk/en/home-products/espresso-machines/linea-mini/",
+          "reviews": [
+            {
+              "name": "HisBrew Coffee",
+              "link": "https://youtu.be/IgbZxuRxhC8"
+            },
+            {
+              "name": "Artisti Coffee Roasters",
+              "link": "https://youtu.be/KJKNS7XafVE"
+            },
+            {
+              "name": "The Real Sprometheus",
+              "link": "https://www.youtube.com/watch?v=gypZ_EgV3Gk"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$6,850.00",
+      "brand": "Rocket",
+      "model": "R Nine One",
+      "boilerType": "SB",
+      "pid": "YES",
+      "pumpType": "Magnetic",
+      "pressureGauge": "Digital",
+      "adjustablePressure": "YES",
+      "brewBoiler": "1.80 L",
+      "steamBoiler": "3.50 L",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "58 mm",
+      "wattage": "1600",
+      "reservoir": "",
+      "FIELD16": "",
+      "FIELD17": "",
+      "twoGroupViable": "SB for Brew",
+      "Bigger version of Export and has manometer": "Thermoblock for Steam",
+      "FIELD20": "3 programmable shot profiles",
+      "FIELD21": "programmable pre-infusion",
+      "FIELD22": "overpressure valve for backflushing"
+    },
+    {
+      "priceUsd": "$8,055.00",
+      "brand": "Faema ",
+      "model": "Legend S1",
+      "boilerType": "HX",
+      "pid": "NO",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "",
+      "brewBoiler": "6.00 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "Plumbed"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "3000",
+      "reservoir": ""
+    },
+    {
+      "priceUsd": "$8,500.00",
+      "brand": "Dalla Corte",
+      "model": "Mina",
+      "boilerType": "DB",
+      "pid": "NO",
+      "pumpType": "Rotary",
+      "pressureGauge": "Single",
+      "adjustablePressure": "",
+      "brewBoiler": ".50 L",
+      "steamBoiler": "3.00 L",
+      "tank": {
+        "plumb": "Plumbed"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "54 mm",
+      "wattage": "1437",
+      "reservoir": "3 L",
+      "dimensions": "385x385x410mm",
+      "weight": "72.75 lbs",
+      "images": ["mina.jpeg"],
+      "additionalInfo": {
+        "notes": [
+          "The Dalla Corte Mina is a revolutionary espresso machine that pushes the boundaries of traditional coffee-making. With its innovative Multi Boiler technology, this machine provides individual temperature control for each group head, ensuring precision and consistency in every shot. The DFR (Digital Flow Regulation) system allows baristas to adjust flow rates for each group, unlocking the potential for unparalleled flavor extraction customization. The Mina's sleek and modern design is complemented by its intuitive touchscreen interface, reflecting a balance of aesthetics and functionality. With its cutting-edge features and emphasis on personalization, the Dalla Corte Mina is a game-changer in the espresso world, catering to those who demand ultimate control and creativity in their coffee creations."
+        ],
+        "links": {
+          "official": "https://www.dallacorte.com/espresso-machines/mina-smart-bar.html",
+          "reviews": [
+            {
+              "name": "Whole Latte Love Review",
+              "link": "https://youtu.be/GvNAgSR_als"
+            },
+            {
+              "name": "Whole Latte Love - with Fabrizio Sención",
+              "link": "https://youtu.be/foyhO9PzaaI"
+            }
+          ]
+        }
+      }
+    }
+  ]
 }
