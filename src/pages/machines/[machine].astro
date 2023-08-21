@@ -65,10 +65,11 @@ const { identity, prices, technical, info, dimensions } = Astro.props.machine;
 
 const machineName = machine;
 const heroImageSource = identity.images?.length && `/assets/machines/images/${identity.images[0]}`;
+const machineNameCapitalized = `${identity.brand} ${identity.model}`
 
 const content = {
-  title: `${identity.brand} ${identity.model}` ,
-  description: machineName + ' - Technical details and relevant links regarding this particular machine.',
+title: `${identity.brand} ${identity.model} - Links, Reviews & Technical Details` ,
+description: `${machineNameCapitalized} - Find out the specs, technical details, and reviews, to know everything you need about  ${machineNameCapitalized}`,
 }
 
 ---
