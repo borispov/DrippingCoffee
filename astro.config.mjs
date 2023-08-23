@@ -10,5 +10,5 @@ import svelte from "@astrojs/svelte";
 export default defineConfig({
   trailingSlash: 'always',
   integrations: [mdx(), sitemap(), solidJs(), svelte()],
-  site: 'https://www.drippingcoffee.com/',
+  site: 'https://drippingcoffee.com/',
 });
