@@ -22,6 +22,9 @@
   --font-base: 'atkinson_hyperlegible',Arial,sans-serif;
 
 	/* Colors */
+
+  --blue-500: #206ee9;
+
   --color-dark: #1c2336;
   --color-dark-glare: #333d51;
 
@@ -30,6 +33,7 @@
 	--color-off-white: #efefef;
 
   --color-mid: #c2c5cc;
+  --color-mid-dark: #505a6c;
 
 	--color-primary: #e5bf55;
 	--color-primary-glare: #eaca72;
@@ -38,6 +42,10 @@
 
   --background: var(--color-light);
   --text-color: var(--color-dark);
+
+  --link-fg: var(--blue-500);
+
+  /* Gutters And Containers */
 
   --gutter: var(--space-s-m);
   --border-radius: 0.5rem;
