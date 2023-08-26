@@ -12,5 +12,12 @@
 .sidebar > :first-child {
     flex-basis: 0;
     flex-grow: 999;
-    min-width: calc(70% - var(--sidebar-gutter,clamp(1.09rem,1rem + .47vw,1.33rem)))
+    min-width: calc(70% - var(--sidebar-gutter, clamp(1.09rem, 1rem + .47vw, 1.33rem)));
+}
+
+
+@media screen and (max-width: 1200px) {
+    .sidebar {
+        flex-direction: column-reverse;
+    }
 }

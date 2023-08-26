@@ -3,11 +3,15 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 
+import TableOfContents from "@components/TableOfContents.astro";
+
 export interface Props {
+    headings?: any,
     content: {
         title: string;
         description: string;
         publishDate?: string;
+        updateDate?: string;
         heroImage?: {
             src: string;
             alt: string;
@@ -21,8 +25,10 @@ const latest = posts.filter(
 );
 
 const {
-    content: { title, description, publishDate, heroImage },
+    content: { title, description, publishDate, updateDate, heroImage },
+    headings
 } = Astro.props as Props;
+
 ---
 
 <html lang="en">
@@ -36,23 +42,19 @@ const {
             <header class="flow">
                 <h1 class="[ title ] [ text-900 weight-bold ]">{title}</h1>
                 { publishDate && (
-                <div data-name="time-block" class="time-block text-3 cluster">
-                    <svg
-                        stroke="currentColor"
-                        fill="currentColor"
-                        stroke-width="0"
-                        viewBox="0 0 24 24"
-                        class="mr-1 h-5 w-5 text-gray-600"
-                        height="1em"
-                        width="1em"
-                        xmlns="http://www.w3.org/2000/svg"
-                        ><path
-                            d="M19 4h-3V2h-2v2h-4V2H8v2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zM5 20V7h14V6l.002 14H5z"
+                <div data-name="time-block" class="time-block text-400 cluster" data-align="bottom">
+                    <!-- <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                        viewBox="0 0 24 24" class="mr-1 h-5 w-5 text-gray-600" height="1em"
+                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 4h-3V2h-2v2h-4V2H8v2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zM5 20V7h14V6l.002 14H5z"
                         ></path><path
                             d="m15.628 12.183-1.8-1.799 1.37-1.371 1.8 1.799zm-7.623 4.018V18h1.799l4.976-4.97-1.799-1.799z"
-                        ></path></svg
-                    >
-                        <em><time>{publishDate}</time></em>
+                        ></path>
+                    </svg>
+                    -->
+                        <div>
+                            <span class="mono">BY BORIS POVOLOTSKY - {publishDate} {updateDate && `[updated on ${updateDate}]`}</span>
+                        </div>
                 </div>
                 )}
                 <div class="sidebar">
@@ -67,12 +69,6 @@ const {
                         />
                     )
                 }
-                <div>
-                    <div class="ad-blocks">
-                        <div class="flow">
-                        </div>
-                    </div>
-                </div>
                 </div>
             </header>
             {
@@ -82,10 +78,10 @@ const {
                 <div class="[ post ] [ flow ]" >
                     <slot />
                 </div>
-                <div>
-                    <div class="ad-blocks">
-                        <div class="flow"></div>
-                    </div>
+                <div class="">
+                        <div class="flow sticky">
+                            <TableOfContents {headings} />
+                        </div>
                 </div>
             </main>
 
@@ -134,12 +130,12 @@ const {
     }
 
     .sidebar {
-        --sidebar-gutter: var(--space-3xl);
-        --sidebar-width: 12rem;
+        --sidebar-gutter: var(--space-3xs);
+        --sidebar-width: 20rem;
     }
 
     .time-block {
-        color: var(--color-secondary);
+        color: var(--blue-500);
         font-family: var(--font-serif);
         gap: .25em;
     }
@@ -195,6 +191,16 @@ const {
       margin-left: calc(var(--padding-inline) * -1);
       margin-right: calc(var(--padding-inline) * -1);
       background: var(--color-secondary);
+    }
+
+    .ad-blocks {
+        position: relative
+    }
+
+    .sticky {
+        position: sticky;
+        top: 16%;
+        justify-self: start;
     }
 
     </style>

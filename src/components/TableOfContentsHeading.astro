@@ -1,0 +1,54 @@
+---
+const { heading } = Astro.props
+
+type Heading = {
+	depth: number
+	text: string
+	slug: string
+	subheadings: Heading[]
+}
+
+export interface Props {
+	heading: Heading
+}
+---
+
+<li>
+	<a href={'#' + heading.slug}>
+		{heading.text}
+	</a>
+	{
+		heading.subheadings.length > 0 && (
+			<ul>
+				{heading.subheadings.map((subheading) => (
+					<Astro.self heading={subheading} />
+				))}
+			</ul>
+		)
+	}
+</li>
+
+<style>
+	li {
+		display: flex;
+		flex-direction: column;
+		align-items: baseline;
+	}
+
+	a {
+		color: var(--color-mid-dark) !important;
+		text-transform: capitalize;
+	}
+
+	a:hover {
+		color: var(--color-dark) !important;
+	}
+
+	ul {
+		display: flex;
+		flex-direction: column;
+		align-items: baseline;
+		padding: 0;
+		margin: 0;
+	}
+</style>
