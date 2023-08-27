@@ -80,7 +80,9 @@ const {
                 </div>
                 <div class="">
                         <div class="flow sticky">
-                            <TableOfContents {headings} />
+                            {
+                                headings && <TableOfContents {headings} />
+                            }
                         </div>
                 </div>
             </main>
