@@ -16,3 +16,7 @@
 .font-serif {
   font-family: var(--font-serif);
 }
+
+.tac {
+  text-align: center;
+}

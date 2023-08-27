@@ -111,6 +111,14 @@ h3 {
   background: var(--color-primary);
 }
 
+.txt-dark {
+  color: var(--color-dark);
+}
+
+.txt-light {
+  color: white;
+}
+
 .bg-light-shade {
   background: var(--color-light-shade);
 }

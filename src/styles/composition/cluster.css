@@ -28,6 +28,10 @@ Can be any acceptable flexbox alignment value.
   margin-left: 0;
 }
 
+.cluster[data-align='bottom'] {
+  --cluster-vertical-aligmnent: baseline;
+}
+
 /*
 REPEL
 A little layout that pushes items away from each other where
@@ -43,7 +47,7 @@ Can be any acceptable flexbox alignment value.
 .repel {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: var(--repel-justify, space-between);
   align-items: var(--repel-vertical-alignment, center);
   gap: var(--gutter, var(--space-s-m));
 }
@@ -73,4 +77,8 @@ Can be any acceptable flexbox alignment value.
 .stack > * + * {
   /* --space: 1em; */
   margin-block-start: var(--space, 1.5rem);
+}
+
+.stack[data-pos='center'] {
+  align-items: center;
 }
