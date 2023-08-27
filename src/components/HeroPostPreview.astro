@@ -4,20 +4,24 @@ export interface Props {
     description: string;
     publishDate: string;
     url: string;
-    position: string;
+    position?: string;
     backgroundImage: string;
+    style?: string;
 }
 
-const { title, description, publishDate, url, backgroundImage, position } =
+const { title, description, publishDate, url, backgroundImage, position, style} =
     Astro.props as Props;
+
+    let c = style == 'secondary' && 'txt-light' || 'txt-dark';
+    let bg = style == 'secondary' && 'bg-primary' || 'bg-light';
 ---
 
-<a href={url} class="[ card ]">
+<a href={url} class=`[ card ] ${bg}`>
     <div class="image-wrapper">
         <img src={backgroundImage} alt="" loading="lazy" />
     </div>
 
-    <div class="contents flow">
+    <div class=`contents flow`>
         <h3 class="title">{title}</h3>
         <p class="text-400">{description}</p>
     </div>

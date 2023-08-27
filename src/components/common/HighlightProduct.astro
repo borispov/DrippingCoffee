@@ -1,0 +1,100 @@
+---
+const { title, body, label, machinePage, affiliateLink, productImage } = Astro.props;
+---
+
+<div class="h-card">
+  <div class="h-card__label text-400">
+    <span>
+      {label}
+    </span>
+  </div>
+  <div class="h-card__wrapper repel">
+
+    <div class="h-card__image">
+      <img src={productImage} alt="product image" loading="lazy" />
+    </div>
+
+    <div class="h-card__title">
+      <span>
+        {title}
+      </span>
+      <p class="prose text-300">
+        {body}
+      </p>
+    </div>
+
+    <div class="h-card__cta--wrapper">
+      <a href={affiliateLink} target="_blank">
+        Check Price
+      </a>
+
+      <a href={machinePage} target="_blank" data-cta="secondary">
+        Machine Page
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<style lang="scss">
+  .h-card {
+    position: relative;
+    border: 1px solid var(--color-mid-dark);
+    border-radius: var(--border-radius);
+  }
+
+  .h-card__label {
+    position: absolute;
+    top: -.75em;
+    left: -.5em;
+  }
+
+  .h-card__wrapper {
+    padding: var(--space-m-l);
+    @media (max-width: 32em) {
+      flex-direction: column;
+      --repel-justify: center;
+    }
+  }
+
+  .h-card__label span {
+    padding-block: var(--space-3xs);
+    padding-inline: var(--space-xs);
+    text-align: center;
+    color: var(--color-light);
+    background: var(--blue-500);
+    border-radius: var(--border-radius);
+  }
+
+  .h-card__image {
+    height: 120px;
+  }
+
+  .h-card__image img {
+    height: 100%;
+  }
+
+  .h-card__cta--wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    justify-content: center;
+    text-align: center;
+  }
+
+  .h-card__cta--wrapper a {
+    border-radius: .125em;
+    text-decoration: none;
+    color: white;
+    background: var(--color-secondary);
+    padding: var(--space-3xs) var(--space-s);
+    font-size: 16px;
+  }
+
+  .h-card__cta--wrapper a[data-cta="secondary"] {
+    background: transparent;
+    border: 1px solid var(--color-mid);
+    color: var(--color-text);
+  }
+
+</style>

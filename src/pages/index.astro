@@ -6,6 +6,7 @@ import PostSection from "../components/PostSection.astro";
 import HeroPostPreview from "../components/HeroPostPreview.astro";
 import AboutSection from "../components/AboutSection.astro";
 import Hero from "../components/Hero.astro";
+import SectionTitle from "@components/common/SectionTitle.astro";
 
 let title = "Dripping Coffee";
 let description = "Trending Topics";
@@ -15,6 +16,8 @@ const latest = [];
 const best = [];
 const info = [];
 const rest = [];
+const howTos = [];
+const product = [];
 
 // Use Astro.glob to fetch all post with associated frontmatter
 const unsortedPosts = await Astro.glob("./posts/**/*.mdx");
@@ -23,22 +26,24 @@ const unsortedPosts = await Astro.glob("./posts/**/*.mdx");
 const posts = unsortedPosts
     .sort(function (a, b) {
         return (
-            new Date(b.frontmatter.publishDate).valueOf() -
-            new Date(a.frontmatter.publishDate).valueOf()
+            new Date(b.frontmatter.updateDate || b.frontmatter.publishDate).valueOf() -
+            new Date(a.frontmatter.updateDate || a.frontmatter.publishDate).valueOf()
         );
     })
     .filter((post) => !post.frontmatter.draft);
 
 
 // sort posts categorically. If post has no mentioned tags, push it into GENERAL/REST list
+
 posts.map(post => {
-    post.frontmatter.tags
-        ? post.frontmatter.tags.includes("lever")
-            ? lever.push(post)
-            : post.frontmatter.tags.includes("best")
-                ? best.push(post)
-                : post.frontmatter.tags.includes("rest")
-        : rest.push(post)
+    const tags = post.frontmatter.tags
+    tags && tags.includes("best")
+        ? best.push(post)
+        : tags.includes('how')
+            ? howTos.push(post)
+            : tags.includes('machine')
+                ? product.push(post)
+                : rest.push(post)
 })
 
 const popularPosts = posts.filter(
@@ -59,13 +64,64 @@ const popularPosts = posts.filter(
         <Hero />
         <div class="wrapper">
             <main class="content">
-                <section class="intro [ flow tac ]">
-                    <h2 class="main-title">{description}</h2>
-                    <p></p>
+
+
+                <SectionTitle sectionTitle="Best Equipment" />
+
+                <section aria-label="Blog post list" class="hero-posts [ region ]">
+                {
+                    best.map(({ url, frontmatter }, i) => (
+                        <HeroPostPreview
+                            title={frontmatter.title}
+                            description={frontmatter.description}
+                            publishDate={frontmatter.publishDate}
+                            url={url}
+                            backgroundImage={frontmatter.heroImage.src}
+                        />
+                    ))
+                }
                 </section>
+
+                <SectionTitle sectionTitle="Personal Reviews" />
+
+                <section aria-label="Blog post list" class="hero-posts [ region ]">
+                {
+                    product.map(({ url, frontmatter }, i) => (
+                        <HeroPostPreview
+                            title={frontmatter.title}
+                            description={frontmatter.description}
+                            publishDate={frontmatter.publishDate}
+                            url={url}
+                            backgroundImage={frontmatter.heroImage.src}
+                        />
+                    ))
+                }
+                </section>
+
+                <SectionTitle sectionTitle="How To's" />
+
+                <section aria-label="Blog post list " class="hero-posts [ region ]">
+                {
+                    howTos.map(({ url, frontmatter }, i) => (
+                        <HeroPostPreview
+                            title={frontmatter.title}
+                            description={frontmatter.description}
+                            publishDate={frontmatter.publishDate}
+                            url={url}
+                            backgroundImage={frontmatter.heroImage.src}
+                            style="secondary"
+                        />
+                    ))
+                }
+                </section>
+
+
+
+                <SectionTitle sectionTitle="More Articles" />
+
                 <section aria-label="Blog post list" class="hero-posts [ region ]">
                     {
-                        posts.map(({ url, frontmatter }, i) => (
+                        rest.map(({ url, frontmatter }, i) => (
                             <HeroPostPreview
                                 title={frontmatter.title}
                                 description={frontmatter.description}
@@ -81,20 +137,26 @@ const popularPosts = posts.filter(
                         ))
                     }
                 </section>
-                <!-- <PostSection posts={lever} sectionTitle="Lever Experience" /> --> 
+
                 <!--  <PostSection posts={best} sectionTitle="Latest Articles" /> -->
                 <!-- <PostSection posts={info} sectionTitle="Latest Articles" /> -->
 
-
             </main>
         </div>
+
 
         <article class="[ region ] [ bg-primary ]">
             <div class="[ headline ] [ wrapper flow ]">
                 <h2 class="font-serif">This Is The Dripping Coffee Experience, All About Making Great Coffee At Home
                 </h2>
+                <div class="headline-author-img">
+                    <img
+                        src="/assets/myself.jpg"
+                        alt="Myself with my beloved Pro 800"
+                    />
+                </div>
                 <p>
-                    Everything we write about is either from personal experience or from great research online. Great coffee at home has never been easier, but with too much information out there, it might be difficult to understand where to start, and we hope to help you with that. Send us an <a href="mailto:boristofu@gmail.com">email</a>
+                I'm Bori Po, a coffee lunatic and I'm fortunate to be married to a woman who's as addicted to good coffee as I am. I curate guides, reviews and document my personal experience and findings along the way. You can read more <a href="/about/">about me</a> or <a href='/contact/'>reach out</a> and say hi. I really hope you'll find something useful and perhaps even learn something new.
                 </p>
             </div>
         </article>
@@ -139,6 +201,21 @@ const popularPosts = posts.filter(
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
                 gap: 20px;
+            }
+
+            .about-section {
+                border-top: 1px solid var(--color-mid);
+                & .image-wrapper {
+                    width: 140px;
+                    height: 140px;
+                }
+                & img {
+                width: 100%;
+                height: 100%;
+                    object-fit: cover;
+                        object-position: center 10%;
+                    border-radius: 100%;
+                }
             }
         </style>
     </body>

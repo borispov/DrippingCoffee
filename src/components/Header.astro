@@ -1,8 +1,13 @@
-<header>
+<header class="bg-primary">
     <div class="wrapper">
         <div class="logo">
             <a href="/" class="logo">
+                <!--
                 <img src="/Logo.png" alt="logo" />
+                -->
+                <span class="font-serif">
+                    DRIPPING COFFEE
+                </span>
             </a>
         </div>
 
@@ -26,7 +31,7 @@
 
 <style lang="scss">
     header {
-        background-color: var(--color-light-shade);
+        /* background-color: var(--color-light-shade); */
         display: flex;
         align-items: center;
         height: 66px;
@@ -76,6 +81,12 @@
         width: 140px;
         img {
             object-fit: contain;
+        }
+        span {
+            text-decoration: underline;
+        }
+        a:hover {
+            color: inherit;
         }
     }
 

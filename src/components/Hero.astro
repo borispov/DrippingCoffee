@@ -5,6 +5,7 @@ const { title, subtitle } = Astro.props;
 ---
 
 <section class="[ region ]">
+    <div class="overlay bg-primary"></div>
     <picture>
         <img src={HERO_BG_IMG} alt="" />
     </picture>
@@ -22,6 +23,17 @@ const { title, subtitle } = Astro.props;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .overlay {
+        opacity: 1;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-blend-mode: darken;
+        z-index: -1;
     }
 
     h1 {
@@ -47,7 +59,7 @@ const { title, subtitle } = Astro.props;
     }
 
     picture img {
-        opacity: 0.25;
+        opacity: 0.15;
         object-fit: cover;
         height: 100%;
         width: 100%;
