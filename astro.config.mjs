@@ -13,24 +13,31 @@ import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import svelte from "@astrojs/svelte";
 import react from "@astrojs/react";
+import image from "@astrojs/image";
 
+// https://astro.build/config
 export default defineConfig({
   trailingSlash: 'always',
   markdown: {
-    remarkPlugins: [ [remarkToc, { heading: 'content' }]],
-    drafts: true,
+    remarkPlugins: [[remarkToc, {
+      heading: 'content'
+    }]],
+    drafts: true
   },
   integrations: [
-    // sanity({
-    //   projectId: PUBLIC_SANITY_PROJECT_ID,
-    //   dataset: PUBLIC_SANITY_DATASET,
-    //   useCdn: false,
-    //   apiVersion: "2023-03-20",
-    // }),
-    mdx({ drafts: true }), 
+  // sanity({
+  //   projectId: PUBLIC_SANITY_PROJECT_ID,
+  //   dataset: PUBLIC_SANITY_DATASET,
+  //   useCdn: false,
+  //   apiVersion: "2023-03-20",
+  // }),
+    mdx(), 
     sitemap(), 
-    svelte(),
-    react()
+    svelte(), 
+    react(), 
+    image({
+      serviceEntryPoint: '@astrojs/image/sharp',
+    })
   ],
-  site: 'https://drippingcoffee.com/',
+  site: 'https://drippingcoffee.com/'
 });

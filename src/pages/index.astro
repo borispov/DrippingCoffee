@@ -1,15 +1,15 @@
 ---
+import { Image } from '@astrojs/image/components';
+
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import PostSection from "../components/PostSection.astro";
+
 import HeroPostPreview from "../components/HeroPostPreview.astro";
-import AboutSection from "../components/AboutSection.astro";
 import Hero from "../components/Hero.astro";
 import SectionTitle from "@components/common/SectionTitle.astro";
 
-let title = "Dripping Coffee";
-let description = "Trending Topics";
+let title = "Dripping Coffee - Your Home For Brewing Espresso At Home";
 
 const lever = [];
 const latest = [];
@@ -37,13 +37,13 @@ const posts = unsortedPosts
 
 posts.map(post => {
     const tags = post.frontmatter.tags
-    tags && tags.includes("best")
+    tags && (tags.includes("best")
         ? best.push(post)
         : tags.includes('how')
             ? howTos.push(post)
             : tags.includes('machine')
                 ? product.push(post)
-                : rest.push(post)
+                : rest.push(post))
 })
 
 const popularPosts = posts.filter(
@@ -63,11 +63,12 @@ const popularPosts = posts.filter(
         <Header />
         <Hero />
         <div class="wrapper">
+
+            <!-- BEGINNING OF BLOG CONTENT -->
             <main class="content">
 
-
+                <!-- FIRST SECTION -->
                 <SectionTitle sectionTitle="Best Equipment" />
-
                 <section aria-label="Blog post list" class="hero-posts [ region ]">
                 {
                     best.map(({ url, frontmatter }, i) => (
@@ -82,8 +83,9 @@ const popularPosts = posts.filter(
                 }
                 </section>
 
-                <SectionTitle sectionTitle="Personal Reviews" />
 
+                <!-- SECOND SECTION -->
+                <SectionTitle sectionTitle="Personal Reviews" />
                 <section aria-label="Blog post list" class="hero-posts [ region ]">
                 {
                     product.map(({ url, frontmatter }, i) => (
@@ -98,8 +100,9 @@ const popularPosts = posts.filter(
                 }
                 </section>
 
-                <SectionTitle sectionTitle="How To's" />
 
+                <!-- THIRD SECTION -->
+                <SectionTitle sectionTitle="How To's" />
                 <section aria-label="Blog post list " class="hero-posts [ region ]">
                 {
                     howTos.map(({ url, frontmatter }, i) => (
@@ -116,9 +119,8 @@ const popularPosts = posts.filter(
                 </section>
 
 
-
+                <!-- FOURTH SECTION -->
                 <SectionTitle sectionTitle="More Articles" />
-
                 <section aria-label="Blog post list" class="hero-posts [ region ]">
                     {
                         rest.map(({ url, frontmatter }, i) => (
@@ -138,22 +140,23 @@ const popularPosts = posts.filter(
                     }
                 </section>
 
-                <!--  <PostSection posts={best} sectionTitle="Latest Articles" /> -->
-                <!-- <PostSection posts={info} sectionTitle="Latest Articles" /> -->
-
             </main>
+            <!-- END OF BLOG CONTENT -->
         </div>
 
-
+        <!-- BEGINNING OF ABOUT AND REST... -->
         <article class="[ region ] [ bg-primary ]">
             <div class="[ headline ] [ wrapper flow ]">
                 <h2 class="font-serif">This Is The Dripping Coffee Experience, All About Making Great Coffee At Home
                 </h2>
                 <div class="headline-author-img">
-                    <img
-                        src="/assets/myself.jpg"
-                        alt="Myself with my beloved Pro 800"
-                    />
+                    <Image src="/assets/myself.jpg" 
+                        alt="Myself with my beloved Pro 800" 
+                        position={'left top'}
+                        format={'webp'}
+                        quality={100} 
+                        width={140} 
+                        height={140} />
                 </div>
                 <p>
                 I'm Bori Po, a coffee lunatic and I'm fortunate to be married to a woman who's as addicted to good coffee as I am. I curate guides, reviews and document my personal experience and findings along the way. You can read more <a href="/about/">about me</a> or <a href='/contact/'>reach out</a> and say hi. I really hope you'll find something useful and perhaps even learn something new.
@@ -203,20 +206,6 @@ const popularPosts = posts.filter(
                 gap: 20px;
             }
 
-            .about-section {
-                border-top: 1px solid var(--color-mid);
-                & .image-wrapper {
-                    width: 140px;
-                    height: 140px;
-                }
-                & img {
-                width: 100%;
-                height: 100%;
-                    object-fit: cover;
-                        object-position: center 10%;
-                    border-radius: 100%;
-                }
-            }
         </style>
     </body>
 </html>

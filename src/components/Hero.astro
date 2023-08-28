@@ -1,4 +1,5 @@
 ---
+import { Image, Picture } from '@astrojs/image/components';
 import { HERO_TITLE, HERO_SUBTITLE, HERO_BG_IMG } from "../config";
 
 const { title, subtitle } = Astro.props;
@@ -7,7 +8,7 @@ const { title, subtitle } = Astro.props;
 <section class="[ region ]">
     <div class="overlay bg-primary"></div>
     <picture>
-        <img src={HERO_BG_IMG} alt="" />
+        <Image class="pic" format={'webp'} fit={'cover'} src={HERO_BG_IMG} alt="Picture of me next to my Profitec 800" width={1200} aspectRatio={'6:1'} />
     </picture>
     <h1 class="tac">
         {title || HERO_TITLE}
@@ -64,5 +65,6 @@ const { title, subtitle } = Astro.props;
         height: 100%;
         width: 100%;
     }
+
 </style>
 

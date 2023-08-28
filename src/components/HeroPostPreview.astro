@@ -1,4 +1,6 @@
 ---
+import { Image } from '@astrojs/image/components';
+
 export interface Props {
     title: string;
     description: string;
@@ -18,7 +20,14 @@ const { title, description, publishDate, url, backgroundImage, position, style} 
 
 <a href={url} class=`[ card ] ${bg}`>
     <div class="image-wrapper">
-        <img src={backgroundImage} alt="" loading="lazy" />
+        <Image 
+            format={'webp'}
+            width={440}
+            height={240}
+            src={backgroundImage}
+            alt=""
+            fit={'cover'}
+        />
     </div>
 
     <div class=`contents flow`>
@@ -48,12 +57,12 @@ const { title, description, publishDate, url, backgroundImage, position, style} 
     }
 
     img {
-        width: 100%;
+        /* width: 100%; */
         border-radius: var(--border-radius);
-        height: 100%;
-        z-index: -1;
-        object-fit: cover;
-        opacity: 0.9;
+        /* height: 100%; */
+        /* z-index: -1; */
+        /* object-fit: cover; */
+        opacity: 0.95;
     }
 
     .contents {
