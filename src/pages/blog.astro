@@ -11,12 +11,14 @@ const posts = (await Astro.glob("./posts/**/*.mdx")).sort(
         new Date(b.frontmatter.pubDate).valueOf() -
         new Date(a.frontmatter.pubDate).valueOf()
 );
+
+const blogDescription = `Explore all written articles I have made for DRIPPING COFFEE including reviews, guides, informational articles and personal experience`
 ---
 
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+        <BaseHead title={SITE_TITLE} description=`` />
         <style>
             ul {
                 list-style-type: none;
