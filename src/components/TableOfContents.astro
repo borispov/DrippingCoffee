@@ -21,7 +21,7 @@ function buildToc(headings: TableOfContent[]) {
 			toc.push(heading)
 		} 
         else {
-			headings.length < 7 && parentHeadings.get(heading.depth - 1).subheadings.push(heading)
+			headings.length < 4 && parentHeadings.get(heading.depth - 1).subheadings.push(heading)
 		}
 	})
 	return toc

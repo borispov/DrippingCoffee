@@ -18,7 +18,7 @@ const { title, body, label, machinePage, affiliateLink, productImage } = Astro.p
       <span>
         {title}
       </span>
-      <p class="prose text-300">
+      <p class="body prose text-300">
         {body}
       </p>
     </div>
@@ -95,6 +95,10 @@ const { title, body, label, machinePage, affiliateLink, productImage } = Astro.p
     background: transparent;
     border: 1px solid var(--color-mid);
     color: var(--color-text);
+  }
+
+  .body {
+    max-width: 35ch;
   }
 
 </style>
