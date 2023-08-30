@@ -28,9 +28,13 @@ const { title, body, label, machinePage, affiliateLink, productImage } = Astro.p
         Check Price
       </a>
 
-      <a href={machinePage} target="_blank" data-cta="secondary">
-        Machine Page
-      </a>
+      {
+        machinePage && (
+          <a href={machinePage} target="_blank" data-cta="secondary">
+            Machine Page
+          </a>
+        )
+      }
     </div>
 
   </div>
