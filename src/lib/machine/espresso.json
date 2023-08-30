@@ -118,6 +118,7 @@
       "pumpType": "Vibration",
       "pressureGauge": "NO",
       "adjustablePressure": "NO",
+      "boilerMaterial": "Aluminum",
       "brewBoiler": "0.1L",
       "steamBoiler": "",
       "tank": {
@@ -125,29 +126,84 @@
       },
       "groupType": "Ring",
       "portafilterSize": "58 mm",
-      "wattage": "1370",
+      "wattage": "1350",
       "reservoir": "2.0 L",
-      "twoGroupViable": "Digital Flow Regulator",
-      "Bigger version of Export and has manometer": "Flow Control"
+      "images": ["gaggia.webp"],
+      "warmUp": "20 minutes",
+      "additionalInfo": {
+        "notes": [
+          "Gaggia Classic Pro is one of the best espresso machines for beginner and for those on a budget. A great entry-level espresso machine that provides full hands-on barista experience at home.",
+          "You can do almost anything you'd like with this machine. You can steam milk for silky beautiful textures and pour a great latte art, as well as make great espresso, too.",
+          "A known drawback of this machine is the lack of a PID - but contrary to competition (i.e. Breville Bambino Plus) you can mod it and add a PID!",
+          "Recently, a new upgraded version called the Gaggia Classic Evo Pro was released. A major improvement in this version is the out-of-the-box 9-bar-pressure OPV. Previously, you had to modify it by yourself or order an OPV online which meant you had to open the machine up and tinker a little bit.",
+          "All in all, it's a great machine to start your journey with if you're new to the whole thing. However, even experienced "
+        ],
+        "links": {
+         "official": "https://www.gaggia.com/manual-machines/new-classic/",
+          "reviews": [
+            {
+              "name": "3 Best Budget Espresso Machines Under $500 - listicle",
+              "link": "https://drippingcoffee.com/posts/best-espresso-machine-under-500/"
+            },
+            {
+              "name": "The Real Sprometheus",
+              "link": "https://www.youtube.com/watch?v=lflSTSzE74A"
+            },
+            {
+              "name": "Dripping Coffee - Review",
+              "link": "https://drippingcoffee.com/posts/reviews/gaggia-classic-pro/"
+            }
+          ]
+        }
+      },
+      "weight": "16 lbs | 7.265 kg",
+      "dimensions": "230x380x240mm"
     },
     {
       "priceUsd": "$629.00",
       "brand": "Lelit",
-      "model": "PL41TEM Anna",
+      "model": "Anna",
+      "submodel": "PL41TEM",
       "boilerType": "SB",
       "pid": "YES",
       "pumpType": "Vibration",
       "pressureGauge": "Single",
       "adjustablePressure": "",
-      "brewBoiler": ".25 L",
+      "brewBoiler": "250 ml",
+      "boilerMaterial": "SS",
       "steamBoiler": "",
       "tank": {
         "plumb": "tank"
       },
-      "groupType": "Ring",
+      "groupType": "Saturated",
       "portafilterSize": "57 mm",
       "wattage": "1000",
-      "reservoir": "2.6 L"
+      "reservoir": "2.7 L",
+      "images": ["anna.jpg"],
+      "warmUp": "20 minutes",
+      "additionalInfo": {
+        "notes": [
+          "The Lelit PL41TEM Anna is a solid entry-level machine choice that competes with the Gaggia Classic Pro, but is about $130 more expensive.",
+          "The Lelit Anna rocks a PID straight from the factory without modding which is a huge plus over the Gaggia.",
+          "The only drawback of this machine is the 57 mm non-standard size of the portafilter. This limits the accessories you can get for your machine. Moreover, if you plan to upgrade, you'll be unable to keep your 57 mm accessories over to your new 58 mm (let's say) machine",
+          "Many give up on this machine for that reason alone."
+        ],
+        "links": {
+          "official": "https://www.lelit.com/product/anna-pl41tem/",
+          "reviews": [
+            {
+              "name": "ECS Coffee Lelit Anna 2 - Video Review",
+              "link": "https://www.youtube.com/watch?v=KSeQXtWZvrI"
+            },
+            {
+              "name": "Stefanus Goana - Video",
+              "link": "https://www.youtube.com/watch?v=7ld7kDzJy8Y"
+            }
+          ]
+        }
+      },
+      "weight": "20 lbs | 9 kg",
+      "dimensions": "10.4 x 9.1 x 13.4 inches"
     },
     {
       "priceUsd": "$699.00",
