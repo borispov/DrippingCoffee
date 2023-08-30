@@ -1549,21 +1549,51 @@
       "brand": "Decent",
       "model": "DE1PRO",
       "boilerType": "SB",
-      "pid": "YES",
+      "pid": "Yes",
       "pumpType": "Vibration",
       "pressureGauge": "Digital",
-      "adjustablePressure": "YES",
-      "brewBoiler": "",
-      "steamBoiler": "",
+      "adjustablePressure": "Yes",
+      "brewBoiler": "No Boiler",
+      "steamBoiler": "Cannot Steam And Brew Simultaneously",
       "tank": {
         "plumb": "tank"
       },
       "groupType": "Ring",
       "portafilterSize": "58 mm",
-      "wattage": "",
+      "wattage": "1500",
       "reservoir": "2 L",
       "images": ["de1pro.jpeg"],
-      "weight": "29.1 lbs"
+      "warmUp": "5 minutes",
+      "additionalInfo": {
+        "notes": [
+          "As an espresso enthusiast, you understand that the perfect cup of coffee is a delicate balance between science and artistry. Introducing the Decent DE1PRO espresso machine – a masterpiece designed to redefine your coffee journey and transform every brew into a sensorial delight.",
+          "Solving the Precision Puzzle: The Decent DE1PRO is your solution to the precision puzzle that leaves many espresso drinks subpar. Even highly regarded coffee shops often struggle to maintain consistency. Our machine takes the guesswork out of achieving excellence, bridging the gap between barista skill and a consistent, professional-grade brew.",
+          "Pressure profiling at your fingertips, allowing you to draw your desired pressure profile during the brewing process. Experience temperature flexibility akin to classic Italian machines, altering water temperature mid-shot to craft a distinct brew character.",
+          "Discover the realm of flow profiling as you define water flow with a touch, while the machine automatically adjusts pressure for unrivaled extraction control. Gain real insights with actual pressure readings at the coffee puck, refining your preparation technique. Experience steam power like never before, reaching 160°C (320°F) for less milk dilution and richer flavor.",
+          "Automated pre-infusion detects coffee puck saturation, ensuring a precise shot initiation, while volumetric dosing mastery offers consistent in-glass volume. Choose between flow and pressure priority modes, adjusting for your ideal balance. Elevate your experience with 13 bars of pressure, extracting with finesse from finer coffee grounds.",
+          "Empower your coffee journey with precise slow infusion magic, temperature flexibility, and the God Shot reference for ultimate insight. Emulate iconic machines, unleash your creativity with open-source software, and redefine portability with a lightweight design.",
+          "Portable and powerful, the Decent DE1PRO is your companion in creating coffee wonders. Its lightweight design opens doors to catering gigs, offering a form-fitted suitcase that makes every journey effortless. Beyond the confines of espresso, this machine empowers you to explore, experiment, and excel."
+        ],
+        "links": {
+          "official": "https://decentespresso.com/overview",
+          "reviews": [
+            {
+              "name": "Lifestyle Lab - Video Review",
+              "link": "https://www.youtube.com/watch?v=OsEe7drwCJI"
+            },
+            {
+              "name": "Home Barista - Review",
+              "link": "https://www.home-barista.com/blog/decent-espresso-de1-review-t57610.html"
+            },
+            {
+              "name": "Coffee Coach | Ryde Jeavons - Video Review",
+              "link": "https://www.youtube.com/watch?v=DXSQ4MRM7Oc"
+            }
+          ]
+        }
+      },
+      "weight": "29.1 lbs",
+      "dimensions": "420x323x369mm"
     },
     {
       "priceUsd": "$2,500.00",

@@ -78,13 +78,16 @@ const {
                 <div class="[ post ] [ flow ]" >
                     <slot />
                 </div>
-                <div class="">
-                        <div class="flow sticky">
-                            {
-                                headings && <TableOfContents {headings} />
-                            }
-                        </div>
-                </div>
+                {
+                    headings && (
+                        <div class="">
+                            <div class="flow sticky">
+                                {
+                                    headings && <TableOfContents {headings} />
+                                }
+                            </div>
+                        </div>)
+                }
             </main>
 
             <hr class="gap-top-800">
