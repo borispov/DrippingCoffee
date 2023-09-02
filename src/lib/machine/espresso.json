@@ -1214,10 +1214,6 @@
           "official": "https://clivecoffee.com/products/lucca-a53-mini-espresso-machine-by-la-spaziale",
           "reviews": [
             {
-              "name": "Clive Coffee - Why We Love Lucca",
-              "link": "https://clivecoffee.com/blogs/learn/why-we-love-the-lucca-a53-mini"
-            },
-            {
               "name": "Clive Coffee - Why We Love Lucca - Video",
               "link": "https://www.youtube.com/watch?v=s2c5Wr_kQNQ"
             }
@@ -2277,10 +2273,29 @@
       "portafilterSize": "58 mm",
       "wattage": "1500",
       "reservoir": "3 L",
-      "Bigger version of Export and has manometer": "",
-      "images": [],
-      "weight": "35 kg",
-      "dimensions": "16.5x16.5x15.25in"
+      "images": ["pro-800.jpg"],
+
+      "warmUp": "45 minutes (35 w/flushing)",
+      "additionalInfo": {
+        "notes": [
+          "You can read my review and personal experience with Profitec 800 down below. However, in my review I don't go over the technical details as much, so this page can provide a better technical overview",
+          "Profitec 800 is a classical machine with a dipper system, there is an actual tube that goes from the group into the boiler to draw water from there. There are HX lever machines, more advanced dipper designs and more recently, very innovative lever machines like the Nurri Leva.",
+          "What this means is you get preinfusion at the boiler pressure, typically within 1 to 1.5 bars, perfect for traditional Napolitan dark roasts",
+          "The Pro 800 is a huge machine, weighing 35 kg thanks to the massive lever group and a 3.5 L copper boiler. The big boiler takes a lot of time to heat but once ready it provides consistent brewing and great steaming pressure.",
+          "The machine has a vibe pump that is only activated to fill the boiler and is not activated at all if you direct to direct water source"
+        ],
+        "links": {
+          "official": "https://www.profitec-espresso.com/en/products/pro800-neu",
+          "reviews": [
+            {
+              "name": "Profitec Pro 800 - My Personal Review",
+              "link": "https://drippingcoffee.com/posts/personl/lever-experience/"
+            }
+          ]
+        }
+      },
+      "weight": "78 lbs | 35.5 kg",
+      "dimensions": "339 x 505 x 492 mm"
     },
     {
       "priceUsd": "$2,925.00",
