@@ -5,10 +5,17 @@ import machines from "@lib/machine/espresso.json";
 
 import slugify from "@lib/slugify";
 
-let title = 'All Machines Index'
-let description = 'I aggregated a list of espresso machines with useful information on each machine to inform you, and help you make a wise decision and buy the machine that will serve you the best';
+let title = 'Welcome To Our Espresso Machine Index'
+let description = `Curated list of all espresso machines you might be interested in with overview of technical details, reviews, and more, all in one place.`
 
-let note = `Please, if you find that important information is missing regarding any of the machines listed below, let me know.`
+let para1 = `I aggregated a list of espresso machines and provided an overview with important details for each machine including technical details, 
+official links, and reviews from accross the web. The index showcases all types of espresso machines, single boilers, dual boilers, heat exchangers and lever espresso machines.
+My goal is to provide all necessary information, whether it's in-house or from an external resource, so that you can inform yourself best before making an important buying decision. `;
+
+let para2 = `I know looking around for information can be overwhelming, I've been there. That's why I curated this index. You can find a machine that suits your budget and needs. On top of that, I make sure that every machine has a couple 
+of reviews from YouTube, bloggers, HB and other forums.`;
+
+let note = `Please, if you find that important information is missing regarding any of the machines listed below, let me know. If you're interested in getting a spreadsheet with all of the data, let me know, I'm willing to share.`
 
 const allMachines = machines.machines;
 
@@ -18,6 +25,14 @@ const singleBoilers = allMachines.filter(machine => machine.boilerType == 'SB' &
 ---
 
 <MachineInfoLayout content={{ title, description }}>
+
+  <section class="region flow">
+
+    <p>{para1}</p>
+    <p>{para2}</p>
+    <hr />
+    <p>{note}</p>
+  </section>
 
   <div class="region" data-start>
 
@@ -47,8 +62,8 @@ const singleBoilers = allMachines.filter(machine => machine.boilerType == 'SB' &
         heatExchangers.map(m => {
           let s = slugify(m.brand + ' ' + m.model)
           return (
-          <a href=`/machines/${s}/` class="machine-card stack">
-              <li class="text-400"> {m.brand + ' ' + m.model}</li>
+            <a href=`/machines/${s}/` class="machine-card stack">
+                <li class="text-400"> {m.brand + ' ' + m.model}</li>
             </a>
           )
           }
