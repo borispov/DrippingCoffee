@@ -1,18 +1,45 @@
 {
+  "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
+    "target": "ES2022",
+    "types": ["@astrojs/image/client"],
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "strict": true,
+    "importsNotUsedAsValues": "remove",
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": false,
+    "esModuleInterop": true,
+    "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
     "jsx": "preserve",
-    "jsxImportSource": "solid-js",
     "baseUrl": ".",
     "paths": {
       "@components/*": ["src/components/*"],
       "@lib/*": ["src/lib/*"],
       "@layouts/*": ["src/layouts/*"]
     }
-  }
+  },
+  "includes": ["**/*.ts", "**/*.tsx", "**/*.js"],
+  "exclude": ["node_modules"]
 }
+
+// {
+//   "compilerOptions": {
+//     "target": "ESNext",
+//     "module": "ESNext",
+//     "moduleResolution": "node",
+//     "resolveJsonModule": true,
+//     "isolatedModules": true,
+//     "noEmit": true,
+//     "jsx": "preserve",
+//     "baseUrl": ".",
+//     "paths": {
+//       "@components/*": ["src/components/*"],
+//       "@lib/*": ["src/lib/*"],
+//       "@layouts/*": ["src/layouts/*"]
+//     }
+//   }
+// }

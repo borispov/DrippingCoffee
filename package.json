@@ -10,29 +10,17 @@
         "astro": "npx astro"
     },
     "devDependencies": {
-        "@astrojs/mdx": "^0.19.6",
-        "@astrojs/preact": "^2.1.0",
-        "@astrojs/sitemap": "^1.2.2",
-        "astro": "^2.10.14"
+        "@astrojs/mdx": "*",
+        "@astrojs/sitemap": "*",
+        "astro": "^3.0.7"
     },
     "dependencies": {
-        "@astrojs/image": "^0.17.3",
-        "@astrojs/react": "^2.3.2",
-        "@astrojs/svelte": "^2.1.1",
-        "@sanity/astro": "^1.2.1",
-        "@sanity/image-url": "^1.0.2",
-        "@types/react": "^18.2.21",
-        "@types/react-dom": "^18.2.7",
-        "astro-embed": "^0.5.1",
-        "astro-portabletext": "^0.9.1",
-        "groq": "^3.15.1",
-        "preact": "^10.11.3",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
-        "remark-toc": "^8.0.1",
-        "sass": "^1.62.1",
-        "sharp": "^0.32.5",
-        "solid-js": "^1.7.4",
-        "svelte": "^3.59.0"
+        "@astrojs/svelte": "*",
+        "astro-embed": "*",
+        "astro-netlify-cms": "*",
+        "remark-toc": "*",
+        "sass": "^1.66.1",
+        "solid-js": "*",
+        "svelte": "*"
     }
 }

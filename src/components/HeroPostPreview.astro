@@ -1,6 +1,5 @@
 ---
-import { Image } from '@astrojs/image/components';
-
+import { Image } from 'astro:assets';
 export interface Props {
     title: string;
     description: string;
@@ -18,26 +17,34 @@ const { title, description, publishDate, url, backgroundImage, position, style} 
     let bg = style == 'secondary' && 'bg-primary' || 'bg-light';
 ---
 
-<a href={url} class=`[ card ] ${bg}`>
-    <div class="image-wrapper">
-        <Image 
-            format={'webp'}
-            width={440}
-            height={240}
-            src={backgroundImage}
-            alt=""
-            fit={'cover'}
-        />
-    </div>
 
-    <div class=`contents flow`>
-        <h3 class="title">{title}</h3>
-        <p class="text-400">{description}</p>
-    </div>
-</a>
+<div class="[ card ] ${bg}">
+    <a href={url} class=``>
+        <div class="image-wrapper">
+            <Image 
+                format={'webp'}
+                width={400}
+                height={320}
+                src={backgroundImage}
+                alt=""
+                fit={'cover'}
+            />
+        </div>
+
+        <div class=`contents flow`>
+            <h3 class="title">{title}</h3>
+            <p class="text-400">{description}</p>
+
+            <div class="card-footer text-300 repel">
+                <span>Published: {publishDate}</span>
+            </div>
+        </div>
+    </a>
+</div>
 
 <style lang="scss">
     .card {
+        max-width: 20em;
         padding-bottom: var(--space-xs);
         margin-bottom: 2rem;
         border-radius: var(--border-radius);
@@ -53,7 +60,8 @@ const { title, description, publishDate, url, backgroundImage, position, style} 
     }
 
     .image-wrapper {
-        height: 240px;
+        /* height: 240px; */
+        padding: var(--space-3xs);
     }
 
     img {
@@ -66,10 +74,33 @@ const { title, description, publishDate, url, backgroundImage, position, style} 
     }
 
     .contents {
+        position: relative;
+        min-height: 270px;
         padding-top: 10px;
         padding-left: 10px;
+        padding-right: 10px;
         --flow-space: .25em;
         text-decoration: none;
+
+        .card-footer {
+            color: var(--color-mid-dark);
+            opacity: 0.9;
+            bottom: -10px;
+            position: absolute;
+            border-top: 1px solid var(--color-mid);
+            width: calc(100% - 20px);
+            display: flex;
+            align-items: center;
+            @media screen and (max-width: 767px) {
+                position: relative;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            min-height: auto !important;
+        }
+
+
     }
 
     .title,

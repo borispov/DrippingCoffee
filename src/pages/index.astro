@@ -1,5 +1,5 @@
 ---
-import { Image } from '@astrojs/image/components';
+import { Image } from 'astro:assets';
 
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
@@ -69,7 +69,7 @@ const popularPosts = posts.filter(
 
                 <!-- FIRST SECTION -->
                 <SectionTitle sectionTitle="Best Equipment" />
-                <section aria-label="Blog post list" class="hero-posts [ region ]">
+                <section aria-label="Blog post list" class="grid [ region ]">
                 {
                     best.map(({ url, frontmatter }, i) => (
                         <HeroPostPreview
@@ -86,7 +86,7 @@ const popularPosts = posts.filter(
 
                 <!-- SECOND SECTION -->
                 <SectionTitle sectionTitle="Personal Reviews" />
-                <section aria-label="Blog post list" class="hero-posts [ region ]">
+                <section aria-label="Blog post list" class="grid [ region ]">
                 {
                     product.map(({ url, frontmatter }, i) => (
                         <HeroPostPreview
@@ -103,7 +103,7 @@ const popularPosts = posts.filter(
 
                 <!-- THIRD SECTION -->
                 <SectionTitle sectionTitle="How To's" />
-                <section aria-label="Blog post list " class="hero-posts [ region ]">
+                <section aria-label="Blog post list " class="grid [ region ]">
                 {
                     howTos.map(({ url, frontmatter }, i) => (
                         <HeroPostPreview
@@ -121,7 +121,7 @@ const popularPosts = posts.filter(
 
                 <!-- FOURTH SECTION -->
                 <SectionTitle sectionTitle="More Articles" />
-                <section aria-label="Blog post list" class="hero-posts [ region ]">
+                <section aria-label="Blog post list" class="grid [ region ]">
                     {
                         rest.map(({ url, frontmatter }, i) => (
                             <HeroPostPreview
@@ -150,13 +150,15 @@ const popularPosts = posts.filter(
                 <h2 class="font-serif">This Is The Dripping Coffee Experience, All About Making Great Coffee At Home
                 </h2>
                 <div class="headline-author-img">
-                    <Image src="/assets/myself.jpg" 
+                    <Image 
+                        src="/assets/myself.jpg" 
                         alt="Myself with my beloved Pro 800" 
                         position={'left top'}
                         format={'webp'}
                         quality={100} 
                         width={140} 
-                        height={140} />
+                        height={140} 
+                    />
                 </div>
                 <p>
                 I'm Bori Po, a coffee lunatic and I'm fortunate to be married to a woman who's as addicted to good coffee as I am. I curate guides, reviews and document my personal experience and findings along the way. You can read more <a href="/about/">about me</a> or <a href='/contact/'>reach out</a> and say hi. I really hope you'll find something useful and perhaps even learn something new.
@@ -186,6 +188,16 @@ const popularPosts = posts.filter(
                 font-size: 2.2rem;
                 font-weight: 700;
                 margin: 0 auto;
+            }
+
+            .grid {
+                justify-items: center;
+                --grid-min-item-size: 18em;
+                @media screen and (max-width: 767px) {
+                    display: flex;
+                    flex-direction: column;
+                        align-items: center;
+                }
             }
 
             .hero-posts {

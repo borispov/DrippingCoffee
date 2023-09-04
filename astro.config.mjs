@@ -1,21 +1,10 @@
-// import { loadEnv } from "vite";
-// const { PUBLIC_SANITY_PROJECT_ID, PUBLIC_SANITY_DATASET } = loadEnv(import.meta.env.MODE, process.cwd(), "");
-// if (
-//   !PUBLIC_SANITY_PROJECT_ID || !PUBLIC_SANITY_DATASET
-// ) {
-//   throw new Error("Did you forget to run sanity init --env?");
-// }
-
 import { defineConfig } from 'astro/config';
+import NetlifyCMS from 'astro-netlify-cms';
 import remarkToc from 'remark-toc';
-// import sanity from "@sanity/astro";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import svelte from "@astrojs/svelte";
-import react from "@astrojs/react";
-import image from "@astrojs/image";
 
-// https://astro.build/config
 export default defineConfig({
   trailingSlash: 'always',
   markdown: {
@@ -25,19 +14,38 @@ export default defineConfig({
     drafts: true
   },
   integrations: [
-  // sanity({
-  //   projectId: PUBLIC_SANITY_PROJECT_ID,
-  //   dataset: PUBLIC_SANITY_DATASET,
-  //   useCdn: false,
-  //   apiVersion: "2023-03-20",
-  // }),
+    NetlifyCMS({
+      config: {
+        backend: {
+          name: 'git-gateway',
+          branch: 'main',
+        },
+        collections: [
+          {
+            name: "posts",
+            label: "Posts",
+            label_singular: "Post",
+            folder: "src/pages/posts/",
+            create: true,
+            delete: true,
+            slug: "{{slug}}",
+            fields: [
+              { label: "Title", name: "title", widget: "string" },
+              { label: "Description", name: "description", widget: "string" },
+              { label: "Author", name: "author", widget: "string" },
+              { label: "Date", name: "date", widget: "datetime" },
+              { label: "Tags", name: "tags", widget: "list", default: ["post"] },
+              { label: "Featured Image", name: "image", widget: "image" },
+              { label: "Image Caption", name: "imageAlt", widget: "string" },
+              { label: "Body", name: "body", widget: "markdown" },
+            ],
+          }
+        ],
+      }
+    }),
     mdx(), 
     sitemap(), 
     svelte(), 
-    react(), 
-    image({
-      serviceEntryPoint: '@astrojs/image/sharp',
-    })
   ],
   site: 'https://drippingcoffee.com/'
 });
