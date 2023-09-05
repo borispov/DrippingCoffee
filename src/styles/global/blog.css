@@ -148,6 +148,31 @@ img.cover {
 	}
 }
 
+.post table {
+  border-collapse: collapse;
+}
+
+.post tr, td {
+  border: 1px solid black;
+}
+
+/* .post thead th { width: 80%; } */
+.post table { width: 100%; }
+
+.post thead th { text-align: left; }
+
+.post tbody tr td:nth-last-child(1) {
+		width: 35%;
+}
+
+.post tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.post tbody tr:nth-child(even) {
+  background-color: var(--color-primary-glare);
+}
+
 	.product-image {
 			width: 100%;
 			max-width: 89%;
