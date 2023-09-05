@@ -1,0 +1,43 @@
+---
+// AccordionItem.astro
+const { title, content } = Astro.props;
+---
+
+<div class="acc repel prose ">
+
+  <details class="accordion-item">
+    <summary class="accordion-title">{title}</summary>
+    <p class="accordion-content">{content}</p>
+  </details>
+</div>
+
+<style>
+  .acc {
+    display: flex;
+    border-bottom: 1px solid black;
+    padding-inline: 0 var(--space-l);
+  }
+
+  .accordion-item {
+    padding: var(--space-s);
+  }
+
+	details {
+		color: var(--color-mid-dark);
+	}
+
+	summary {
+		cursor: pointer;
+	}
+
+	summary:hover {
+		color: var(--color-mid-dark);
+	}
+
+	details[open] > summary {
+		/* text should turn pink */
+		color: var(--color-dark);
+	}
+
+
+</style>
