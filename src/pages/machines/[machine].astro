@@ -62,7 +62,8 @@ export function getStaticPaths() {
             machine: extractMachineData(m),
           }
       }
-  })
+      })
+      .filter(m => m.props.machine.identity.images)
 }
 
 const { machine } = Astro.params;
