@@ -1,0 +1,42 @@
+backend:
+  name: git-gateway
+  branch: main
+  commit_messages:
+    create: Create {{collection}} "{{slug}}"
+    delete: Delete {{collection}} "{{slug}}"
+    update: Update {{collection}} "{{slug}}"
+    uploadMedia: Upload "{{path}}"
+    deleteMedia: Delete "{{path}}"
+    openAuthoring: '{{message}}'
+
+
+local_backend: true
+# change url to a link to the image you want to use, no file paths, must be a URL
+logo_url: https://codestitch.app/frontend/images/logo.png
+
+media_folder: "public/assets/blog"
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    label_singular: "Post"
+    extension: "mdx"
+    format: "frontmatter"
+    folder: "src/pages/posts"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "@layouts/BlogPost.astro" }
+      - { label: "Title", name: "title", widget: "string", pattern: ['.{30,}', "Must Have At Least 30 characters"] }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Date", name: "publishDate", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+      - label: 'Featured Image'
+        name: 'heroImage'
+        collapsed: true
+        widget: object
+        fields:
+          - { label: 'src', name: 'image', widget: 'image' }
+          - { label: 'alt', name: 'alt', widget: 'string' }
+      - { label: "Body", name: "body", widget: "markdown" }
