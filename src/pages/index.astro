@@ -9,6 +9,13 @@ import HeroPostPreview from "../components/HeroPostPreview.astro";
 import Hero from "../components/Hero.astro";
 import SectionTitle from "@components/common/SectionTitle.astro";
 
+let modes = {
+    all: "all",
+    categorical: "categorical"
+}
+
+let mode = 'all'
+
 let title = "Dripping Coffee - Your Home For Brewing Espresso At Home";
 
 const lever = [];
@@ -67,78 +74,98 @@ const popularPosts = posts.filter(
             <!-- BEGINNING OF BLOG CONTENT -->
             <main class="content">
 
-                <!-- FIRST SECTION -->
-                <SectionTitle sectionTitle="Best Equipment" />
-                <section aria-label="Blog post list" class="grid [ region ]">
                 {
-                    best.map(({ url, frontmatter }, i) => (
-                        <HeroPostPreview
-                            title={frontmatter.title}
-                            description={frontmatter.description}
-                            publishDate={frontmatter.publishDate}
-                            url={url}
-                            backgroundImage={frontmatter.heroImage.src}
-                        />
-                    ))
-                }
-                </section>
+                    mode == 'all' &&
+                    <section aria-label="Blog post list" class="grid [ region ]">
+                        {
+                            posts.map(({ url, frontmatter}, i) =>
+                                <HeroPostPreview
+                                    title={frontmatter.title}
+                                    description={frontmatter.description}
+                                    publishDate={frontmatter.publishDate}
+                                    url={url}
+                                    backgroundImage={frontmatter.heroImage.src}
+                                />
+                            )
+                        }
+                    </section>
+                    || 
+                    <Fragment>
 
-
-                <!-- SECOND SECTION -->
-                <SectionTitle sectionTitle="Personal Reviews" />
-                <section aria-label="Blog post list" class="grid [ region ]">
-                {
-                    product.map(({ url, frontmatter }, i) => (
-                        <HeroPostPreview
-                            title={frontmatter.title}
-                            description={frontmatter.description}
-                            publishDate={frontmatter.publishDate}
-                            url={url}
-                            backgroundImage={frontmatter.heroImage.src}
-                        />
-                    ))
-                }
-                </section>
-
-
-                <!-- THIRD SECTION -->
-                <SectionTitle sectionTitle="How To's" />
-                <section aria-label="Blog post list " class="grid [ region ]">
-                {
-                    howTos.map(({ url, frontmatter }, i) => (
-                        <HeroPostPreview
-                            title={frontmatter.title}
-                            description={frontmatter.description}
-                            publishDate={frontmatter.publishDate}
-                            url={url}
-                            backgroundImage={frontmatter.heroImage.src}
-                            style="secondary"
-                        />
-                    ))
-                }
-                </section>
-
-
-                <!-- FOURTH SECTION -->
-                <SectionTitle sectionTitle="More Articles" />
-                <section aria-label="Blog post list" class="grid [ region ]">
+                    <!-- FIRST SECTION -->
+                    <SectionTitle sectionTitle="Best Equipment" />
+                    <section aria-label="Blog post list" class="grid [ region ]">
                     {
-                        rest.map(({ url, frontmatter }, i) => (
+                        best.map(({ url, frontmatter }, i) => (
                             <HeroPostPreview
                                 title={frontmatter.title}
                                 description={frontmatter.description}
                                 publishDate={frontmatter.publishDate}
                                 url={url}
-                                position={
-                                    (i === 2 && "third") ||
-                                    (i === 1 && "second") ||
-                                    "first"
-                                }
                                 backgroundImage={frontmatter.heroImage.src}
                             />
                         ))
                     }
-                </section>
+                    </section>
+
+
+                    <!-- SECOND SECTION -->
+                    <SectionTitle sectionTitle="Personal Reviews" />
+                    <section aria-label="Blog post list" class="grid [ region ]">
+                    {
+                        product.map(({ url, frontmatter }, i) => (
+                            <HeroPostPreview
+                                title={frontmatter.title}
+                                description={frontmatter.description}
+                                publishDate={frontmatter.publishDate}
+                                url={url}
+                                backgroundImage={frontmatter.heroImage.src}
+                            />
+                        ))
+                    }
+                    </section>
+
+
+                    <!-- THIRD SECTION -->
+                    <SectionTitle sectionTitle="How To's" />
+                    <section aria-label="Blog post list " class="grid [ region ]">
+                    {
+                        howTos.map(({ url, frontmatter }, i) => (
+                            <HeroPostPreview
+                                title={frontmatter.title}
+                                description={frontmatter.description}
+                                publishDate={frontmatter.publishDate}
+                                url={url}
+                                backgroundImage={frontmatter.heroImage.src}
+                                style="secondary"
+                            />
+                        ))
+                    }
+                    </section>
+
+
+                    <!-- FOURTH SECTION -->
+                    <SectionTitle sectionTitle="More Articles" />
+                    <section aria-label="Blog post list" class="grid [ region ]">
+                        {
+                            rest.map(({ url, frontmatter }, i) => (
+                                <HeroPostPreview
+                                    title={frontmatter.title}
+                                    description={frontmatter.description}
+                                    publishDate={frontmatter.publishDate}
+                                    url={url}
+                                    position={
+                                        (i === 2 && "third") ||
+                                        (i === 1 && "second") ||
+                                        "first"
+                                    }
+                                    backgroundImage={frontmatter.heroImage.src}
+                                />
+                            ))
+                        }
+                    </section>
+                    </Fragment>
+                }
 
             </main>
             <!-- END OF BLOG CONTENT -->

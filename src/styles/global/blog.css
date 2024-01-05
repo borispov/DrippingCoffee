@@ -3,9 +3,16 @@ p {
 	color: var(--color-mid-dark);
 }
 
+ul {
+	display: block;
+}
+
 ul li {
 	color: var(--color-mid-dark);
+	word-wrap: break-word;
+	max-width: 65ch;
 }
+
 
 blockquote {
 	font-size: var(--step--1);
@@ -137,6 +144,14 @@ img.cover {
 
 .post {
 
+	hyphens: auto;
+	overflow-wrap: break-word;
+	word-break: break-word;
+
+	iframe {
+		width: 65ch;
+	}
+
 	h1 {
 		font-family: var(--font-serif);
 	}
@@ -190,3 +205,11 @@ img.cover {
 			object-fit: contain;
 			box-shadow: 0px 0px 9px rgba(0,0,0,0.1);
 	}
+
+
+
+@media (min-width: 37.75em) {
+	.post iframe {
+		width: 100%;
+	}
+}
