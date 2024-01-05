@@ -24,7 +24,7 @@ const { title, description, publishDate, url, backgroundImage, position, style} 
             <Image 
                 format={'webp'}
                 width={400}
-                height={320}
+                height={220}
                 src={backgroundImage}
                 alt=""
                 fit={'cover'}
@@ -33,7 +33,7 @@ const { title, description, publishDate, url, backgroundImage, position, style} 
 
         <div class=`contents flow`>
             <h3 class="title">{title}</h3>
-            <p class="text-400">{description}</p>
+            <!-- <p class="text-400">{description}</p> -->
 
             <div class="card-footer text-300 repel">
                 <span>Published: {publishDate}</span>
@@ -51,6 +51,10 @@ const { title, description, publishDate, url, backgroundImage, position, style} 
         box-shadow: 0 0 1rem rgba(0,0,0,0.08);
         line-height: var(--lh140);
         transition: var(--t-fast);
+
+        @media screen and (max-width: 767px) {
+            max-width: 90%;
+        }
 
         &:hover {
             transform: translateY(-.4rem);
@@ -71,11 +75,18 @@ const { title, description, publishDate, url, backgroundImage, position, style} 
         /* z-index: -1; */
         /* object-fit: cover; */
         opacity: 0.95;
+        object-fit: cover;
+
+        @media screen and (max-width: 767px) {
+            width: 100%;
+            object-fit: cover;
+        }
     }
 
     .contents {
         position: relative;
-        min-height: 270px;
+        min-height: var(--space-2xl);
+        // padding-bottom: var(--space-s);
         padding-top: 10px;
         padding-left: 10px;
         padding-right: 10px;
@@ -115,10 +126,10 @@ const { title, description, publishDate, url, backgroundImage, position, style} 
     }
 
     .title {
-        font-weight: 700;
+        font-weight: 400;
         max-width: 100%;
         color: var(--color-dark);
-        letter-spacing: -0.2px;
+        font-size: var(--step-0);
     }
 
     p {
