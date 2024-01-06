@@ -41,6 +41,7 @@ ol[role='list'] {
 html {
   text-size-adjust: none;
   -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
 }
 
 /* Set core root defaults */
@@ -58,6 +59,7 @@ body {
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
+  color: currentColor;
 }
 
 /* Make images easier to work with */
@@ -73,4 +75,8 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+:target {
+  scroll-margin-block: 5ex;
 }
