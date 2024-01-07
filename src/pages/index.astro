@@ -75,7 +75,7 @@ const popularPosts = posts.filter(
             <main class="content">
 
                 {
-                    mode == 'all' &&
+                    mode == 'all' && posts &&
                     <section aria-label="Blog post list" class="grid [ region ]">
                         {
                             posts.map(({ url, frontmatter}, i) =>
