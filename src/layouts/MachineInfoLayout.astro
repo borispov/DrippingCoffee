@@ -1,21 +1,54 @@
 ---
-import BaseHead from "../components/BaseHead.astro";
+import BaseHeadMachines from "@components/BaseHeadMachines.astro";
+// import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 const { title, description } = Astro.props.content;
+
+const posts = await Astro.glob("../pages/posts/*.mdx");
+const latest = posts.filter(
+    (post) => !post.frontmatter.tags?.includes("popular"),
+);
 ---
 
 <html lang="en">
-  <head>
-    <BaseHead title={title} description={description} />
-  </head>
-  <body>
-      <Header />
-        <main class="wrapper region">
-        <h1>{title}</h1>
-        <slot />
-      </main>
-      <Footer />
-  </body>
-</html>
+    <head>
+        <BaseHeadMachines title={title} description={description} />
+    </head>
+    <body>
+        <Header />
+        <main class="section is-medium">
+            <h1>{title}</h1>
+            <slot />
 
+            <hr class="gap-top-300" />
+            <div class="section content flow">
+                <h2 class="font-serif">Check out some interesting topics...</h2>
+                {
+                    latest
+                        .filter((post) =>
+                            post.frontmatter.title
+                                .toLowerCase()
+                                .includes("best"),
+                        )
+                        .map((post) => (
+                            <div>
+                                <a href={post.url}>
+                                    <p>
+                                        <strong class="link underline">
+                                            {post.frontmatter.title}
+                                        </strong>{" "}
+                                        -{" "}
+                                        <span>
+                                            {post.frontmatter.description}
+                                        </span>
+                                    </p>
+                                </a>
+                            </div>
+                        ))
+                }
+            </div>
+        </main>
+        <Footer />
+    </body>
+</html>

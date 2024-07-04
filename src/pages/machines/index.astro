@@ -8,11 +8,11 @@ import slugify from "@lib/slugify";
 let title = 'Welcome To Our Espresso Machine Index'
 let description = `Curated list of all espresso machines you might be interested in with overview of technical details, reviews, and more, all in one place.`
 
-let para1 = `I aggregated a list of espresso machines and provided an overview with important details for each machine including technical details, 
+let para1 = `I aggregated a list of espresso machines and provided an overview with important details for each machine including technical details,
 official links, and reviews from accross the web. The index showcases all types of espresso machines, single boilers, dual boilers, heat exchangers and lever espresso machines.
 My goal is to provide all necessary information, whether it's in-house or from an external resource, so that you can inform yourself best before making an important buying decision. `;
 
-let para2 = `I know looking around for information can be overwhelming, I've been there. That's why I curated this index. You can find a machine that suits your budget and needs. On top of that, I make sure that every machine has a couple 
+let para2 = `I know looking around for information can be overwhelming, I've been there. That's why I curated this index. You can find a machine that suits your budget and needs. On top of that, I make sure that every machine has a couple
 of reviews from YouTube, bloggers, HB and other forums.`;
 
 let note = `Please, if you find that important information is missing regarding any of the machines listed below, let me know. If you're interested in getting a spreadsheet with all of the data, let me know, I'm willing to share.`
@@ -26,15 +26,14 @@ const singleBoilers = allMachines.filter(machine => machine.boilerType == 'SB' &
 
 <MachineInfoLayout content={{ title, description }}>
 
-  <section class="region flow">
-
+  <section class="content">
     <p>{para1}</p>
     <p>{para2}</p>
     <hr />
     <p>{note}</p>
-  </section>
+  </section >
 
-  <div class="region" data-start>
+  <div class="region content" data-start>
 
     { singleBoilers.length > 1 && (
       <div>
@@ -44,9 +43,11 @@ const singleBoilers = allMachines.filter(machine => machine.boilerType == 'SB' &
           singleBoilers.map(m => {
             let s = slugify(m.brand + ' ' + m.model)
             return (
-            <a href=`/machines/${s}/` class="machine-card stack">
-                <li class="text-400"> {m.brand + ' ' + m.model}</li>
+            <li class="is-size-6 has-text-link">
+              <a href=`/machines/${s}/` >
+              {m.brand + ' ' + m.model}
               </a>
+            </li>
             )
             }
           )
@@ -62,9 +63,11 @@ const singleBoilers = allMachines.filter(machine => machine.boilerType == 'SB' &
         heatExchangers.map(m => {
           let s = slugify(m.brand + ' ' + m.model)
           return (
-            <a href=`/machines/${s}/` class="machine-card stack">
-                <li class="text-400"> {m.brand + ' ' + m.model}</li>
+          <li class="is-size-6 has-text-link">
+            <a href=`/machines/${s}/` >
+            {m.brand + ' ' + m.model}
             </a>
+          </li>
           )
           }
         )
@@ -79,9 +82,11 @@ const singleBoilers = allMachines.filter(machine => machine.boilerType == 'SB' &
         dualBoilers.map(m => {
           let s = slugify(m.brand + ' ' + m.model)
           return (
-          <a href=`/machines/${s}/` class="machine-card stack">
-              <li class="text-400"> {m.brand + ' ' + m.model}</li>
+          <li class="is-size-6 has-text-link">
+            <a href=`/machines/${s}/` >
+            {m.brand + ' ' + m.model}
             </a>
+          </li>
           )
           }
         )
@@ -92,7 +97,4 @@ const singleBoilers = allMachines.filter(machine => machine.boilerType == 'SB' &
 </MachineInfoLayout>
 
 <style>
-  .machine-card {
-  }
-
 </style>

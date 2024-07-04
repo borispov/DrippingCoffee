@@ -7,172 +7,166 @@ import machines from "@lib/machine/espresso.json";
 import { unCamelCase } from "@lib/text";
 import slugify from "@lib/slugify";
 
-import { YouTube } from 'astro-embed'
-
+import { YouTube } from "astro-embed";
 
 export function extractMachineData(machine) {
-  return {
-    identity: {
-      brand: machine.brand,
-      model: machine.model,
-      latestVersion: '',
-      officialLink: machine.additionalInfo?.links?.official || '',
-      images: machine.images
-    },
-    prices: {
-      average: machine.priceUsd,
-      US: undefined,
-      EU: undefined,
-      },
-    technical: {
-        boilerType: machine.boilerType,
-        pid: machine.pid,
-        pumpType: machine.pumpType,
-        pressureGauge: machine.pressureGauge,
-        adjustalePressure: machine.adjustablePressure,
-        brewBoilerVolume: machine.brewBoiler,
-        steamBoilerVolume: machine.steamBoiler,
-        boilerMaterial: machine.boilerMaterial || '',
-        waterSource: machine.tank.plumb,
-        wattage: machine.wattage + " Watt",
-        groupType: machine.groupType,
-        reservoir: machine.reservoir,
-        portaFilterDiameter: machine.portaFilterSize,
-        dripTraySize: machine.dripTraySize || '',
-        preInfusion: machine.preInfusion || '',
-        warmUpTime: machine.warmUp || '',
-      },
-      dimensions: machine.dimensions,
-      info: {
-        reviews: machine.additionalInfo?.links?.reviews,
-        notes: machine.additionalInfo?.notes
-      }
-  }
+    return {
+        identity: {
+            brand: machine.brand,
+            model: machine.model,
+            latestVersion: "",
+            officialLink: machine.additionalInfo?.links?.official || "",
+            images: machine.images,
+        },
+        prices: {
+            average: machine.priceUsd,
+            US: undefined,
+            EU: undefined,
+        },
+        technical: {
+            boilerType: machine.boilerType,
+            pid: machine.pid,
+            pumpType: machine.pumpType,
+            pressureGauge: machine.pressureGauge,
+            adjustalePressure: machine.adjustablePressure,
+            brewBoilerVolume: machine.brewBoiler,
+            steamBoilerVolume: machine.steamBoiler,
+            boilerMaterial: machine.boilerMaterial || "",
+            waterSource: machine.tank.plumb,
+            wattage: machine.wattage + " Watt",
+            groupType: machine.groupType,
+            reservoir: machine.reservoir,
+            portaFilterDiameter: machine.portaFilterSize,
+            dripTraySize: machine.dripTraySize || "",
+            preInfusion: machine.preInfusion || "",
+            warmUpTime: machine.warmUp || "",
+        },
+        dimensions: machine.dimensions,
+        info: {
+            reviews: machine.additionalInfo?.links?.reviews,
+            notes: machine.additionalInfo?.notes,
+        },
+    };
 }
 
 export function getStaticPaths() {
-
-  return machines.machines
-    .map(m => {
-      return {
-        params: {
-          machine: slugify(m.brand + ' ' + m.model)
-          },
-          props: {
-            machine: extractMachineData(m),
-          }
-      }
-      })
-      .filter(m => m.props.machine.identity.images)
+    return machines.machines
+        .map((m) => {
+            return {
+                params: {
+                    machine: slugify(m.brand + " " + m.model),
+                },
+                props: {
+                    machine: extractMachineData(m),
+                },
+            };
+        })
+        .filter((m) => m.props.machine.identity.images);
 }
 
 const { machine } = Astro.params;
 const { identity, prices, technical, info, dimensions } = Astro.props.machine;
 
 const machineName = machine;
-const heroImageSource = identity.images?.length && `/assets/machines/images/${identity.images[0]}`;
-const machineNameCapitalized = `${identity.brand} ${identity.model}`
+const heroImageSource =
+    identity.images?.length && `/assets/machines/images/${identity.images[0]}`;
+const machineNameCapitalized = `${identity.brand} ${identity.model}`;
 
 const content = {
-title: `${identity.brand} ${identity.model} - Links, Reviews & Technical Details` ,
-description: `${machineNameCapitalized} - Find out the specs, technical details, and reviews, to know everything you need about  ${machineNameCapitalized}`,
-}
+    title: `${identity.brand} ${identity.model} - Links, Reviews & Technical Details`,
+    description: `${machineNameCapitalized} - Find out the specs, technical details, and reviews, to know everything you need about  ${machineNameCapitalized}`,
+};
 
-const findFirstVid = info?.reviews?.find(r => r.link.includes('youtube.com'))
-
+const findFirstVid = info?.reviews?.find((r) => r.link.includes("youtube.com"));
 ---
 
-<BlogPost content={content}>
-  <div class="flow">
-    { identity.images?.length && ( <img width="475" src={heroImageSource} alt={machineName} /> ) }
+<MachineInfoLayout content={content}>
+    <div class="content">
+        {
+            identity.images?.length && (
+                <img width="475" src={heroImageSource} alt={machineName} />
+            )
+        }
 
-      <div class="table">
-        <table class="flow">
-          <thead>
-            <th tabindex="0" role="columnheader">Property</th>
-            <th tabindex="0" role="columnheader">Value</th>
-          </thead>
-          <tbody>
-            {
-              Object.entries(technical)?.map(a => {
-                let [k,v] = a
-                if (v) {
-                return (
-                  <tr>
-                    <td>{unCamelCase(k)}</td>
-                    <td>{v}</td>
-                  </tr>
-                )
+        <table
+            class="content table is-striped is-hoverable is-fullwidth is-bordered"
+        >
+            <thead>
+                <th class="has-text-white" tabindex="0" role="columnheader"
+                    >Property</th
+                >
+                <th class="has-text-white" tabindex="0" role="columnheader"
+                    >Value</th
+                >
+            </thead>
+            <tbody>
+                {
+                    Object.entries(technical)?.map((a) => {
+                        let [k, v] = a;
+                        if (v) {
+                            return (
+                                <tr>
+                                    <td>{unCamelCase(k)}</td>
+                                    <td>{v}</td>
+                                </tr>
+                            );
+                        }
+                    })
                 }
-              })
-            }
-          </tbody>
+            </tbody>
         </table>
-      </div>
 
+        <div class="region flow">
+            <h2>Overview</h2>
+            {
+                typeof info.notes == "string" ? (
+                    <p>{info.notes}</p>
+                ) : (
+                    info.notes?.map((note) => <p>{note}</p>)
+                )
+            }
+            <h3>Links:</h3>
+            <ul>
+                <li>
+                    <a target="_blank" href={identity?.officialLink}
+                        >{machineNameCapitalized} - Official Link</a
+                    >
+                </li>
+                {
+                    info?.reviews?.map((review) => (
+                        <li>
+                            <a target="_blank" href={review.link}>
+                                {review.name}
+                            </a>
+                        </li>
+                    ))
+                }
+            </ul>
 
-      <div class="region flow">
-        <h2>Overview</h2>
-        {
-        typeof info.notes == 'string' 
-        ? (<p>{info.notes}</p>) 
-        : info.notes?.map(note => <p>{note}</p>)
-        }
-        <h3>Links:</h3>
-        <ul>
-
-          <li>
-            <a target="_blank" href={identity?.officialLink}>{machineNameCapitalized} - Official Link</a>
-          </li>
-          {
-            info?.reviews?.map(review => <li><a target="_blank" href={review.link}>{review.name}</a></li>)
-          }
-        </ul>
-        
-        {
-          findFirstVid && (
-            <YouTube id={findFirstVid.link} />
-          )
-        }
-
-
+            {findFirstVid && <YouTube id={findFirstVid.link} />}
+        </div>
     </div>
-  </div>
-</BlogPost>
+</MachineInfoLayout>
 
 <style>
-  table {
-    background-color: var(--color-light-shade);
-    border-collapse: collapse;
-    width: 100%;
-    font-size: var(--step--1);
-    text-align: left;
-    border-radius: .25em;
-    overflow: hidden;
-    box-shadow: 0rem 0rem 1rem rgba(0,0,0,0.18);
-    margin-block: var(--space-m-l);
-  }
+    :root {
+        --bulma-link-h: 20;
+    }
+    table {
+        --bulma-table-background-color: var(--bulma-primary-light);
+        font-size: var(--step--1);
+        border-radius: 1em;
+        border-collapse: collapse;
+        margin-block: var(--space-m-l);
+        box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.18);
+    }
+    table th {
+        background: var(--bulma-info-dark);
+        padding-left: var(--space-2xs);
+        text-transform: uppercase;
+    }
 
-  table th {
-    background-color: var(--color-off-white);
-    color: #111;
-    font-weight: bold;
-    padding: var(--space-3xs);
-    text-transform: uppercase;
-    border-top: 1px solid #f9f9f9;
-    border-bottom: 1px soid #ccc;
-  }
-
-  table tr:nth-child(even) td {
-    background-color: var(--color-mid);
-  }
-
-  table tr:hover td {
-    cursor: default;
-    background-color: var(--color-light-shade);
-  }
-
-  table td {
-    padding: var(--space-3xs);
-  }
+    a {
+        color: var(--bulma-primary) !important;
+    }
 </style>

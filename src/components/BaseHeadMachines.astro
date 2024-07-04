@@ -1,0 +1,78 @@
+---
+import "../styles/global.css";
+
+export interface Props {
+    title: string;
+    description: string;
+}
+
+const canonicalURL = new URL(Astro.url, Astro.site);
+const { title, description } = Astro.props;
+---
+
+<!-- Global Metadata -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<meta name="generator" content={Astro.generator} />
+
+<link rel="canonical" href={canonicalURL} />
+
+<!-- Primary Meta Tags -->
+<title>{title}</title>
+<meta name="title" content={title} />
+<meta name="description" content={description} />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content={canonicalURL} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content="https://astro.build/social.png" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<!-- <meta property="twitter:url" content={canonicalURL} /> -->
+<meta property="twitter:title" content={title} />
+<meta property="twitter:description" content={description} />
+<meta property="twitter:image" content="https://astro.build/social.png" />
+
+<link
+    href="https://cdn.jsdelivr.net/npm/beercss@3.6.5/dist/cdn/beer.min.css"
+    rel="stylesheet"
+/>
+
+<script
+    type="module"
+    src="https://cdn.jsdelivr.net/npm/beercss@3.6.5/dist/cdn/beer.min.js"
+></script>
+
+<script
+    type="module"
+    src="https://cdn.jsdelivr.net/npm/material-dynamic-colors@1.1.2/dist/cdn/material-dynamic-colors.min.js"
+></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+    href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&family=Barlow+Condensed:wght@700&display=swap"
+    rel="stylesheet"
+/>
+
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css"
+/>
+
+<!--d-- Google tag (gtag.js) ---->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YE4H80NL99"
+></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-YE4H80NL99");
+</script>
