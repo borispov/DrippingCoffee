@@ -1,6 +1,6 @@
 ---
 import MachineInfoLayout from "@layouts/MachineInfoLayout.astro";
-import BlogPost from "@layouts/BlogPost.astro";
+import { getCollection, getEntry } from "astro:content";
 
 import machines from "@lib/machine/espresso.json";
 
@@ -78,46 +78,59 @@ const content = {
 };
 
 const findFirstVid = info?.reviews?.find((r) => r.link.includes("youtube.com"));
+
+const machineEntry = await getEntry("machines", slugify(machineName))
+let comparisons = null
+const { Content } = await machineEntry.render();
 ---
 
 <MachineInfoLayout content={content}>
-    <div class="content">
-        {
-            identity.images?.length && (
-                <img width="475" src={heroImageSource} alt={machineName} />
-            )
-        }
+    <div class="">
+        <div class="mt-10 cluster">
+            {
+                identity.images?.length && (
+                    <img
+                        class=""
+                        width="475"
+                        src={heroImageSource}
+                        alt={machineName}
+                    />
+                )
+            }
 
-        <table
-            class="content table is-striped is-hoverable is-fullwidth is-bordered"
-        >
-            <thead>
-                <th class="has-text-white" tabindex="0" role="columnheader"
-                    >Property</th
-                >
-                <th class="has-text-white" tabindex="0" role="columnheader"
-                    >Value</th
-                >
-            </thead>
-            <tbody>
-                {
-                    Object.entries(technical)?.map((a) => {
-                        let [k, v] = a;
-                        if (v) {
-                            return (
-                                <tr>
-                                    <td>{unCamelCase(k)}</td>
-                                    <td>{v}</td>
-                                </tr>
-                            );
-                        }
-                    })
-                }
-            </tbody>
-        </table>
+            <table class="table table-zebra table-sm md:max-w-sm lg:max-w-lg">
+                <thead class="bg-teal-800">
+                    <th class="text-white" tabindex="0" role="columnheader"
+                        >Property</th
+                    >
+                    <th class="text-white" tabindex="0" role="columnheader"
+                        >Value</th
+                    >
+                </thead>
+                <tbody>
+                    {
+                        Object.entries(technical)?.map((a) => {
+                            let [k, v] = a;
+                            if (v) {
+                                return (
+                                    <tr>
+                                        <td>{unCamelCase(k)}</td>
+                                        <td>{v}</td>
+                                    </tr>
+                                );
+                            }
+                        })
+                    }
+                </tbody>
+            </table>
+        </div>
 
         <div class="region flow">
-            <h2>Overview</h2>
+            <Content />
+            {comparisons && 
+                <h2>Comparisons</h2>
+            }
+            <h2>Summary</h2>
             {
                 typeof info.notes == "string" ? (
                     <p>{info.notes}</p>
@@ -126,8 +139,8 @@ const findFirstVid = info?.reviews?.find((r) => r.link.includes("youtube.com"));
                 )
             }
             <h3>Links:</h3>
-            <ul>
-                <li>
+            <ul class="list-disc">
+                <li class="list-item">
                     <a target="_blank" href={identity?.officialLink}
                         >{machineNameCapitalized} - Official Link</a
                     >
@@ -149,24 +162,22 @@ const findFirstVid = info?.reviews?.find((r) => r.link.includes("youtube.com"));
 </MachineInfoLayout>
 
 <style>
-    :root {
-        --bulma-link-h: 20;
+    img {
+        max-width: 440px;
     }
     table {
-        --bulma-table-background-color: var(--bulma-primary-light);
-        font-size: var(--step--1);
+        font-size: var(--step--2);
         border-radius: 1em;
         border-collapse: collapse;
         margin-block: var(--space-m-l);
         box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.18);
     }
     table th {
-        background: var(--bulma-info-dark);
+        border: 1px solid #d9d9d9;
         padding-left: var(--space-2xs);
         text-transform: uppercase;
-    }
-
-    a {
-        color: var(--bulma-primary) !important;
+        &:nth-of-type(1) {
+            max-width: 50px;
+        }
     }
 </style>
