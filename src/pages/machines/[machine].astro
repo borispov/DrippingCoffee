@@ -81,7 +81,8 @@ const findFirstVid = info?.reviews?.find((r) => r.link.includes("youtube.com"));
 
 const machineEntry = await getEntry("machines", slugify(machineName))
 let comparisons = null
-const { Content } = await machineEntry.render();
+const data = machineEntry && await machineEntry.render() || '';
+const { Content } = data
 ---
 
 <MachineInfoLayout content={content}>
@@ -126,7 +127,9 @@ const { Content } = await machineEntry.render();
         </div>
 
         <div class="region flow">
-            <Content />
+             {machineEntry && 
+                <Content />
+             }
             {comparisons && 
                 <h2>Comparisons</h2>
             }
