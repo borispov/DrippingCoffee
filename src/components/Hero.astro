@@ -6,14 +6,23 @@ const { title, subtitle } = Astro.props;
 ---
 
 <section class="[ region ]">
-    <div class="overlay bg-primary"></div>
+    <div class="overlayy bg-prime"></div>
     <picture>
-        <Image class="pic" format={'webp'} fit={'cover'} src={HERO_BG_IMG} alt="Picture of me next to my Profitec 800" width={1200} aspectRatio={'6:1'} height="900" />
+    <!-- <img src={HERO_BG_IMG} alt="" class="opacity-45 w-full h-full object-cover"> -->
+        <Image 
+            class="pic" 
+            format={'webp'} 
+            fit={'cover'} 
+            src={HERO_BG_IMG} 
+            alt="Picture of me next to my Profitec 800" 
+            width={1200} 
+            aspectRatio={'6:1'} 
+            height="900" />
     </picture>
-    <h1 class="tac">
+    <h1 class="tac z-10">
         {title || HERO_TITLE}
     </h1>
-    <p class="tac prose">
+    <p class="tac prose z-10">
         {subtitle || HERO_SUBTITLE}
     </p>
 </section>
@@ -26,7 +35,7 @@ const { title, subtitle } = Astro.props;
         align-items: center;
     }
 
-    .overlay {
+    .overlayy {
         opacity: 1;
         position: absolute;
         top: 0;
@@ -55,12 +64,12 @@ const { title, subtitle } = Astro.props;
         left: 0;
         bottom: 0;
         width: 100%;
-        z-index: -1;
+        z-index: 1;
         background-color: rgba(18, 18, 18, 0.8);
     }
 
     picture img {
-        opacity: 0.15;
+        opacity: 0.45;
         object-fit: cover;
         height: 100%;
         width: 100%;

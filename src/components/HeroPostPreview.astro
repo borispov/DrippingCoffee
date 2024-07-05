@@ -8,16 +8,42 @@ export interface Props {
     position?: string;
     backgroundImage: string;
     style?: string;
+    tags?: any;
 }
 
-const { title, description, publishDate, url, backgroundImage, position, style} =
+const { title, description, tags, publishDate, url, backgroundImage, position, style} =
     Astro.props as Props;
 
     let c = style == 'secondary' && 'txt-light' || 'txt-dark';
     let bg = style == 'secondary' && 'bg-primary' || 'bg-light';
 ---
 
+<div class="[ card ] bg-base-100 w-96 shadow-xl max-w-xs">
+  <figure class="object-cover m-0 p-2">
+    <Image 
+        class={`!w-[400px] !h-[220px]`}
+        format={'webp'}
+        width={400}
+        height={220}
+        src={backgroundImage}
+        alt=""
+        fit={'cover'}
+    />
+  </figure>
+  <div class="card-body flex flex-col justify-between items-stretch relative flow min-h-24 p-0 pt-2">
+    <h3 class="title px-2">{title}</h3>
+    <!-- <p>{description}</p> -->
+    <div class="justify-start w-full border-t-[1px] border-gray-400 p-0 m-0">
+        <div class="tags p-2 card-actions">
+             {
+                 tags.map(tag => (<div class="badge badge-outline">{tag}</div>))
+             }
+        </div>
+    </div>
+  </div>
+</div>
 
+{/* 
 <div class="[ card ] ${bg}">
     <a href={url} class=``>
         <div class="image-wrapper">
@@ -41,9 +67,10 @@ const { title, description, publishDate, url, backgroundImage, position, style} 
         </div>
     </a>
 </div>
+*/}
 
 <style lang="scss">
-    .card {
+    .cardi {
         max-width: 20em;
         padding-bottom: var(--space-xs);
         margin-bottom: 2rem;
@@ -69,13 +96,11 @@ const { title, description, publishDate, url, backgroundImage, position, style} 
     }
 
     img {
-        /* width: 100%; */
         border-radius: var(--border-radius);
         /* height: 100%; */
         /* z-index: -1; */
-        /* object-fit: cover; */
-        opacity: 0.95;
         object-fit: cover;
+        opacity: 0.95;
 
         @media screen and (max-width: 767px) {
             width: 100%;

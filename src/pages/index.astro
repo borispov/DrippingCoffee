@@ -85,6 +85,7 @@ const popularPosts = posts.filter(
                                     publishDate={frontmatter.publishDate}
                                     url={url}
                                     backgroundImage={frontmatter.heroImage.src}
+                                    tags={frontmatter.tags}
                                 />
                             )
                         }
@@ -172,7 +173,7 @@ const popularPosts = posts.filter(
         </div>
 
         <!-- BEGINNING OF ABOUT AND REST... -->
-        <article class="[ region ] [ bg-primary ]">
+        <article class="[ region ] [ bg-prime ]">
             <div class="[ headline ] [ wrapper flow ]">
                 <h2 class="font-serif">This Is The Dripping Coffee Experience, All About Making Great Coffee At Home
                 </h2>

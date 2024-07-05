@@ -1,8 +1,8 @@
 <footer class="[ footer ] [ region ] [ bg-light-shade tac] ">
-    <div class="[ wrapper ] [ flow ] ">
+    <div class=" [ flow ] ">
         <div class="sitemap">
-            <nav>
-                <ul data-layout='center' class="[ nav ] [ font-serif weight-bold text-500 ]" role='list'>
+            <nav class="">
+                <ul data-layout='center' class="[ nav justify-center ] [ serif weight-bold text-500 ]" role='list'>
                     <li>
                         <a href="/">Home</a>
                     </li>
@@ -18,10 +18,8 @@
                 </ul>
             </nav>
         </div>
-        <div class="flow tac text-300">
-            <div>
+        <div class="flow flex flex-col tac text-300 mx-auto">
                 <a href="mailto:boristofu@gmail.com">boristofu@gmail.com</a>
-            </div>
             <a href="https://instagram.com/dripping_coffee_">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
                     ><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
@@ -60,11 +58,16 @@
 
 
     .sitemap {
+        display: flex;
         --flow-space: var(--space-m-l);
 
         & nav {
             max-width: 50rem;
             margin-inline: auto;
+        }
+
+        & nav > li {
+            text-align: center;
         }
 
     }
