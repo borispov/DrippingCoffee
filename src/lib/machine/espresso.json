@@ -1963,7 +1963,7 @@
       }
     },
     {
-      "priceUsd": "$2,700.00",
+      "priceUsd": "$2,000.00",
       "brand": "Profitec",
       "model": "Pro 700",
       "boilerType": "DB",
@@ -2010,6 +2010,49 @@
             {
               "name": "Profitec 700 vs Lelit Bianca - Coffeetime Discussion",
               "link": "https://coffeetime.freeflarum.com/d/1040-lelit-bianca-or-profitec-700/136"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$2,800.00",
+      "brand": "Profitec",
+      "model": "Pro 700 Drive",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Rotary",
+      "pressureGauge": "Double",
+      "adjustablePressure": "YES",
+      "brewBoiler": ".75 L",
+      "steamBoiler": "2.00 L",
+      "tank": {
+        "plumb": "Both"
+      },
+      "groupType": "E61",
+      "portafilterSize": "58 mm",
+      "wattage": "1600",
+      "reservoir": "2.8",
+      "dimensions": "16x13x18in",
+      "weight": "68 lbs",
+      "steamKnobs": "joysticks",
+      "images": ["https://bellabarista.co.uk/cdn/shop/files/Drive5.jpg?v=1698744102&width=2000"],
+      "additionalInfo": {
+        "notes": [
+          "The newest PID-display is a significant upgrade! Easy to use and easy to navigate PID display and LED display for your settings to set up your PID and pre-infusion settings",
+          "The Profitec 700 is your home barista passport. This is a machine of high quality, astonishing looks, and great performance. With its massive dual boilers, you can do anything. You can even add flow control if you like.",
+          "The main competitors to this machine are: Lelit Bianca and ECM Synchronika. The Lelit Bianca stands out thanks to its out-of-the-box flow control, whereas in the Profitec 700, it's a paid addon. Build quality and steam pressure is superior in the Profitec 700. But, overall, both are great machines and you can't wrong with either."
+        ],
+        "links": {
+          "official": "https://www.profitec-espresso.com/en/products/drive",
+          "reviews": [
+            {
+              "name": "Profitec Drive - By iDrinkCoffeeCanada",
+              "link": "https://www.youtube.com/watch?v=CZXamMvtI1E"
+            },
+            {
+              "name": "Profitec Drive - By WholeLatteLove",
+              "link": "https://www.youtube.com/watch?v=ouG30LITDy4"
             }
           ]
         }

@@ -186,6 +186,20 @@ declare module 'astro:content' {
   collection: "machines";
   data: any
 } & { render(): Render[".md"] };
+"profitec-pro-700-drive.md": {
+	id: "profitec-pro-700-drive.md";
+  slug: "profitec-pro-700-drive";
+  body: string;
+  collection: "machines";
+  data: any
+} & { render(): Render[".md"] };
+"profitec-pro-700.md": {
+	id: "profitec-pro-700.md";
+  slug: "profitec-pro-700";
+  body: string;
+  collection: "machines";
+  data: any
+} & { render(): Render[".md"] };
 };
 
 	};
