@@ -20,6 +20,7 @@ const { title, description, tags, publishDate, url, backgroundImage, position, s
 
 <div class="[ card ] bg-base-100 w-96 shadow-xl max-w-xs">
   <figure class="object-cover m-0 p-2">
+      <a href={url} class=``>
     <Image 
         class={`!w-[400px] !h-[220px]`}
         format={'webp'}
@@ -28,15 +29,17 @@ const { title, description, tags, publishDate, url, backgroundImage, position, s
         src={backgroundImage}
         alt=""
         fit={'cover'}
-    />
+    /></a>
   </figure>
   <div class="card-body flex flex-col justify-between items-stretch relative flow min-h-24 p-0 pt-2">
-    <h3 class="title px-2">{title}</h3>
+    <a href={url} class=``>
+        <h3 class="title px-2">{title}</h3>
+    </a>
     <!-- <p>{description}</p> -->
     <div class="justify-start w-full border-t-[1px] border-gray-400 p-0 m-0">
         <div class="tags p-2 card-actions">
              {
-                 tags.map(tag => (<div class="badge badge-outline">{tag}</div>))
+                 tags.map(tag => (<div class="badge badge-outline cursor-default">{tag}</div>))
              }
         </div>
     </div>

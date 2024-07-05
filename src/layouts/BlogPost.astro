@@ -64,6 +64,7 @@ const {
                     heroImage && (
                         <picture>
                         <img
+                            class="h-[475px] object-cover w-full"
                             height="475"
                             loading="lazy"
                             decoding="async"
@@ -90,7 +91,7 @@ const {
                 heroImage && <hr>
             }
             <main class="sidebar">
-                <div class="[ post ] [ flow ]" >
+                <div class="prose [ post ] [ flow ]" >
                     <slot />
                 </div>
                 {
@@ -107,7 +108,7 @@ const {
 
             <hr class="gap-top-800">
             <div class="[ recent ] [ flow ]">
-                <h2 class="font-serif">Check out some interesting topics...</h2>
+                <h2 class="serif">Check out some interesting topics...</h2>
                 {
                     latest.map((post) => (
                         <div>
@@ -123,7 +124,7 @@ const {
             </div>
         </article>
 
-        <article class="[ region ] [ bg-primary ]">
+        <article class="[ region ] [ bg-prime ]">
             <div class="[ headline ] [ wrapper flow ]">
                 <h2 class="font-serif">This Is The Dripping Coffee Experience, All About Making Great Coffee At Home
                 </h2>
@@ -230,7 +231,6 @@ const {
     picture a span {
         color: var(--blue-500);
     }
-
 
     </style>
 </html>
