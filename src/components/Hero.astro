@@ -5,26 +5,32 @@ import { HERO_TITLE, HERO_SUBTITLE, HERO_BG_IMG } from "../config";
 const { title, subtitle } = Astro.props;
 ---
 
-<section class="[ region ]">
-    <div class="overlayy bg-prime"></div>
-    <picture>
-    <!-- <img src={HERO_BG_IMG} alt="" class="opacity-45 w-full h-full object-cover"> -->
-        <Image 
-            class="pic" 
-            format={'webp'} 
-            fit={'cover'} 
-            src={HERO_BG_IMG} 
-            alt="Picture of me next to my Profitec 800" 
-            width={1200} 
-            aspectRatio={'6:1'} 
-            height="900" />
-    </picture>
-    <h1 class="tac z-10">
-        {title || HERO_TITLE}
-    </h1>
-    <p class="tac prose z-10">
-        {subtitle || HERO_SUBTITLE}
-    </p>
+<section class="[ region ] md:h-[800px] flex flex-col justify-center px-2 md:px-16 md:!items-start !items-center">
+    <div class="opacity-30 bg-[#232323] top-0 left-0 right-0 bottom-0 absolute mix-blend-darken -z-10"></div>
+    <div class="bg-[#232323] top-0 left-0 right-0 bottom-0 absolute mix-blend-darken">
+        <img 
+            src={HERO_BG_IMG} alt="" 
+           class="opacity-45 object-cover object-center w-full h-full" />
+    </div>
+
+    <div class="flow z-10 text-center md:text-start flex flex-col items-center md:items-start" style="--flow-space:1rem">
+        <h1 class="serif text-5xl md:!text-[84px]">LEVERAGE YOUR COFFEE EXPERIENCE</h1>
+        <p class="text-neutral-200 ">Curation of the most interesting coffee related stuff. The best espresso machines, the best recipes, the best coffee accessories and more! From time to time, I share my personal experience with my beloved Profitec 800.</p>
+        <p class="text-neutral-200 ">I created an index of espresso machines where you can look for technical info & reviews.</p>
+        <div class="card-actions">
+            <a href="/machines/" class="block">
+                <button class="btn btn-info text-white text-md tracking-wider">
+                        Machines
+                </button>
+            </a>
+            <a href="/machines/profitec-pro-700-drive/" class="block">
+                <button class="btn btn-info text-white text-md tracking-wider">
+                        Profitec Drive <span class="badge badge-error badge-sm text-xs small">NEW</span>
+                </button>
+            </a>
+        </div>
+    </div>
+
 </section>
 
 <style lang="scss">

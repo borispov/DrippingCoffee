@@ -35,64 +35,107 @@ const singleBoilers = allMachines.filter(machine => machine.boilerType == 'SB' &
 
   <div class="region content" data-start>
 
-    { singleBoilers.length > 1 && (
-      <div>
-      <h2>Single Boilers</h2>
-      <ul>
-        {
+<div role="tablist" class="tabs tabs-lifted tabs-lg">
+  <input type="radio" name="my_tabs_2" role="tab" class="tab" aria-label="Single Boilers" />
+  <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+    <table class="table table-zebra">
+      <thead>
+        <tr>
+          <td>Machine Name</td>
+          <td>Est. Price</td>
+        </tr>
+      </thead>
+      <tbody>
+      { singleBoilers.length > 1 &&
           singleBoilers.map(m => {
             let s = slugify(m.brand + ' ' + m.model)
             return (
-            <li class="is-size-6 has-text-link">
-              <a href=`/machines/${s}/` >
-              {m.brand + ' ' + m.model}
-              </a>
-            </li>
+              <tr class="">
+                <td>
+                  <a href=`/machines/${s}/` class="link link-info serif text-base" >
+                    {m.brand + ' ' + m.model}
+                  </a>
+                </td>
+                <td>
+                  {m.priceUsd}
+                </td>
+              </tr>
             )
-            }
-          )
-        }
-      </ul>
-      </div>
-    )}
-
-    <div>
-    <h2>Heat Exchangers</h2>
-    <ul>
-      {
-        heatExchangers.map(m => {
-          let s = slugify(m.brand + ' ' + m.model)
-          return (
-          <li class="is-size-6 has-text-link">
-            <a href=`/machines/${s}/` >
-            {m.brand + ' ' + m.model}
-            </a>
-          </li>
-          )
-          }
-        )
+        })
       }
-    </ul>
-    </div>
+      </tbody>
+    </table>
+  </div>
 
-    <div>
-    <h2>Dual Boilers</h2>
-    <ul>
-      {
+  <input
+    type="radio"
+    name="my_tabs_2"
+    role="tab"
+    class="tab"
+    aria-label="Dual Boilers"
+    checked="checked" />
+  <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+    <table class="table table-zebra ">
+      <thead>
+        <tr>
+          <td>Machine Name</td>
+          <td>Est. Price</td>
+        </tr>
+      </thead>
+      <tbody>
+    { dualBoilers.length > 1 &&
         dualBoilers.map(m => {
           let s = slugify(m.brand + ' ' + m.model)
           return (
-          <li class="is-size-6 has-text-link">
-            <a href=`/machines/${s}/` >
-            {m.brand + ' ' + m.model}
-            </a>
-          </li>
+            <tr class="">
+              <td>
+                <a href=`/machines/${s}/` class="link link-info serif text-base" >
+                  {m.brand + ' ' + m.model}
+                </a>
+              </td>
+              <td>
+                {m.priceUsd}
+              </td>
+            </tr>
           )
-          }
-        )
-      }
-    </ul>
-    </div>
+      })
+    }
+      </tbody>
+    </table>
+  </div>
+
+  <input type="radio" name="my_tabs_2" role="tab" class="tab" aria-label="Heat Exchangers" />
+  <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+    <table class="table table-zebra">
+      <thead>
+        <tr>
+          <td>Machine Name</td>
+          <td>Est. Price</td>
+        </tr>
+      </thead>
+      <tbody>
+    { heatExchangers.length > 1 &&
+        heatExchangers.map(m => {
+          let s = slugify(m.brand + ' ' + m.model)
+          return (
+            <tr class="">
+              <td>
+                <a href=`/machines/${s}/` class="link link-info serif text-base" >
+                  {m.brand + ' ' + m.model}
+                </a>
+              </td>
+              <td>
+                {m.priceUsd}
+              </td>
+            </tr>
+          )
+      })
+    }
+      </tbody>
+    </table>
+  </div>
+</div>
+
   </div>
 </MachineInfoLayout>
 

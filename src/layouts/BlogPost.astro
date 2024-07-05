@@ -23,7 +23,7 @@ export interface Props {
 
 const posts = await Astro.glob("../pages/posts/*.mdx");
 const latest = posts.filter(
-    (post) => !post.frontmatter.tags?.includes("popular")
+    (post) => post.frontmatter.tags?.includes("best")
 );
 
 const {
@@ -90,12 +90,13 @@ const {
             {
                 heroImage && <hr>
             }
-            <main class="sidebar">
-                <div class="prose [ post ] [ flow ]" >
+            <main class="sidebar pt-2">
+                <div class="[ post ] [ flow ]" >
                     <slot />
                 </div>
                 {
-                    headings && (
+                        // disabled TOC for now
+                    null && headings && (
                         <div class="">
                             <div class="flow sticky">
                                 {
@@ -108,11 +109,11 @@ const {
 
             <hr class="gap-top-800">
             <div class="[ recent ] [ flow ]">
-                <h2 class="serif">Check out some interesting topics...</h2>
+                <h2 class="serif text-xl">Check out some interesting topics...</h2>
                 {
                     latest.map((post) => (
-                        <div>
-                            <a href={post.url}>
+                        <div class="mt-4">
+                            <a href={post.url} class="text-base link">
                                 <p>
                                     <strong>{post.frontmatter.title}</strong> -{" "}
                                     <span>{post.frontmatter.description}</span>

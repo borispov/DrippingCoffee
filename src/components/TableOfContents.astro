@@ -30,9 +30,9 @@ function buildToc(headings: TableOfContent[]) {
 const toc = buildToc(headings)
 ---
 
-<nav class='flow'>
+<nav class='flow rounded-lg'>
 	<h3 class='weight-bold'>Table Of Contents</h3>
-	<ul class=''>
+	<ul class='p-2'>
 		{toc.map((heading) => <TableOfContentsHeading heading={heading} />)}
 	</ul>
 </nav>
@@ -55,9 +55,9 @@ const toc = buildToc(headings)
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding: 0;
+        padding: 0.25rem;
         margin: 0;
-		font-size: 14px;
+				font-size: 14px;
     }
 
 </style>

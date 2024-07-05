@@ -49,6 +49,14 @@ blockquote .source {
     margin-top: 3rem;
 }
 
+:is(h2) {
+    font-size: var(--step-3) !important;
+}
+
+:is(h3) {
+    font-size: var(--step-1) !important;
+}
+
 small,
 .text_small {
     font-size: 0.833rem;
@@ -159,6 +167,11 @@ img.cover {
     & a:focus {
         outline: 2px solid currentColor;
         outline-offset: 0.25em;
+    }
+
+    & a:hover {
+        transition: all 0.1s ease-out;
+		background: var(--color-primary-glare);
     }
 }
 

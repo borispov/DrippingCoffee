@@ -2,12 +2,15 @@
 
 [The Old Profitec 700 review](/machines/profitec-pro-700/)
 
-Profitec, known for its superior and reliable espresso machines, has introduced the Drive as a successor to the highly-rated Pro 700. Developed with input from Whole Latte Love, the Drive maintains the core philosophy of the Pro 700 while introducing several key upgrades and new features.
+Profitec, known for its superior and reliable espresso machines, has introduced the Drive as a successor to the highly-rated Pro 700. The Drive maintains the core philosophy of the Pro 700 while introducing several key upgrades and new features like built-in reminders and configurations.
 
 I'd say the craziest feature of this machine is the insanely quick
 warm-up time of just 10-12 minutes. Okay, this is in paper, right? Who
 cares, give it 15 minutes. It's 3 times faster than it used to be and
 faster than most traditional E61 groups!
+
+Another thing I'd like to get for my Profitec 800, is the built-in
+on/off timer.
 
 ## Key Upgrades and New Features
 

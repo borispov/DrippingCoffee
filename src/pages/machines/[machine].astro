@@ -69,7 +69,7 @@ const { identity, prices, technical, info, dimensions } = Astro.props.machine;
 
 const machineName = machine;
 const heroImageSource =
-    identity.images?.length && `/assets/machines/images/${identity.images[0]}`;
+identity.images?.length && identity.images[0].includes('https') ? identity.images[0] : `/assets/machines/images/${identity.images[0]}`;
 const machineNameCapitalized = `${identity.brand} ${identity.model}`;
 
 const content = {

@@ -6,7 +6,7 @@
 
 ---
 layout: ../../layouts/BlogPost.astro
-title: Best Value Heat Exchanger Espresso Machine In 2023
+title: Best Value Heat Exchanger Espresso Machine In 2024
 description: Picking The Best Heat Exchanger Espresso Machine
 For Your Money Is easy from a technical perspective
 publishDate: 16 Sep 2023
@@ -47,7 +47,7 @@ Mara X is likely the right option for you **if**:
 - You don't want cooling flushes
 - You want a compact and solid machine overall.
 
-The Lelit Mara X is a great choice for most people looking for a heat exchanger machine in 2023. It's very compact, and its small footprint will fit anywhere. It's relatively quiet, especially with Lelit's adjustments over the development of the Mara (currently V3). Not needing cooling flushes is a huge bonus. On top of all, it's an E61 design, however, it doesn't have the preinfusion function of a traditional E61, which is something to be aware of. The heat up time is around 25 minutes, which I'd consider fast.
+The Lelit Mara X is a great choice for most people looking for a heat exchanger machine in 2024. It's very compact, and its small footprint will fit anywhere. It's relatively quiet, especially with Lelit's adjustments over the development of the Mara (currently V3). Not needing cooling flushes is a huge bonus. On top of all, it's an E61 design, however, it doesn't have the preinfusion function of a traditional E61, which is something to be aware of. The heat up time is around 25 minutes, which I'd consider fast.
 
 We have two modes: Coffee and steam mode. With coffee mode, we're not
 required to preform a flush, with steam mode, we are. Coffee mode is
