@@ -143,15 +143,15 @@ const { Content } = data
             }
             <h3>Links:</h3>
             <ul class="list-disc">
-                <li class="list-item">
-                    <a target="_blank" href={identity?.officialLink}
+                <li class="list-item underline">
+                    <a class="underline underline-offset-2" target="_blank" href={identity?.officialLink}
                         >{machineNameCapitalized} - Official Link</a
                     >
                 </li>
                 {
                     info?.reviews?.map((review) => (
                         <li>
-                            <a target="_blank" href={review.link}>
+                            <a class="underline underline-offset-2" target="_blank" href={review.link}>
                                 {review.name}
                             </a>
                         </li>

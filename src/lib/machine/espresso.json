@@ -18,6 +18,7 @@
       "portafilterSize": "54mm",
       "wattage": "600",
       "reservoir": "1.8L",
+      "images": ["https://assets.breville.com/cdn-cgi/image/format=auto,width=1300/BES500/BES500USCM_CAROUSEL1.png"],
       "additionalInfo": {
         "notes": "A Thermocoil design, a fast heat up time, great compromise.",
         "links": {
@@ -89,25 +90,81 @@
       "Bigger version of Export and has manometer": ""
     },
     {
-      "priceUsd": "$640.00",
-      "brand": "Flair 58",
-      "model": "Plus",
+      "priceUsd": "$500",
+      "brand": "Flair",
+      "model": "58",
       "boilerType": "No Boiler",
       "pid": "NO",
-      "pumpType": "NO",
-      "pressureGauge": "NO",
-      "adjustablePressure": "NO",
-      "brewBoiler": "0.09L",
-      "steamBoiler": "NO",
+      "pumpType": "Manual lever",
+      "pressureGauge": "YES",
+      "adjustablePressure": "YES",
+      "boilerMaterial": "",
+      "brewBoiler": "",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "",
+      "portafilterSize": "58 mm",
+      "wattage": "",
+      "reservoir": "90 ml",
+      "images": ["https://flairespresso.com/wp-content/uploads/2021/03/flair_58_product_front_square_new_features.jpg"],
+      "warmUp": "",
+      "additionalInfo": {
+        "notes": [
+          "Fully-Manual, Professional Grade, Lever Press",
+          "Temperature Preheat Controller with three temperature settings",
+          "Professional Grade 58mm Barista Portafilter with wooden handle",
+          "Enhanced Usability with wide base, elongated lever, and T-grip",
+          "Premium Build with stainless steel components and die-cast aluminum frame",
+          "Plastic-free brew path",
+          "Dose: 16-20 grams (expandable with different baskets)",
+          "Yield: Up to 55ml",
+          "Backed by a 5 year limited warranty"
+        ],
+        "links": {
+          "official": "https://flairespresso.com/product/flair-58/",
+          "reviews": []
+        }
+      },
+      "weight": "12 lbs | 5.44 kg",
+      "dimensions": "13.5x7.5x11 in (lever down), 13.5x7.5x24.25 in (lever up)"
+    },
+    {
+      "priceUsd": "$1990",
+      "brand": "Rancilio",
+      "model": "Silvia X",
+      "boilerType": "DB",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "YES",
+      "adjustablePressure": "YES",
+      "boilerMaterial": "Brass",
+      "brewBoiler": "0.3L",
+      "steamBoiler": "1.0L",
       "tank": {
         "plumb": "tank"
       },
       "groupType": "Ring",
-      "portafilterSize": "58 mm",
-      "wattage": "1370",
-      "reservoir": "0.09L",
-      "FIELD16": "Portable",
-      "Bigger version of Export and has manometer": ""
+      "portafilterSize": "58mm",
+      "wattage": "950 - 1000 W (120V), 1100 W (230V)",
+      "reservoir": "2.0 L",
+      "images": ["https://www.ranciliogroup.com/app/uploads/2021/10/inox1.png"],
+      "warmUp": "15 minutes",
+      "additionalInfo": {
+        "notes": [],
+        "links": {
+         "official": "https://www.ranciliogroup.com/rancilio/silvia-pro-x/",
+          "reviews": [
+            {
+              "name": "Home Barista User's Review",
+              "link": "https://www.home-barista.com/espresso-machines/rancilio-silvia-pro-x-review-t78101.html"
+            }
+          ]
+        }
+      },
+      "weight": "20 kg | 44.1 lb",
+      "dimensions": "250x390x420mm"
     },
     {
       "priceUsd": "$449.00",
@@ -901,6 +958,60 @@
             {
               "name": "Coffeesnobs Discussion",
               "link": "https://www.youtube.com/watch?v=TKDrP5Yweqs"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "priceUsd": "$1,650.00",
+      "brand": "Profitec",
+      "model": "Go",
+      "boilerType": "SB",
+      "pid": "YES",
+      "pumpType": "Vibration",
+      "pressureGauge": "Single",
+      "adjustablePressure": "NO",
+      "boilerMaterial": "Brass",
+      "brewBoiler": "0.40 L",
+      "steamBoiler": "",
+      "tank": {
+        "plumb": "tank"
+      },
+      "groupType": "Ring",
+      "portafilterSize": "58 mm",
+      "wattage": "1300 W, 900 W (US)",
+      "reservoir": "2.8 L",
+      "dimensions": "210x362x381mm",
+      "weight": "12.9kg | 28.44 lbs",
+      "warmUp": "5-7 minutes",
+      "images": ["https://www.profitec-espresso.com/media/pages/produkte/go/a15ce1db5f-1718196194/profitec-go-black-fast-heat-up.avif"],
+      "additionalInfo": {
+        "notes": [
+          "Brewing counter (timer)",
+          "Single boiler espresso machine with ring brew group",
+          "Fast Heat-Up mode",
+          "PID with Brewing counter in seconds",
+          "Programmable ECO mode",
+          "Programmable temperature mode",
+          "Boiler insulation",
+          "Copper heating",
+          "Removable water tank lid",
+          "Expansion valve for brewing pressure adjustment",
+          "Button panel",
+          "Rotary valve for steam extraction",
+          "Cup tray"
+        ],
+        "links": {
+          "official": "https://www.profitec-espresso.com/en/products/go",
+          "reviews": [
+            {
+              "name": "Nolan Reid - Review",
+              "link": "https://www.youtube.com/watch?v=_GBilTOHOd0"
+            },
+            {
+              "name": "Thin Scale For Profitec Go",
+              "link": "https://amzn.to/3xQxI54"
             }
           ]
         }

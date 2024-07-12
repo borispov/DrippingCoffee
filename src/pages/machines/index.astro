@@ -21,7 +21,7 @@ const allMachines = machines.machines;
 
 const heatExchangers = allMachines.filter(machine => machine.boilerType == 'HX' && machine.images);
 const dualBoilers = allMachines.filter(machine => machine.boilerType == 'DB' && machine.images);
-const singleBoilers = allMachines.filter(machine => machine.boilerType == 'SB' && machine.images);
+const singleBoilers = allMachines.filter(machine => machine.boilerType.includes('SB') && machine.images);
 ---
 
 <MachineInfoLayout content={{ title, description }}>

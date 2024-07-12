@@ -1,0 +1,45 @@
+---
+import Wizard from "@components/Wizard/Wizard.svelte";
+import { Image } from 'astro:assets';
+import BaseHead from "@components/BaseHead.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+
+---
+
+<html lang="he-il">
+    <head>
+        <BaseHead
+            title={'Espresso Wizard Setup | Dripping Coffee'}
+            description="Dripping Coffee is about brewing the best espresso at home. We discuss coffee beans, espresso machines, accessories, advices and HOW-TO's | By Coffe Hobbyist"
+        />
+    </head>
+
+    <body>
+        <Header />
+        <Wizard client:only="svelte" />
+
+        <!-- BEGINNING OF ABOUT AND REST... -->
+        <article class="[ region ] [ bg-prime ]">
+            <div class="[ headline ] [ wrapper flow ]">
+                <h2 class="font-serif">This Is The Dripping Coffee Experience, All About Making Great Coffee At Home
+                </h2>
+                <div class="headline-author-img">
+                    <Image 
+                        src="/assets/myself.jpg" 
+                        alt="Myself with my beloved Pro 800" 
+                        position={'left top'}
+                        format={'webp'}
+                        quality={100} 
+                        width={140} 
+                        height={140} 
+                    />
+                </div>
+                <p>
+                I'm Bori Po, a coffee lunatic and I'm fortunate to be married to a woman who's as addicted to good coffee as I am. I curate guides, reviews and document my personal experience and findings along the way. You can read more <a href="/about/">about me</a> or <a href='/contact/'>reach out</a> and say hi. I really hope you'll find something useful and perhaps even learn something new.
+                </p>
+            </div>
+        </article>
+        <Footer />
+    </body>
+</html>
