@@ -63,25 +63,26 @@ const {
                 {
                     heroImage && (
                         <picture>
-                        <img
-                            class="h-[475px] object-cover w-full"
-                            height="475"
-                            loading="lazy"
-                            decoding="async"
-                            src={heroImage.src}
-                            alt={heroImage.alt}
-                        />
-                            {/*
-
-                            heroImage.source && heroImage.sourceUrl &&
-                            (
-                                <caption>
-                                    <a href={heroImage.sourceUrl}>
-                                        <small>credit: <span>{heroImage.source}</span></small>
-                                    </a>
-                                </caption>
-                            )
-                                            */}
+                            <img
+                                class="h-[475px] object-cover w-full"
+                                height="475"
+                                loading="lazy"
+                                decoding="async"
+                                src={heroImage.src}
+                                alt={heroImage.alt}
+                            />
+                            {
+                                heroImage.source && heroImage.sourceUrl && ( <div>
+                                        <a href={heroImage.sourceUrl}>
+                                            <small>credit: 
+                                                <span>
+                                                    {heroImage.source}
+                                                </span>
+                                            </small>
+                                        </a>
+                                    </div>
+                                )
+                            }
                         </picture>
                     )
                 }

@@ -35,10 +35,10 @@ const singleBoilers = allMachines.filter(machine => machine.boilerType.includes(
 
   <div class="region content" data-start>
 
-<div role="tablist" class="tabs tabs-lifted tabs-lg">
+<div role="tablist" class="tabs tabs-xs md:tabs-md tabs-lifted tabs-lg">
   <input type="radio" name="my_tabs_2" role="tab" class="tab" aria-label="Single Boilers" />
   <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
-    <table class="table table-zebra">
+    <table class="table table-xs md:table-md lg:table-lg table-zebra">
       <thead>
         <tr>
           <td>Machine Name</td>
@@ -74,8 +74,8 @@ const singleBoilers = allMachines.filter(machine => machine.boilerType.includes(
     class="tab"
     aria-label="Dual Boilers"
     checked="checked" />
-  <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
-    <table class="table table-zebra ">
+  <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6 ">
+    <table class="table table-xs md:table-md lg:table-lg table-zebra table-pin-cols table-pin-rows">
       <thead>
         <tr>
           <td>Machine Name</td>
@@ -106,7 +106,7 @@ const singleBoilers = allMachines.filter(machine => machine.boilerType.includes(
 
   <input type="radio" name="my_tabs_2" role="tab" class="tab" aria-label="Heat Exchangers" />
   <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
-    <table class="table table-zebra">
+    <table class="table table-xs md:table-md lg:table-lg table-zebra">
       <thead>
         <tr>
           <td>Machine Name</td>
@@ -134,10 +134,22 @@ const singleBoilers = allMachines.filter(machine => machine.boilerType.includes(
       </tbody>
     </table>
   </div>
+
+
 </div>
 
+
+  <div class="region wrapper text-base flow ">
+    <p>Choosing an espresso machine is an exciting adventure that can be both thrilling and daunting. Also, it's quite expensive and isn't a trivial expense. I've done my best to build the <a href="/machines/wizard/">Setup Wizard</a> to help you pick the right machine for your circumstances.</p>
+    <p>Obviously, you won't and you shouldn't have settle for a machine solely on this website. However, I invite you to write me an email and reach out for any question you might have. I have spent endless hours online, talking with coffee friends and experimenting with various tools and equipment, <s>so you don't have to</s>.</p>
+    <p>Lastly, I recommend you to read some of my articles reviewing various machines with some recommendations to help you out.</p>
+
   </div>
+</div>
 </MachineInfoLayout>
 
 <style>
+  td {
+    text-wrap: wrap;
+  }
 </style>

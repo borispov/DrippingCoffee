@@ -115,7 +115,7 @@
 <section
     class="min-h-screen h-full pt-12 sm:pt-20 bg-white flex flex-col justifyn-center"
 >
-    <div class="max-w-7xl px-8 lg:px-12 tac">
+    <div class="max-w-96 md:max-w-7xl px-2 md:px-8 lg:px-12 tac">
         <div class="flow mx-auto">
             <h1>The Setup Wizard</h1>
             <p>
@@ -124,7 +124,7 @@
                 level, goals and <strong>budget</strong>
             </p>
         </div>
-        <div class="h-[100px] mt-12">
+        <div class={`${!recommendation && "h-[100px]"}  mt-12`}>
             {#if activeStep == 0}
                 <h2>Let's get to know you, who are you?</h2>
             {/if}
@@ -134,7 +134,7 @@
             <!-- probably means we got a recommendation -->
             {#if recommendation !== null}
                 <h2>Here's a recommendation for you...</h2>
-                <div class="stats shadow">
+                <div class="stats stats-vertical shadow">
                     <div class="stat inline-grid">
                         <div class="stat-figure">
                             <svg
@@ -203,7 +203,7 @@
                         </div>
                         <div class="stat-tile">Budget</div>
                         <div class="stat-value text-secondary text-base">
-                            {form.budget}
+                            ${form.budget}
                         </div>
                     </div>
                 </div>
@@ -214,15 +214,18 @@
         {#if recommendation == null}
             <ul class="steps steps-horizontal mx-auto">
                 {#each steps as step, stepNumber}
-                    <li
-                        class={`step ${activeStep === stepNumber ? "step-secondary" : ""}`}
-                    ></li>
+                    <!-- skipping first step -->
+                    {#if stepNumber}
+                        <li
+                            class={`step ${activeStep === stepNumber ? "step-secondary" : ""}`}
+                        ></li>
+                    {/if}
                 {/each}
             </ul>
         {/if}
 
         <div
-            class="border border-amber-700 rounded-md pt-8 pb-20 px-12 mt-8 max-w-2xl mx-auto"
+            class="border border-amber-700 rounded-md pt-8 pb-20 px-4 md:px-12 mt-8 max-w-2xl mx-auto"
         >
             <!-- First Step -->
             {#if activeStep == 0}
@@ -233,7 +236,7 @@
                 >
                     {#each cards as card, index}
                         <div
-                            class="card border-[1px] border-amber-700 bg-base-100 w-96 shadow-xl rounded-lg"
+                            class="card border-[1px] border-amber-700 bg-base-100 w-10/12 md:w-96 shadow-xl rounded-lg"
                         >
                             <div class="card-body">
                                 <div class="card-title serif">{card.title}</div>
@@ -335,11 +338,11 @@
                     <div class="loading loading-bars loading-lg"></div>
                 </div>
             {:else if activeStep == -1}
-                <div class="container p-4 mx-auto">
+                <div class="p-4 mx-auto">
                     <h2 class="underline">Recommendation:</h2>
 
                     <div
-                        class="card border-[1px] mx-auto border-amber-700 bg-base-100 w-96 shadow-xl rounded-lg"
+                        class="card border-[1px] mx-auto border-amber-700 bg-base-100 w-full md:w-96 shadow-xl rounded-lg"
                     >
                         <div class="card-body">
                             <div class="card-title serif">
